@@ -1,0 +1,99 @@
+# 目标公司清单 —— 直连各公司招聘系统（ATS）公开接口。
+# 侧重：德国 / 欧洲 AI 与数据方向招聘活跃的公司。
+#
+# 加公司的方法：打开公司招聘页，看 URL 里的 slug，填到对应板块。
+#   boards.greenhouse.io/XXX      -> greenhouse: XXX
+#   jobs.lever.co/XXX             -> lever: XXX
+#   jobs.ashbyhq.com/XXX          -> ashby: XXX
+#   jobs.smartrecruiters.com/XXX  -> smartrecruiters: XXX
+#   XXX.recruitee.com             -> recruitee: XXX
+#   XXX.jobs.personio.de          -> personio: XXX
+# 填错不会报错，只会抓不到该公司（日志里出现 404），随时可增删。
+
+greenhouse:
+  # 德国 / 欧洲
+  - hellofresh
+  - doctolib
+  - sumup
+  - personio
+  - celonis
+  - mistralai
+  - helsing
+  - blackshark
+  - parloa
+  - dedalus
+  - flix
+  - wefox
+  - solarisbank
+  # 全球（大量欧洲 remote / 柏林办公室岗位）
+  - stripe
+  - databricks
+  - datadog
+  - gitlab
+  - cloudflare
+  - elastic
+  - hashicorp
+  - anthropic
+  - scaleai
+  - figma
+  - airbnb
+  - dropbox
+  - wayfair
+  - grafanalabs
+  - clickhouse
+
+lever:
+  - n26
+  - contentful
+  - taxfix
+  - forto
+  - alan
+  - sennder
+  - moonfare
+  - tier
+  - bolt
+  - kry
+
+ashby:
+  - deel
+  - vercel
+  - linear
+  - ramp
+  - langchain
+  - weaviate
+  - qdrant
+  - lovable
+  - synthesia
+  - pigment
+  - dust
+
+smartrecruiters:
+  - Visa
+  - Bosch
+  - PublicisGroupe
+  - Ubisoft
+  - Biogen
+
+recruitee:
+  - flixbus
+  - trivago
+  - usercentrics
+  - mollie
+  - picnic
+
+personio:
+  - personio
+  - staffbase
+  - moss
+  - pliant
+  - langdock
+  - tacto
+  - alaiko
+
+workday:
+  - { host: sap.wd3.myworkdayjobs.com,        tenant: sap,        site: SAPCareers }
+  - { host: siemens.wd3.myworkdayjobs.com,    tenant: siemens,    site: siemens }
+  - { host: zalando.wd3.myworkdayjobs.com,    tenant: zalando,    site: zalando_jobs }
+  - { host: adobe.wd5.myworkdayjobs.com,      tenant: adobe,      site: external_experienced }
+  - { host: nvidia.wd5.myworkdayjobs.com,     tenant: nvidia,     site: NVIDIAExternalCareerSite }
+  - { host: bayer.wd3.myworkdayjobs.com,      tenant: bayer,      site: bayer }

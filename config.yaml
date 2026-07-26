@@ -1,0 +1,194 @@
+# ============================================================
+# job-radar 配置 —— jan 的岗位画像
+# 目标：AI / Data 方向，入门到 3 年经验，不要求德语
+# ============================================================
+
+profile:
+  # 【第一道闸】职位标题必须命中其一，否则直接淘汰
+  titles_any:
+    # --- AI / ML ---
+    - ai engineer
+    - artificial intelligence engineer
+    - machine learning engineer
+    - ml engineer
+    - mlops
+    - llm engineer
+    - genai
+    - generative ai
+    - applied scientist
+    - research engineer
+    - computer vision engineer
+    - nlp engineer
+    - ai developer
+    # --- Data Science ---
+    - data scientist
+    - data science
+    - decision scientist
+    - quantitative analyst
+    # --- Data Analysis ---
+    - data analyst
+    - data analytics
+    - business analyst
+    - business intelligence
+    - bi analyst
+    - bi developer
+    - product analyst
+    - marketing analyst
+    - reporting analyst
+    - insights analyst
+    # --- Data Engineering ---
+    - data engineer
+    - analytics engineer
+    - big data engineer
+    - etl developer
+    - data platform engineer
+    # --- 德语职位名（德国公司常用） ---
+    - datenanalyst
+    - data analyst (m/w/d)
+    - datenwissenschaftler
+
+  titles_all: []
+
+  # 【第二道闸】标题黑名单：职级过高 / 非全职形式，命中即丢
+  titles_exclude:
+    - senior
+    - " sr."
+    - "sr "
+    - staff
+    - principal
+    - lead
+    - leiter
+    - head of
+    - director
+    - manager
+    - vp of
+    - "vice president"
+    - chief
+    - expert
+    - architect
+    - werkstudent
+    - working student
+    - praktikum
+    - praktikant
+    - internship
+    - " intern"
+    - "intern "
+    - ausbildung
+    - apprentice
+    - thesis
+    - abschlussarbeit
+    - masterarbeit
+    - bachelorarbeit
+    - freelance
+    - contractor
+
+  # 【加分项】正文/标签命中即加分（权重可调）
+  keywords_boost:
+    # 语言环境（这些强烈暗示不需要德语）
+    "english is our": 6
+    "english speaking": 6
+    "working language is english": 6
+    "no german required": 8
+    "german is not required": 8
+    "german is a plus": 5
+    "german would be a plus": 5
+    "english (fluent)": 3
+    # 签证 / 落地支持
+    visa: 5
+    sponsorship: 5
+    relocation: 4
+    "work permit": 3
+    # 职级信号
+    junior: 5
+    "entry level": 5
+    "entry-level": 5
+    graduate: 4
+    "early career": 4
+    "no experience": 3
+    trainee: 3
+    # 技术栈
+    python: 4
+    sql: 4
+    pytorch: 3
+    tensorflow: 3
+    "scikit-learn": 2
+    langchain: 3
+    llm: 3
+    rag: 2
+    huggingface: 2
+    spark: 2
+    dbt: 3
+    airflow: 3
+    snowflake: 2
+    databricks: 2
+    bigquery: 2
+    "power bi": 3
+    tableau: 3
+    looker: 2
+    aws: 2
+    gcp: 2
+    azure: 2
+    docker: 2
+    kubernetes: 1
+
+  # 【第三道闸】正文命中即丢
+  keywords_exclude:
+    - security clearance
+    - "sicherheitsüberprüfung"
+
+# ------------------------------------------------------------
+# 硬性要求过滤（正则实现，比关键词列表可靠）
+# ------------------------------------------------------------
+requirements:
+  # 岗位要求的最低经验年限超过这个数 → 丢弃
+  # ("3-5 years" 按下限 3 算，通过；"5+ years" 按 5 算，丢弃)
+  max_years_experience: 3
+
+  # 明确要求德语能力（Deutschkenntnisse / fluent German / C1 Deutsch 等）→ 丢弃
+  exclude_german_required: true
+
+  # 正文抓不到时（部分数据源不返回描述）是否保留。
+  # true = 保留（宁可多看几个也不漏），false = 只要看不到正文就丢
+  keep_when_description_missing: true
+
+locations:
+  countries: [DE, Germany, Deutschland, NL, Netherlands, IE, Ireland, AT, Austria,
+              CH, Switzerland, BE, Belgium, DK, Denmark, SE, Sweden, ES, Spain,
+              PT, Portugal, PL, Poland, EU, Europe, EMEA]
+  cities: [Berlin, Munich, München, Hamburg, Frankfurt, Cologne, Köln, Stuttgart,
+           Düsseldorf, Leipzig, Karlsruhe, Nuremberg, Nürnberg, Amsterdam, Dublin,
+           Zurich, Zürich, Vienna, Wien, Copenhagen, Barcelona, Lisbon]
+  allow_remote: true
+  remote_scope: global
+
+filters:
+  freshness_days: 7
+  alert_window_hours: 24
+  min_score: 20
+  max_per_run: 400
+
+sources:
+  greenhouse:      { enabled: true }
+  lever:           { enabled: true }
+  ashby:           { enabled: true }
+  smartrecruiters: { enabled: true }
+  recruitee:       { enabled: true }
+  personio:        { enabled: true }
+  workday:         { enabled: true }
+
+  arbeitnow:       { enabled: true }
+  arbeitsagentur:
+    enabled: true
+    queries: ["AI Engineer", "Machine Learning Engineer", "Data Scientist",
+              "Data Analyst", "Data Engineer", "Business Intelligence"]
+    wo: "Deutschland"
+    umkreis: 200
+  remotive:        { enabled: true }
+  remoteok:        { enabled: true }
+  himalayas:       { enabled: true }
+
+platform_links:
+  enabled: true
+  queries: ["AI Engineer", "Machine Learning Engineer", "Data Scientist",
+            "Data Analyst", "Data Engineer"]
+  location: "Germany"
