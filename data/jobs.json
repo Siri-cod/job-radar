@@ -1,7 +1,44 @@
 {
- "generated_at": "2026-08-09T19:27:14.836545+00:00",
- "count": 10,
+ "generated_at": "2026-08-09T20:23:26.436300+00:00",
+ "count": 12,
  "jobs": [
+  {
+   "title": "Founding Machine Learning Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-founding-machine-learning-engineer-379036",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role This is a founding-level Machine Learning Engineer role at a well-funded Series A AI data and services startup based in Mountain View, CA. You will join a small, high-caliber team building and scaling core ML systems from the ground up — bridging research and engineering to design, train, and ship production-grade models for top AI frontier labs. This is a high-ownership position where your work directly shapes the company's technical culture, infrastructure, and long-term ML impact. The company specializes in high-quality training and post-training data, reinforcement learning environments, and intelligent agents — serving both frontier AI labs and enterprise customers. Visa sponsorship is not available for this role. What You'll Do Build and optimize end-to-end ML pipelines, from data ingestion through to deployment. Implement and fine-tune LLMs, embeddings, and generative models for real-world applications. Develop efficient training and inference systems leveraging distributed compute. Partner with data and product teams to translate ideas into measurable ML impact. Contribute to model monitoring, evaluation, and continual learning frameworks. Establish best practices in model versioning, reproducibility, and scalability. What We're Looking For Required: 3–10 years of experience as an ML Engineer, Applied Scientist, or Research Engineer. Proficiency in Python and at least one major ML framework: PyTorch, TensorFlow, or JAX. Strong grasp of ML fundamentals — data preprocessing, feature engineering, model training, and optimization. Hands-on experience with distributed systems and cloud ML infrastructure (AWS, GCP, or Azure). Familiarity with MLOps tooling such as Weights & Biases or MLflow. Comfort working with large datasets and high-throughput systems. Strong bias for action, ability to work autonomously, and genuine excitement about building from scratch. Compensation & Benefits Base salary: $220,000 – $300,000 USD annually Equity participation as a founding team member Opportunity to establish technical direction and culture at an early-stage, high-growth company Location On-site — Mountain View, California, United States Visa sponsorship is not available for this position Find Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 60,
+   "reasons": [
+    "职位匹配: machine learning engineer",
+    "未要求德语",
+    "经验要求 3 年",
+    "远程岗位",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 python",
+    "+3 pytorch",
+    "+3 tensorflow",
+    "+3 llm",
+    "+2 rag",
+    "+2 aws",
+    "+2 gcp",
+    "+2 azure"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429440+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "9662ecb42644cfad",
+   "age_hours": 29.7
+  },
   {
    "title": "AI/LLM Engineer",
    "company": "Clera",
@@ -10,19 +47,18 @@
    "source": "arbeitnow",
    "posted_at": "2026-08-08T14:40:22+00:00",
    "remote": false,
-   "description": "About the Role We're a fast-growing, Y Combinator–backed B2B SaaS startup building AI-powered automation for sales workflows in distribution and manufacturing. Our platform helps sales teams eliminate manual quoting and order processing by intelligently understanding customer requests, matching products, and integrating with enterprise ERP and CRM systems. We're looking for an AI/LLM Engineer to join our small, high-velocity team in Munich. You'll own end-to-end AI systems — from data pipelines to deployed agents — and directly shape the product at a critical stage of our growth. Visa sponsorship is available. What You'll Do Design, build, deploy, and optimize AI agents across the full stack, end-to-end Work with embeddings and fine-tune LLMs for classification and reranking tasks Optimize algorithms for intelligent product search Apply RLHF and DPO techniques to align LLMs with human feedback Build and maintain data pipelines to process large-scale unstructured data efficiently Contribute to backend scalability, stability, and performance improvements What We're Looking For Must-haves: 2+ years of software engineering experience Strong hands-on experience with NLP, LLMs, embeddings, ML, and AI agents Demonstrated experience building and scaling data and ML pipelines, including large-scale unstructured data Experience with PostgreSQL and vector databases (e.g. Weaviate, Pinecone) Strong computer science fundamentals Ability and willingness to work on-site in Munich, Germany Nice to have: Full-stack development experience with React, TypeScript, and Next.js Experience with containerization (Docker, Kubernetes) Cloud infrastructure experience (AWS, Azure, and/or GCP) and infrastructure-as-code (Terraform) Hands-on experience with RLHF and DPO for LLM alignment Location On-site in Munich, Germany Visa sponsorship is available for eligible candidates Compensation & Benefits Salary: €90,000 – €200,000 per year, depending on experience Opportunity to join a well-funded, early-stage team at a pivotal moment of growth Work on high-impact AI problems in the enterprise software and automation space Find more English Speaking Jobs in Germany on Arbeitnow",
+   "description": "About the Role We're a fast-growing, Y Combinator–backed B2B SaaS startup building AI-powered automation for sales workflows in distribution and manufacturing. Our platform helps sales teams eliminate manual quoting and order processing by intelligently understanding customer requests, matching products, and integrating with enterprise ERP and CRM systems. We're looking for an AI/LLM Engineer to join our small, high-velocity team in Munich. You'll own end-to-end AI systems — from data pipelines to deployed agents — and directly shape the product at a critical stage of our growth. Visa sponsorship is available. What You'll Do Design, build, deploy, and optimize AI agents across the full stack, end-to-end Work with embeddings and fine-tune LLMs for classification and reranking tasks Optimize algorithms for intelligent product search Apply RLHF and DPO techniques to align LLMs with human feedback Build and maintain data pipelines to process large-scale unstructured data efficiently Contribute to backend scalability, stability, and performance improvements What We're Looking For Must-haves: 2+ years of software engineering experience Strong hands-on experience with NLP, LLMs, embeddings, ML, and AI agents Demonstrated experience building and scaling data and ML pipelines, including large-scale unstructured data Experience with PostgreSQL and vector databases (e.g. Weaviate, Pinecone) Strong computer science fundamentals Ability and willingness to work on-site in Munich, Germany Nice to have: Full-stack development experience with React, TypeScript, and Next.js Experience with containerization (Docker, Kubernetes) Cloud infrastructure experience (AWS, Azure, and/or GCP) and infrastructure-as-code (Terraform) Hands-on experience with RLHF and DPO for LLM alignment Location On-site in Munich, Germany Visa sponsorship is available for eligible candidates Compensation & Benefits Salary: €90,000 – €200,000 per year, depending on experience Opportunity to join a well-funded, early-stage team at a pivotal moment of growth Work on high-impact AI problems in the enterprise software and automation space Find Jobs in Germany on Arbeitnow",
    "tags": [
     "Engineering",
     "Full Time"
    ],
    "employment_type": "",
-   "score": 64,
+   "score": 58,
    "reasons": [
     "职位匹配: llm engineer",
     "未要求德语",
     "经验要求 2 年",
     "目标城市: Munich",
-    "+6 english speaking",
     "+5 visa",
     "+5 sponsorship",
     "+4 sql",
@@ -37,7 +73,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2be2f8c4a42dba31",
-   "age_hours": 28.8
+   "age_hours": 29.7
   },
   {
    "title": "Founding Forward-Deployed ML Engineer",
@@ -74,7 +110,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "3bf27a37799f6a34",
-   "age_hours": 28.8
+   "age_hours": 29.7
   },
   {
    "title": "Data Platform Engineer (m/f/d)",
@@ -107,7 +143,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "f3a38bb4061e847f",
-   "age_hours": 56.3
+   "age_hours": 57.3
   },
   {
    "title": "Analytics Engineer",
@@ -143,7 +179,39 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9a294e7b2f59bbdf",
-   "age_hours": 2.2
+   "age_hours": 3.1
+  },
+  {
+   "title": "ML Engineer - Robotics",
+   "company": "Clera",
+   "location": "remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-ml-engineer-robotics-485884",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role We are a Series A AI company based in Mountain View, CA, building high-quality training and post-training data, robust reinforcement learning environments, and intelligent agents that bridge the gap between AI research and real-world execution. Our work spans multimodal data, agentic systems, and physical intelligence — and we collaborate closely with frontier AI labs and enterprises. As an ML Engineer – Robotics , you will design, train, and deploy intelligent models that power autonomous systems at the intersection of machine learning, control systems, and real-world robotics. You'll build perception, planning, and decision-making pipelines that make machines truly adaptive, solving hard, interdisciplinary problems that combine data-driven learning with real-world physical constraints. What You'll Do Develop and optimize ML models for perception, motion planning, and control. Build computer vision and sensor fusion systems using camera, LiDAR, and IMU data. Integrate learning-based models with robotics software stacks (ROS/ROS2). Design pipelines for data collection, simulation, and reinforcement learning workflows. Collaborate with robotics and hardware engineers to deploy models in live, real-world environments. Continuously evaluate model performance and robustness across diverse scenarios and deployments. What We're Looking For Required 3–8 years of professional experience in Machine Learning, Robotics, or Computer Vision. Proficiency in Python and C++ for robotics and ML development. Hands-on experience with PyTorch and/or TensorFlow for model development. Proficiency with ROS or ROS2 and integrating ML models into robotics software stacks. Experience with robotics simulation and benchmarking tools such as Gazebo, Isaac Sim, CARLA, MuJoCo, or PyBullet . Experience designing and deploying perception, motion planning, and control pipelines for autonomous systems. Experience with sensor fusion using camera, LiDAR, and IMU data. Experience with data collection pipelines, simulation environments, and reinforcement learning workflows. Strong ability to evaluate model performance and robustness across diverse real-world scenarios. Nice to Have Familiarity with reinforcement learning, imitation learning, or adaptive control techniques. Background in localization, SLAM, or advanced control systems. Passion for embodied intelligence and pushing the boundaries of autonomous systems. Eligibility Must be eligible to work in the United States without company visa sponsorship. Visa sponsorship is not available for this role. Compensation & Benefits Salary: $220,000 – $300,000 USD annually, commensurate with experience. Location On-site in Mountain View, CA. Local candidates or candidates willing to relocate are required. Remote work is not available for this position. Find Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 49,
+   "reasons": [
+    "职位匹配: ml engineer",
+    "未要求德语",
+    "经验要求 3 年",
+    "远程岗位",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 python",
+    "+3 pytorch",
+    "+3 tensorflow"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429455+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "3e0efebeb8d3cb2c",
+   "age_hours": 29.7
   },
   {
    "title": "Data Engineer (all genders)",
@@ -176,7 +244,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9c9c130a5a3b7970",
-   "age_hours": 28.5
+   "age_hours": 29.5
   },
   {
    "title": "AI Engineer, Enablement (Amsterdam)",
@@ -207,7 +275,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2178de5853ea912d",
-   "age_hours": 93.2
+   "age_hours": 94.1
   },
   {
    "title": "Research Engineer",
@@ -236,7 +304,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "aa1a4fa50dc50927",
-   "age_hours": 12.5
+   "age_hours": 13.5
   },
   {
    "title": "InnoMaster Big Data Engineering - part-time Master's Program",
@@ -265,7 +333,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "a7e50f4816e2a81e",
-   "age_hours": 26.1
+   "age_hours": 27.0
   },
   {
    "title": "AI Engineer, Enablement ",
@@ -296,7 +364,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "0d2269aa98bd2bc7",
-   "age_hours": 113.8
+   "age_hours": 114.7
   },
   {
    "title": "AI Developer — Interconnect Hardware Frontend",
@@ -304,7 +372,7 @@
    "location": "China, Shanghai",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer---Interconnect-Hardware-Frontend_JR2022861-1",
    "source": "workday",
-   "posted_at": "2026-08-07T19:26:42.980956+00:00",
+   "posted_at": "2026-08-07T20:22:56.384702+00:00",
    "remote": false,
    "description": "JR2022861",
    "tags": [],
