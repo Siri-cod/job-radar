@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-09T21:24:35.404963+00:00",
+ "generated_at": "2026-08-09T22:22:26.441268+00:00",
  "count": 12,
  "jobs": [
   {
@@ -37,45 +37,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2be2f8c4a42dba31",
-   "age_hours": 30.7
-  },
-  {
-   "title": "Founding Forward-Deployed ML Engineer",
-   "company": "Clera",
-   "location": "remote",
-   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-founding-forward-deployed-ml-engineer-295402",
-   "source": "arbeitnow",
-   "posted_at": "2026-08-08T14:40:22+00:00",
-   "remote": false,
-   "description": "About the Role This is a founding-team opportunity at a small, fast-moving healthtech AI company building evidence infrastructure for safety-critical medical imaging AI. As a Founding Forward-Deployed ML Engineer , you will sit at the intersection of research, product deployment, and clinical operations — working directly with hospital partners to evaluate and deploy medical imaging AI in real-world clinical settings. You will play a central role in bridging the gap between benchmark performance and clinical reliability, translating AI models into trusted tools for patient care. This is a high-ownership, high-impact role suited to someone who is equally comfortable writing code, navigating clinical environments, and driving cross-functional projects to completion. Work arrangement: Hybrid, on-site in Sunnyvale, CA. Travel to hospital partner sites required as needed. Visa sponsorship: Not available. What You'll Do Build reproducible evaluation pipelines and validation workflows for medical imaging AI in clinical settings. Lead forward-deployed engagements by working on-site with hospital partners to integrate models into clinical workflows. Analyze model generalization, failure modes, and uncertainty to inform clinical reliability assessments. Integrate ML models into clinical imaging systems and radiology pipelines (DICOM/PACS). Translate clinical needs into technical requirements and drive cross-functional projects through to completion. Support regulatory submissions and clinical evaluations (FDA pathways such as 510(k) and De Novo) and maintain related documentation. Ensure data privacy and regulatory compliance (HIPAA) across all ML deployments. Establish and maintain MLOps practices for deployment, monitoring, and ongoing evaluation. What We're Looking For Required (dealbreakers): 2+ years of Machine Learning / Engineering experience. Bachelor's degree in Computer Science, Engineering, Mathematics, or a related field — or equivalent practical experience. Required skills & experience: Hands-on expertise in medical imaging workflows and integration: DICOM/PACS, radiology pipelines, and integrating ML models into clinical systems. Practical MLOps and model evaluation skills: building reproducible evaluation pipelines, model validation/monitoring, and proficiency with Python and common ML frameworks (PyTorch / TensorFlow, Docker, Kubernetes). Hands-on experience deploying ML models to cloud platforms (AWS, GCP, or Azure) with containerized environments and ML-focused CI/CD pipelines. Experience navigating healthcare data privacy and regulatory compliance (HIPAA, FDA considerations) in ML deployments. Experience supporting regulatory submissions and clinical evaluation processes (e.g., preparing evidence for FDA 510(k) or De Novo pathways). Strong customer-facing skills: ability to communicate with clinical and industry partners, own engagements end-to-end, and drive cross-functional projects to completion. Willingness to travel to hospital sites and work on-site for customer deployments as needed. Compensation & Benefits Base salary: $150,000 – $230,000 USD annually, depending on experience. Early-stage equity opportunity as a founding team member. Location Sunnyvale, California, USA. Hybrid on-site role with travel to hospital partner sites as required. Remote work is not available for this position. Visa sponsorship is not offered. Find more English Speaking Jobs in Germany on Arbeitnow",
-   "tags": [
-    "Engineering",
-    "Full Time"
-   ],
-   "employment_type": "",
-   "score": 64,
-   "reasons": [
-    "职位匹配: ml engineer",
-    "未要求德语",
-    "经验要求 2 年",
-    "远程岗位",
-    "+6 english speaking",
-    "+5 visa",
-    "+5 sponsorship",
-    "+4 python",
-    "+3 pytorch",
-    "+3 tensorflow",
-    "+2 aws",
-    "+2 gcp",
-    "+2 azure",
-    "+2 docker",
-    "+1 kubernetes"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429419+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "3bf27a37799f6a34",
-   "age_hours": 30.7
+   "age_hours": 31.7
   },
   {
    "title": "Founding Machine Learning Engineer",
@@ -112,7 +74,77 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9662ecb42644cfad",
-   "age_hours": 30.7
+   "age_hours": 31.7
+  },
+  {
+   "title": "Founding Forward-Deployed ML Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-founding-forward-deployed-ml-engineer-295402",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role This is a founding-team opportunity at a small, fast-moving healthtech AI company building evidence infrastructure for safety-critical medical imaging AI. As a Founding Forward-Deployed ML Engineer , you will sit at the intersection of research, product deployment, and clinical operations — working directly with hospital partners to evaluate and deploy medical imaging AI in real-world clinical settings. You will play a central role in bridging the gap between benchmark performance and clinical reliability, translating AI models into trusted tools for patient care. This is a high-ownership, high-impact role suited to someone who is equally comfortable writing code, navigating clinical environments, and driving cross-functional projects to completion. Work arrangement: Hybrid, on-site in Sunnyvale, CA. Travel to hospital partner sites required as needed. Visa sponsorship: Not available. What You'll Do Build reproducible evaluation pipelines and validation workflows for medical imaging AI in clinical settings. Lead forward-deployed engagements by working on-site with hospital partners to integrate models into clinical workflows. Analyze model generalization, failure modes, and uncertainty to inform clinical reliability assessments. Integrate ML models into clinical imaging systems and radiology pipelines (DICOM/PACS). Translate clinical needs into technical requirements and drive cross-functional projects through to completion. Support regulatory submissions and clinical evaluations (FDA pathways such as 510(k) and De Novo) and maintain related documentation. Ensure data privacy and regulatory compliance (HIPAA) across all ML deployments. Establish and maintain MLOps practices for deployment, monitoring, and ongoing evaluation. What We're Looking For Required (dealbreakers): 2+ years of Machine Learning / Engineering experience. Bachelor's degree in Computer Science, Engineering, Mathematics, or a related field — or equivalent practical experience. Required skills & experience: Hands-on expertise in medical imaging workflows and integration: DICOM/PACS, radiology pipelines, and integrating ML models into clinical systems. Practical MLOps and model evaluation skills: building reproducible evaluation pipelines, model validation/monitoring, and proficiency with Python and common ML frameworks (PyTorch / TensorFlow, Docker, Kubernetes). Hands-on experience deploying ML models to cloud platforms (AWS, GCP, or Azure) with containerized environments and ML-focused CI/CD pipelines. Experience navigating healthcare data privacy and regulatory compliance (HIPAA, FDA considerations) in ML deployments. Experience supporting regulatory submissions and clinical evaluation processes (e.g., preparing evidence for FDA 510(k) or De Novo pathways). Strong customer-facing skills: ability to communicate with clinical and industry partners, own engagements end-to-end, and drive cross-functional projects to completion. Willingness to travel to hospital sites and work on-site for customer deployments as needed. Compensation & Benefits Base salary: $150,000 – $230,000 USD annually, depending on experience. Early-stage equity opportunity as a founding team member. Location Sunnyvale, California, USA. Hybrid on-site role with travel to hospital partner sites as required. Remote work is not available for this position. Visa sponsorship is not offered. Find Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 58,
+   "reasons": [
+    "职位匹配: ml engineer",
+    "未要求德语",
+    "经验要求 2 年",
+    "远程岗位",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 python",
+    "+3 pytorch",
+    "+3 tensorflow",
+    "+2 aws",
+    "+2 gcp",
+    "+2 azure",
+    "+2 docker",
+    "+1 kubernetes"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429419+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "3bf27a37799f6a34",
+   "age_hours": 31.7
+  },
+  {
+   "title": "ML Engineer - Robotics",
+   "company": "Clera",
+   "location": "remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-ml-engineer-robotics-485884",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role We are a Series A AI company based in Mountain View, CA, building high-quality training and post-training data, robust reinforcement learning environments, and intelligent agents that bridge the gap between AI research and real-world execution. Our work spans multimodal data, agentic systems, and physical intelligence — and we collaborate closely with frontier AI labs and enterprises. As an ML Engineer – Robotics , you will design, train, and deploy intelligent models that power autonomous systems at the intersection of machine learning, control systems, and real-world robotics. You'll build perception, planning, and decision-making pipelines that make machines truly adaptive, solving hard, interdisciplinary problems that combine data-driven learning with real-world physical constraints. What You'll Do Develop and optimize ML models for perception, motion planning, and control. Build computer vision and sensor fusion systems using camera, LiDAR, and IMU data. Integrate learning-based models with robotics software stacks (ROS/ROS2). Design pipelines for data collection, simulation, and reinforcement learning workflows. Collaborate with robotics and hardware engineers to deploy models in live, real-world environments. Continuously evaluate model performance and robustness across diverse scenarios and deployments. What We're Looking For Required 3–8 years of professional experience in Machine Learning, Robotics, or Computer Vision. Proficiency in Python and C++ for robotics and ML development. Hands-on experience with PyTorch and/or TensorFlow for model development. Proficiency with ROS or ROS2 and integrating ML models into robotics software stacks. Experience with robotics simulation and benchmarking tools such as Gazebo, Isaac Sim, CARLA, MuJoCo, or PyBullet . Experience designing and deploying perception, motion planning, and control pipelines for autonomous systems. Experience with sensor fusion using camera, LiDAR, and IMU data. Experience with data collection pipelines, simulation environments, and reinforcement learning workflows. Strong ability to evaluate model performance and robustness across diverse real-world scenarios. Nice to Have Familiarity with reinforcement learning, imitation learning, or adaptive control techniques. Background in localization, SLAM, or advanced control systems. Passion for embodied intelligence and pushing the boundaries of autonomous systems. Eligibility Must be eligible to work in the United States without company visa sponsorship. Visa sponsorship is not available for this role. Compensation & Benefits Salary: $220,000 – $300,000 USD annually, commensurate with experience. Location On-site in Mountain View, CA. Local candidates or candidates willing to relocate are required. Remote work is not available for this position. Find more English Speaking Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 55,
+   "reasons": [
+    "职位匹配: ml engineer",
+    "未要求德语",
+    "经验要求 3 年",
+    "远程岗位",
+    "+6 english speaking",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 python",
+    "+3 pytorch",
+    "+3 tensorflow"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429455+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "3e0efebeb8d3cb2c",
+   "age_hours": 31.7
   },
   {
    "title": "Data Platform Engineer (m/f/d)",
@@ -145,7 +177,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "f3a38bb4061e847f",
-   "age_hours": 58.3
+   "age_hours": 59.2
   },
   {
    "title": "Analytics Engineer",
@@ -181,39 +213,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9a294e7b2f59bbdf",
-   "age_hours": 4.1
-  },
-  {
-   "title": "ML Engineer - Robotics",
-   "company": "Clera",
-   "location": "remote",
-   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-ml-engineer-robotics-485884",
-   "source": "arbeitnow",
-   "posted_at": "2026-08-08T14:40:22+00:00",
-   "remote": false,
-   "description": "About the Role We are a Series A AI company based in Mountain View, CA, building high-quality training and post-training data, robust reinforcement learning environments, and intelligent agents that bridge the gap between AI research and real-world execution. Our work spans multimodal data, agentic systems, and physical intelligence — and we collaborate closely with frontier AI labs and enterprises. As an ML Engineer – Robotics , you will design, train, and deploy intelligent models that power autonomous systems at the intersection of machine learning, control systems, and real-world robotics. You'll build perception, planning, and decision-making pipelines that make machines truly adaptive, solving hard, interdisciplinary problems that combine data-driven learning with real-world physical constraints. What You'll Do Develop and optimize ML models for perception, motion planning, and control. Build computer vision and sensor fusion systems using camera, LiDAR, and IMU data. Integrate learning-based models with robotics software stacks (ROS/ROS2). Design pipelines for data collection, simulation, and reinforcement learning workflows. Collaborate with robotics and hardware engineers to deploy models in live, real-world environments. Continuously evaluate model performance and robustness across diverse scenarios and deployments. What We're Looking For Required 3–8 years of professional experience in Machine Learning, Robotics, or Computer Vision. Proficiency in Python and C++ for robotics and ML development. Hands-on experience with PyTorch and/or TensorFlow for model development. Proficiency with ROS or ROS2 and integrating ML models into robotics software stacks. Experience with robotics simulation and benchmarking tools such as Gazebo, Isaac Sim, CARLA, MuJoCo, or PyBullet . Experience designing and deploying perception, motion planning, and control pipelines for autonomous systems. Experience with sensor fusion using camera, LiDAR, and IMU data. Experience with data collection pipelines, simulation environments, and reinforcement learning workflows. Strong ability to evaluate model performance and robustness across diverse real-world scenarios. Nice to Have Familiarity with reinforcement learning, imitation learning, or adaptive control techniques. Background in localization, SLAM, or advanced control systems. Passion for embodied intelligence and pushing the boundaries of autonomous systems. Eligibility Must be eligible to work in the United States without company visa sponsorship. Visa sponsorship is not available for this role. Compensation & Benefits Salary: $220,000 – $300,000 USD annually, commensurate with experience. Location On-site in Mountain View, CA. Local candidates or candidates willing to relocate are required. Remote work is not available for this position. Find Jobs in Germany on Arbeitnow",
-   "tags": [
-    "Engineering",
-    "Full Time"
-   ],
-   "employment_type": "",
-   "score": 49,
-   "reasons": [
-    "职位匹配: ml engineer",
-    "未要求德语",
-    "经验要求 3 年",
-    "远程岗位",
-    "+5 visa",
-    "+5 sponsorship",
-    "+4 python",
-    "+3 pytorch",
-    "+3 tensorflow"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429455+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "3e0efebeb8d3cb2c",
-   "age_hours": 30.7
+   "age_hours": 5.1
   },
   {
    "title": "Data Engineer (all genders)",
@@ -246,7 +246,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9c9c130a5a3b7970",
-   "age_hours": 30.5
+   "age_hours": 31.5
   },
   {
    "title": "AI Engineer, Enablement (Amsterdam)",
@@ -277,7 +277,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2178de5853ea912d",
-   "age_hours": 95.1
+   "age_hours": 96.1
   },
   {
    "title": "Research Engineer",
@@ -306,7 +306,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "aa1a4fa50dc50927",
-   "age_hours": 14.5
+   "age_hours": 15.4
   },
   {
    "title": "InnoMaster Big Data Engineering - part-time Master's Program",
@@ -335,7 +335,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "a7e50f4816e2a81e",
-   "age_hours": 28.0
+   "age_hours": 29.0
   },
   {
    "title": "AI Engineer, Enablement ",
@@ -366,7 +366,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "0d2269aa98bd2bc7",
-   "age_hours": 115.7
+   "age_hours": 116.7
   },
   {
    "title": "AI Developer — Interconnect Hardware Frontend",
@@ -374,7 +374,7 @@
    "location": "China, Shanghai",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer---Interconnect-Hardware-Frontend_JR2022861-1",
    "source": "workday",
-   "posted_at": "2026-08-07T21:24:05.288311+00:00",
+   "posted_at": "2026-08-07T22:21:55.502053+00:00",
    "remote": false,
    "description": "JR2022861",
    "tags": [],
