@@ -1,7 +1,45 @@
 {
- "generated_at": "2026-08-09T22:22:26.441268+00:00",
- "count": 12,
+ "generated_at": "2026-08-09T23:23:54.642192+00:00",
+ "count": 11,
  "jobs": [
+  {
+   "title": "Founding Machine Learning Engineer",
+   "company": "Clera",
+   "location": "remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-founding-machine-learning-engineer-379036",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role This is a founding-level Machine Learning Engineer role at a well-funded Series A AI data and services startup based in Mountain View, CA. You will join a small, high-caliber team building and scaling core ML systems from the ground up — bridging research and engineering to design, train, and ship production-grade models for top AI frontier labs. This is a high-ownership position where your work directly shapes the company's technical culture, infrastructure, and long-term ML impact. The company specializes in high-quality training and post-training data, reinforcement learning environments, and intelligent agents — serving both frontier AI labs and enterprise customers. Visa sponsorship is not available for this role. What You'll Do Build and optimize end-to-end ML pipelines, from data ingestion through to deployment. Implement and fine-tune LLMs, embeddings, and generative models for real-world applications. Develop efficient training and inference systems leveraging distributed compute. Partner with data and product teams to translate ideas into measurable ML impact. Contribute to model monitoring, evaluation, and continual learning frameworks. Establish best practices in model versioning, reproducibility, and scalability. What We're Looking For Required: 3–10 years of experience as an ML Engineer, Applied Scientist, or Research Engineer. Proficiency in Python and at least one major ML framework: PyTorch, TensorFlow, or JAX. Strong grasp of ML fundamentals — data preprocessing, feature engineering, model training, and optimization. Hands-on experience with distributed systems and cloud ML infrastructure (AWS, GCP, or Azure). Familiarity with MLOps tooling such as Weights & Biases or MLflow. Comfort working with large datasets and high-throughput systems. Strong bias for action, ability to work autonomously, and genuine excitement about building from scratch. Compensation & Benefits Base salary: $220,000 – $300,000 USD annually Equity participation as a founding team member Opportunity to establish technical direction and culture at an early-stage, high-growth company Location On-site — Mountain View, California, United States Visa sponsorship is not available for this position Find more English Speaking Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 66,
+   "reasons": [
+    "职位匹配: machine learning engineer",
+    "未要求德语",
+    "经验要求 3 年",
+    "远程岗位",
+    "+6 english speaking",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 python",
+    "+3 pytorch",
+    "+3 tensorflow",
+    "+3 llm",
+    "+2 rag",
+    "+2 aws",
+    "+2 gcp",
+    "+2 azure"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429440+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "9662ecb42644cfad",
+   "age_hours": 32.7
+  },
   {
    "title": "AI/LLM Engineer",
    "company": "Clera",
@@ -37,44 +75,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2be2f8c4a42dba31",
-   "age_hours": 31.7
-  },
-  {
-   "title": "Founding Machine Learning Engineer",
-   "company": "Clera",
-   "location": "remote",
-   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-founding-machine-learning-engineer-379036",
-   "source": "arbeitnow",
-   "posted_at": "2026-08-08T14:40:22+00:00",
-   "remote": false,
-   "description": "About the Role This is a founding-level Machine Learning Engineer role at a well-funded Series A AI data and services startup based in Mountain View, CA. You will join a small, high-caliber team building and scaling core ML systems from the ground up — bridging research and engineering to design, train, and ship production-grade models for top AI frontier labs. This is a high-ownership position where your work directly shapes the company's technical culture, infrastructure, and long-term ML impact. The company specializes in high-quality training and post-training data, reinforcement learning environments, and intelligent agents — serving both frontier AI labs and enterprise customers. Visa sponsorship is not available for this role. What You'll Do Build and optimize end-to-end ML pipelines, from data ingestion through to deployment. Implement and fine-tune LLMs, embeddings, and generative models for real-world applications. Develop efficient training and inference systems leveraging distributed compute. Partner with data and product teams to translate ideas into measurable ML impact. Contribute to model monitoring, evaluation, and continual learning frameworks. Establish best practices in model versioning, reproducibility, and scalability. What We're Looking For Required: 3–10 years of experience as an ML Engineer, Applied Scientist, or Research Engineer. Proficiency in Python and at least one major ML framework: PyTorch, TensorFlow, or JAX. Strong grasp of ML fundamentals — data preprocessing, feature engineering, model training, and optimization. Hands-on experience with distributed systems and cloud ML infrastructure (AWS, GCP, or Azure). Familiarity with MLOps tooling such as Weights & Biases or MLflow. Comfort working with large datasets and high-throughput systems. Strong bias for action, ability to work autonomously, and genuine excitement about building from scratch. Compensation & Benefits Base salary: $220,000 – $300,000 USD annually Equity participation as a founding team member Opportunity to establish technical direction and culture at an early-stage, high-growth company Location On-site — Mountain View, California, United States Visa sponsorship is not available for this position Find Jobs in Germany on Arbeitnow",
-   "tags": [
-    "Engineering",
-    "Full Time"
-   ],
-   "employment_type": "",
-   "score": 60,
-   "reasons": [
-    "职位匹配: machine learning engineer",
-    "未要求德语",
-    "经验要求 3 年",
-    "远程岗位",
-    "+5 visa",
-    "+5 sponsorship",
-    "+4 python",
-    "+3 pytorch",
-    "+3 tensorflow",
-    "+3 llm",
-    "+2 rag",
-    "+2 aws",
-    "+2 gcp",
-    "+2 azure"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429440+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "9662ecb42644cfad",
-   "age_hours": 31.7
+   "age_hours": 32.7
   },
   {
    "title": "Founding Forward-Deployed ML Engineer",
@@ -111,40 +112,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "3bf27a37799f6a34",
-   "age_hours": 31.7
-  },
-  {
-   "title": "ML Engineer - Robotics",
-   "company": "Clera",
-   "location": "remote",
-   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-ml-engineer-robotics-485884",
-   "source": "arbeitnow",
-   "posted_at": "2026-08-08T14:40:22+00:00",
-   "remote": false,
-   "description": "About the Role We are a Series A AI company based in Mountain View, CA, building high-quality training and post-training data, robust reinforcement learning environments, and intelligent agents that bridge the gap between AI research and real-world execution. Our work spans multimodal data, agentic systems, and physical intelligence — and we collaborate closely with frontier AI labs and enterprises. As an ML Engineer – Robotics , you will design, train, and deploy intelligent models that power autonomous systems at the intersection of machine learning, control systems, and real-world robotics. You'll build perception, planning, and decision-making pipelines that make machines truly adaptive, solving hard, interdisciplinary problems that combine data-driven learning with real-world physical constraints. What You'll Do Develop and optimize ML models for perception, motion planning, and control. Build computer vision and sensor fusion systems using camera, LiDAR, and IMU data. Integrate learning-based models with robotics software stacks (ROS/ROS2). Design pipelines for data collection, simulation, and reinforcement learning workflows. Collaborate with robotics and hardware engineers to deploy models in live, real-world environments. Continuously evaluate model performance and robustness across diverse scenarios and deployments. What We're Looking For Required 3–8 years of professional experience in Machine Learning, Robotics, or Computer Vision. Proficiency in Python and C++ for robotics and ML development. Hands-on experience with PyTorch and/or TensorFlow for model development. Proficiency with ROS or ROS2 and integrating ML models into robotics software stacks. Experience with robotics simulation and benchmarking tools such as Gazebo, Isaac Sim, CARLA, MuJoCo, or PyBullet . Experience designing and deploying perception, motion planning, and control pipelines for autonomous systems. Experience with sensor fusion using camera, LiDAR, and IMU data. Experience with data collection pipelines, simulation environments, and reinforcement learning workflows. Strong ability to evaluate model performance and robustness across diverse real-world scenarios. Nice to Have Familiarity with reinforcement learning, imitation learning, or adaptive control techniques. Background in localization, SLAM, or advanced control systems. Passion for embodied intelligence and pushing the boundaries of autonomous systems. Eligibility Must be eligible to work in the United States without company visa sponsorship. Visa sponsorship is not available for this role. Compensation & Benefits Salary: $220,000 – $300,000 USD annually, commensurate with experience. Location On-site in Mountain View, CA. Local candidates or candidates willing to relocate are required. Remote work is not available for this position. Find more English Speaking Jobs in Germany on Arbeitnow",
-   "tags": [
-    "Engineering",
-    "Full Time"
-   ],
-   "employment_type": "",
-   "score": 55,
-   "reasons": [
-    "职位匹配: ml engineer",
-    "未要求德语",
-    "经验要求 3 年",
-    "远程岗位",
-    "+6 english speaking",
-    "+5 visa",
-    "+5 sponsorship",
-    "+4 python",
-    "+3 pytorch",
-    "+3 tensorflow"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429455+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "3e0efebeb8d3cb2c",
-   "age_hours": 31.7
+   "age_hours": 32.7
   },
   {
    "title": "Data Platform Engineer (m/f/d)",
@@ -177,7 +145,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "f3a38bb4061e847f",
-   "age_hours": 59.2
+   "age_hours": 60.3
   },
   {
    "title": "Analytics Engineer",
@@ -213,7 +181,39 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9a294e7b2f59bbdf",
-   "age_hours": 5.1
+   "age_hours": 6.1
+  },
+  {
+   "title": "ML Engineer - Robotics",
+   "company": "Clera",
+   "location": "remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-ml-engineer-robotics-485884",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role We are a Series A AI company based in Mountain View, CA, building high-quality training and post-training data, robust reinforcement learning environments, and intelligent agents that bridge the gap between AI research and real-world execution. Our work spans multimodal data, agentic systems, and physical intelligence — and we collaborate closely with frontier AI labs and enterprises. As an ML Engineer – Robotics , you will design, train, and deploy intelligent models that power autonomous systems at the intersection of machine learning, control systems, and real-world robotics. You'll build perception, planning, and decision-making pipelines that make machines truly adaptive, solving hard, interdisciplinary problems that combine data-driven learning with real-world physical constraints. What You'll Do Develop and optimize ML models for perception, motion planning, and control. Build computer vision and sensor fusion systems using camera, LiDAR, and IMU data. Integrate learning-based models with robotics software stacks (ROS/ROS2). Design pipelines for data collection, simulation, and reinforcement learning workflows. Collaborate with robotics and hardware engineers to deploy models in live, real-world environments. Continuously evaluate model performance and robustness across diverse scenarios and deployments. What We're Looking For Required 3–8 years of professional experience in Machine Learning, Robotics, or Computer Vision. Proficiency in Python and C++ for robotics and ML development. Hands-on experience with PyTorch and/or TensorFlow for model development. Proficiency with ROS or ROS2 and integrating ML models into robotics software stacks. Experience with robotics simulation and benchmarking tools such as Gazebo, Isaac Sim, CARLA, MuJoCo, or PyBullet . Experience designing and deploying perception, motion planning, and control pipelines for autonomous systems. Experience with sensor fusion using camera, LiDAR, and IMU data. Experience with data collection pipelines, simulation environments, and reinforcement learning workflows. Strong ability to evaluate model performance and robustness across diverse real-world scenarios. Nice to Have Familiarity with reinforcement learning, imitation learning, or adaptive control techniques. Background in localization, SLAM, or advanced control systems. Passion for embodied intelligence and pushing the boundaries of autonomous systems. Eligibility Must be eligible to work in the United States without company visa sponsorship. Visa sponsorship is not available for this role. Compensation & Benefits Salary: $220,000 – $300,000 USD annually, commensurate with experience. Location On-site in Mountain View, CA. Local candidates or candidates willing to relocate are required. Remote work is not available for this position. Find Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 49,
+   "reasons": [
+    "职位匹配: ml engineer",
+    "未要求德语",
+    "经验要求 3 年",
+    "远程岗位",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 python",
+    "+3 pytorch",
+    "+3 tensorflow"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429455+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "3e0efebeb8d3cb2c",
+   "age_hours": 32.7
   },
   {
    "title": "Data Engineer (all genders)",
@@ -246,7 +246,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9c9c130a5a3b7970",
-   "age_hours": 31.5
+   "age_hours": 32.5
   },
   {
    "title": "AI Engineer, Enablement (Amsterdam)",
@@ -277,36 +277,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2178de5853ea912d",
-   "age_hours": 96.1
-  },
-  {
-   "title": "Research Engineer",
-   "company": "Wehrtyou",
-   "location": "London; New York, NY, United States",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/wehrtyou/research-engineer-london-new-york-ny-united-states-404807",
-   "source": "arbeitnow",
-   "posted_at": "2026-08-09T06:55:40+00:00",
-   "remote": false,
-   "description": "&lt;p&gt;Hudson River Trading (HRT) is a quantitative trading firm at the forefront of technological innovation. We build and deploy cutting-edge systems within one of the world’s most advanced computing environments to power our global trading operations. Our non-siloed, collaborative coding environment empowers talented engineers to make significant contributions and see their impact daily. At HRT, you&#39;ll be challenged to solve the most complex problems in trading alongside many of the brightest minds in the field.&lt;/p&gt; &lt;p&gt;We are seeking highly motivated and skilled &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Research Engineers&lt;/span&gt; who will work very closely with our Algo Developer (Quant Research) trading teams. These roles require exceptional programming fundamentals, a strong user focus, and the ability to thrive in a fast-paced environment with constantly evolving requirements. Multitasking and context switching are inherent aspects of this role, through which you will gain insight into the ideation and execution of some of the world&#39;s most sophisticated trading strategies.&nbsp;&nbsp;&lt;/p&gt; &lt;p&gt;Research Engineers at HRT work on a wide variety of projects. Examples include:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Designing highly customized quantitative systems that enable Algo Developers to easily express and backtest new predictive signals.&lt;/li&gt; &lt;li&gt;Building world-class research tooling to speed up Algo Developers’ research iteration.&lt;/li&gt; &lt;li&gt;Aiding the development and deployment of very large deep learning models for HRT’s live trading.&lt;/li&gt; &lt;li&gt;Improving HRT’s monetization systems which turn our predictions into profitable trades.&lt;/li&gt; &lt;li&gt;Evaluating sim vs. live differences to improve the fidelity of our simulations.&lt;/li&gt; &lt;li&gt;Building systems to monitor and manage live trading.&lt;/li&gt; &lt;li&gt;Specializing in specific time horizons, from high frequency trading to mid-to-low frequency hedge fund-style strategies.&lt;/li&gt; &lt;li&gt;Working across a very wide variety of asset classes (from equities to fixed income to options) and regions (from North America to Asia Pacific) – you’ll interact with markets across the world!&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Design, develop, and maintain robust, performant, and scalable software systems.&lt;/li&gt; &lt;li&gt;Optimize existing codebases for performance, reliability, and efficiency.&lt;/li&gt; &lt;li&gt;Debug complex issues across distributed systems in a time-sensitive environment.&lt;/li&gt; &lt;li&gt;Optimize both the mechanics and ergonomics of Algo Developer research workflows; this requires developing a deep intuition for research methodologies.&lt;/li&gt; &lt;li&gt;Balance the short term goals of individual trading teams with the longer term goals of HRT’s generalized trading platforms across trading teams. Because we don’t work in a pod environment, REs on different trading teams are expected to share technology and ideas.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Completed a Bachelor&#39;s or Master&#39;s degree in Computer Science, Engineering, or a related technical field. If you are currently pursuing your Bachelor&#39;s degree, please apply to our Campus/New Grad opportunities.&lt;/li&gt; &lt;li&gt;Previous experience at a top-tier finance &lt;em&gt;or&lt;/em&gt; technology company with an excellent track record of rapid advancement and superlative reviews.&lt;/li&gt; &lt;li&gt;Experience with supporting internal users is preferred; bonus if you have &lt;em&gt;real&lt;/em&gt; hands-on experience with quant research and/or ML/Deep Learning platforms.&lt;/li&gt; &lt;li&gt;Experience with python numerical, ML and data-oriented libraries is a big plus (e.g. pandas, scikit, pytorch, etc.)&lt;/li&gt; &lt;li&gt;Candidates should",
-   "tags": [
-    "Research & Development Platform"
-   ],
-   "employment_type": "",
-   "score": 39,
-   "reasons": [
-    "职位匹配: research engineer",
-    "未要求德语",
-    "未标明经验年限",
-    "目标国家: AT",
-    "+4 python",
-    "+3 pytorch",
-    "24 小时内发布"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429554+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "aa1a4fa50dc50927",
-   "age_hours": 15.4
+   "age_hours": 97.1
   },
   {
    "title": "InnoMaster Big Data Engineering - part-time Master's Program",
@@ -335,7 +306,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "a7e50f4816e2a81e",
-   "age_hours": 29.0
+   "age_hours": 30.0
   },
   {
    "title": "AI Engineer, Enablement ",
@@ -366,7 +337,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "0d2269aa98bd2bc7",
-   "age_hours": 116.7
+   "age_hours": 117.7
   },
   {
    "title": "AI Developer — Interconnect Hardware Frontend",
@@ -374,7 +345,7 @@
    "location": "China, Shanghai",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer---Interconnect-Hardware-Frontend_JR2022861-1",
    "source": "workday",
-   "posted_at": "2026-08-07T22:21:55.502053+00:00",
+   "posted_at": "2026-08-07T23:23:24.462936+00:00",
    "remote": false,
    "description": "JR2022861",
    "tags": [],
