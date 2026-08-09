@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-09T15:18:28.431284+00:00",
+ "generated_at": "2026-08-09T15:24:10.630668+00:00",
  "count": 11,
  "jobs": [
   {
@@ -34,10 +34,10 @@
     "+1 kubernetes"
    ],
    "first_seen": "2026-08-09T15:18:28.429314+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "2be2f8c4a42dba31",
-   "age_hours": 24.6
+   "age_hours": 24.7
   },
   {
    "title": "Founding Forward-Deployed ML Engineer",
@@ -72,10 +72,10 @@
     "+1 kubernetes"
    ],
    "first_seen": "2026-08-09T15:18:28.429419+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "3bf27a37799f6a34",
-   "age_hours": 24.6
+   "age_hours": 24.7
   },
   {
    "title": "Founding Machine Learning Engineer",
@@ -109,10 +109,10 @@
     "+2 azure"
    ],
    "first_seen": "2026-08-09T15:18:28.429440+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "9662ecb42644cfad",
-   "age_hours": 24.6
+   "age_hours": 24.7
   },
   {
    "title": "ML Engineer - Robotics",
@@ -142,10 +142,10 @@
     "+3 tensorflow"
    ],
    "first_seen": "2026-08-09T15:18:28.429455+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "3e0efebeb8d3cb2c",
-   "age_hours": 24.6
+   "age_hours": 24.7
   },
   {
    "title": "Data Platform Engineer (m/f/d)",
@@ -175,10 +175,10 @@
     "公司官网直发"
    ],
    "first_seen": "2026-08-09T15:18:28.429469+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "f3a38bb4061e847f",
-   "age_hours": 52.2
+   "age_hours": 52.3
   },
   {
    "title": "Data Engineer (all genders)",
@@ -208,10 +208,10 @@
     "+1 kubernetes"
    ],
    "first_seen": "2026-08-09T15:18:28.429486+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "9c9c130a5a3b7970",
-   "age_hours": 24.4
+   "age_hours": 24.5
   },
   {
    "title": "InnoMaster Big Data Engineering - part-time Master's Program",
@@ -238,10 +238,10 @@
     "24 小时内发布"
    ],
    "first_seen": "2026-08-09T15:18:28.429503+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "a7e50f4816e2a81e",
-   "age_hours": 21.9
+   "age_hours": 22.0
   },
   {
    "title": "AI Engineer, Enablement (Amsterdam)",
@@ -269,10 +269,10 @@
     "公司官网直发"
    ],
    "first_seen": "2026-08-09T15:18:28.429537+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "2178de5853ea912d",
-   "age_hours": 89.0
+   "age_hours": 89.1
   },
   {
    "title": "Research Engineer",
@@ -298,10 +298,10 @@
     "24 小时内发布"
    ],
    "first_seen": "2026-08-09T15:18:28.429554+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "aa1a4fa50dc50927",
-   "age_hours": 8.4
+   "age_hours": 8.5
   },
   {
    "title": "AI Engineer, Enablement ",
@@ -329,10 +329,10 @@
     "公司官网直发"
    ],
    "first_seen": "2026-08-09T15:18:28.429576+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "0d2269aa98bd2bc7",
-   "age_hours": 109.6
+   "age_hours": 109.7
   },
   {
    "title": "AI Developer — Interconnect Hardware Frontend",
@@ -340,7 +340,7 @@
    "location": "China, Shanghai",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer---Interconnect-Hardware-Frontend_JR2022861-1",
    "source": "workday",
-   "posted_at": "2026-08-07T15:17:57.459182+00:00",
+   "posted_at": "2026-08-07T15:23:39.549396+00:00",
    "remote": false,
    "description": "JR2022861",
    "tags": [],
@@ -352,7 +352,7 @@
     "公司官网直发"
    ],
    "first_seen": "2026-08-09T15:18:28.429595+00:00",
-   "is_new": true,
+   "is_new": false,
    "reject_reason": "",
    "fingerprint": "bbc7d220bd91edd4",
    "age_hours": 48.0
