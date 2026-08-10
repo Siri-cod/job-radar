@@ -1,185 +1,296 @@
-# Job Radar · 全网岗位精准雷达
+# Job Radar
 
-自动从**公司官网招聘系统**和**免费公开岗位 API** 抓取岗位，按你的画像精准打分筛选，
-只保留 7 天内发布的新岗位，生成可筛选的看板网页，并对 24 小时内的新岗位发邮件提醒。
+**A self-hosted job aggregator that pulls postings from 12 official APIs, filters them against a configurable candidate profile, and emails me the matches within an hour of publication.**
 
-## 当前画像（config.yaml 已按此配置）
+[![Job Radar](https://github.com/Siri-cod/job-radar/actions/workflows/fetch.yml/badge.svg)](https://github.com/Siri-cod/job-radar/actions/workflows/fetch.yml)
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![Cost](https://img.shields.io/badge/hosting%20cost-%E2%82%AC0-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-| 维度 | 设定 |
-|---|---|
-| 方向 | AI / ML Engineer、Data Science、Data Analysis、Data Engineering（35 个职位关键词） |
-| 职级 | 排除 senior / staff / principal / lead / manager / architect / 实习 / werkstudent 等 30 类 |
-| 语言 | **明确要求德语的岗位自动淘汰**（"德语加分"不算要求，会保留） |
-| 经验 | **要求超过 3 年经验的岗位自动淘汰**（"3-5 years" 按下限 3 算，保留；"5+ years" 淘汰） |
-| 地区 | 德国 + 欧洲 + 全球 Remote |
-
-**全程免费**：GitHub Actions 跑抓取（公开仓库无限额度），GitHub Pages 托管看板。
+📊 **[Live dashboard →](https://siri-cod.github.io/job-radar/)**
 
 ---
 
-## 覆盖的数据源（12 个，全部为官方公开接口）
+## The problem
 
-**公司官网直连（最快最准，比招聘平台还早）**
+Job boards optimise for engagement, not for me. Searching for "Data Analyst, Berlin" across LinkedIn, StepStone and Indeed returns the same postings three times over, mixed with senior roles I can't apply for, roles requiring fluent German, and listings that have been open for six weeks. Meanwhile, the postings that matter most — freshly published roles at companies I'd actually want to work for — are buried.
 
-| 系统 | 说明 |
-|---|---|
-| Greenhouse | 欧美科技公司主流 |
-| Lever | 初创公司主流 |
-| Ashby | 新一代初创公司 |
-| SmartRecruiters | 大型企业 |
-| Recruitee | 欧洲中型公司 |
-| Personio | **德国中小企业主力** |
-| Workday | SAP / Siemens / Zalando 等大厂 |
+Two observations shaped this project:
 
-**免费公开聚合 API**
+1. **Company career pages publish before the aggregators do.** Most companies use an applicant tracking system (Greenhouse, Lever, Personio…), and nearly all of these expose a public JSON endpoint. Reading them directly means seeing a posting the moment it goes live, with an exact timestamp and a direct application link.
+2. **Speed matters more than breadth.** Applying within 24 hours of publication puts you in the first handful of applications a recruiter reads. A tool that surfaces 20 fresh, genuinely-matching roles beats one that surfaces 500 stale ones.
 
-| 来源 | 说明 |
-|---|---|
-| Arbeitsagentur | **德国联邦劳工局官方 API，德国岗位覆盖最全** |
-| Arbeitnow | 德国岗位 + 签证担保标记 |
-| Remotive / RemoteOK / Himalayas | 全球远程岗位 |
-
-**LinkedIn / StepStone / Indeed / Xing**
-这几家的服务条款明确禁止抓取，技术上也有强反爬，硬爬会被封且不合规。
-本项目改用两条稳妥路径：
-
-1. 看板顶部生成**预置搜索链接**（已锁定"24 小时内 + 按时间排序"），一键直达；
-2. 在这些平台开启**官方 Job Alert 邮件订阅**（见下方"补充设置"），进同一个邮箱。
+So: query the sources directly, filter hard, and alert fast.
 
 ---
 
-## 部署（约 10 分钟，一次搞定）
+## What it does
 
-### 1. 建仓库
+```mermaid
+flowchart TD
+    ATS["<b>7 Applicant Tracking Systems</b><br/>Greenhouse · Lever · Ashby · Workday<br/>SmartRecruiters · Recruitee · Personio"]
+    AGG["<b>5 Job Board APIs</b><br/>Bundesagentur für Arbeit · Arbeitnow<br/>Remotive · RemoteOK · Himalayas"]
 
-在 GitHub 新建一个仓库（**建议设为 Public**，私有仓库 Actions 有分钟数限制），
-把本文件夹全部内容推上去：
+    ATS --> NORM
+    AGG --> NORM
+    NORM["<b>Normalise</b><br/>unified Job model · concurrent fetch"]
+    NORM --> P1
 
-```bash
-cd job-radar
-git init && git add -A
-git commit -m "init job radar"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/job-radar.git
-git push -u origin main
+    subgraph PIPE ["Filter pipeline"]
+        direction TB
+        P1["Title whitelist → seniority blacklist"]
+        P2["German-requirement regex"]
+        P3["Years-of-experience regex"]
+        P4["Location match → weighted scoring"]
+        P1 --> P2 --> P3 --> P4
+    end
+
+    P2 -. rejected .-> REJ
+    P3 -. rejected .-> REJ
+    REJ["<b>rejected.json</b><br/>every drop, with its reason"]
+
+    P4 --> DED["<b>Fingerprint dedupe</b><br/>SQLite · cross-source · first-seen tracking"]
+    DED --> DASH["<b>Static dashboard</b><br/>GitHub Pages"]
+    DED --> MAIL["<b>Email alert</b><br/>new and published &lt; 24h ago"]
+
+    classDef src    fill:#dbeafe,stroke:#2563eb,stroke-width:1.5px,color:#0f172a
+    classDef norm   fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a
+    classDef step   fill:#f8fafc,stroke:#94a3b8,stroke-width:1.5px,color:#0f172a
+    classDef hard   fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#0f172a
+    classDef dedupe fill:#ede9fe,stroke:#7c3aed,stroke-width:1.5px,color:#0f172a
+    classDef out    fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#0f172a
+    classDef rej    fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#0f172a
+
+    class ATS,AGG src
+    class NORM norm
+    class P1,P4 step
+    class P2,P3 hard
+    class DED dedupe
+    class DASH,MAIL out
+    class REJ rej
 ```
 
-### 2. 开启 GitHub Pages
+<sub>Amber steps are the two filters that carry most of the weight — see [Engineering highlights](#engineering-highlights).</sub>
 
-仓库 → **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**。
-
-### 3. 允许 Actions 写仓库
-
-仓库 → **Settings → Actions → General → Workflow permissions**
-选 **Read and write permissions** → Save。
-
-### 4. 配置邮件提醒（可选，但建议开）
-
-Gmail 需要用「应用专用密码」，不是登录密码：
-[myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)（需先开两步验证）。
-
-仓库 → **Settings → Secrets and variables → Actions → New repository secret**，加 5 条：
-
-| Name | Value |
-|---|---|
-| `SMTP_HOST` | `smtp.gmail.com` |
-| `SMTP_PORT` | `587` |
-| `SMTP_USER` | `jan.bargallo.deike@gmail.com` |
-| `SMTP_PASS` | 上一步生成的 16 位应用专用密码 |
-| `MAIL_TO` | `jan.bargallo.deike@gmail.com` |
-
-### 5. 跑起来
-
-仓库 → **Actions → Job Radar → Run workflow** 手动触发一次。
-跑完后看板地址是 `https://<你的用户名>.github.io/job-radar/`。
-
-之后每小时整点自动运行，无需干预。
+Runs hourly on GitHub Actions. Total infrastructure cost: **€0**.
 
 ---
 
-## 日常使用
+## Engineering highlights
 
-- **看板**：`https://<你的用户名>.github.io/job-radar/` —— 手机电脑都能开，绿色左边框 = 本次新发现，红色 24h 标记 = 一天内发布。
-- **邮件**：24 小时内发布且首次发现的岗位会立刻推到你邮箱，带直达投递按钮。同一岗位不会重复提醒（`data/seen.sqlite` 记录去重指纹）。
+### Requirement extraction with regex, not keyword lists
 
-## 两条硬性规则怎么实现的
+Two filters do most of the work, and both are harder than they look.
 
-这两条用关键词列表做不可靠，所以写成了正则（`src/requirements_filter.py`），并配了单元用例：
+**"Does this role require German?"** A naive keyword match on `"German"` or `"Deutsch"` fails immediately: every Berlin posting contains *Deutschland*, and half of them mention *Deutsche Bahn* as a client. The distinction that matters is whether German is stated as a **capability requirement** — and postings phrase that a dozen different ways across two languages.
 
-**德语要求识别** —— 只匹配"把德语当能力要求"的表述，`Deutschland`、`Deutsche Bahn` 这类不会误伤：
+The module matches requirement phrasings while explicitly whitelisting the "nice to have" constructions, which are checked first so they override:
 
-| 判定要求德语（淘汰） | 判定不要求（保留） |
+| Input | Verdict |
 |---|---|
-| Sehr gute Deutschkenntnisse | German is a plus |
-| Verhandlungssicheres Deutsch | Deutsch ist von Vorteil |
-| Fluent German required | No German required |
-| German language skills at C1 | Berlin, Deutschland |
-| Business level German | English is our working language |
+| `Sehr gute Deutschkenntnisse in Wort und Schrift` | required → reject |
+| `Verhandlungssicheres Deutsch` | required → reject |
+| `Fluent German required` | required → reject |
+| `German language skills at C1 level` | required → reject |
+| `German is a plus, English is our working language` | **optional → keep** |
+| `We are based in Berlin, Deutschland` | **not a requirement → keep** |
+| `Deutsch ist von Vorteil` | **optional → keep** |
 
-**经验年限抽取** —— 取岗位声明的**下限**，且要求上下文里有 experience / Erfahrung 才算数：
+**"How many years of experience does it demand?"** Ranges have to resolve to their lower bound (`3-5 years` means the floor is 3, which is acceptable), open-ended requirements to their stated minimum (`5+ years` means 5, which is not), and numbers outside an experience context have to be ignored entirely.
 
-| 原文 | 抽取 | 结果 |
+| Input | Extracted | Verdict |
 |---|---|---|
-| 3-5 years of experience | 3 | 保留 |
-| 5+ years of professional experience | 5 | 淘汰 |
-| Mindestens 4 Jahre Berufserfahrung | 4 | 淘汰 |
-| 0-2 years, graduates welcome | 不设限 | 保留 |
-| We have 20 years of company history | 无（非经验语境） | 保留 |
+| `3-5 years of experience in Python` | 3 | keep |
+| `5+ years of professional experience` | 5 | reject |
+| `Mindestens 4 Jahre Berufserfahrung` | 4 | reject |
+| `0-2 years, graduates welcome` | no floor | keep |
+| `We have 20 years of company history` | *(not an experience claim)* | keep |
 
-**担心过滤太狠？** 每次运行会写 `data/rejected.json`，列出被硬性条件淘汰的岗位和具体原因，
-翻一眼就知道该不该放宽 `max_years_experience` 或关掉 `exclude_german_required`。
+Both filters ship with the table above as executable test cases. A bug found during development — descriptions shorter than 120 characters silently skipped the check, letting a `Sehr gute Deutschkenntnisse` posting through — is exactly the kind of thing these catch.
 
-> 注意：部分数据源（Arbeitsagentur、SmartRecruiters）不返回职位正文，这类岗位无法判断德语/年限。
-> 默认按 `keep_when_description_missing: true` 保留（宁可多看几个也不漏），
-> 想要绝对干净就改成 `false`。
+### Cross-source deduplication
 
-## 调精准度
+The same role legitimately appears in up to four feeds — the company's Greenhouse board, Arbeitnow, the Bundesagentur listing, and a remote-jobs aggregator — each with a different ID, title casing and location string. Each posting is fingerprinted on a normalised `company | title | location` triple; when duplicates collide, the highest-scoring variant survives (which naturally prefers the company's own posting, since direct-from-ATS sources carry a score bonus).
 
-只改 `config.yaml`，提交后自动重跑：
+A SQLite table records the first time each fingerprint was seen. That's what makes "**new** posting" meaningful rather than "posting that happens to be in this run", and it guarantees a role is never emailed twice.
 
-| 字段 | 作用 |
+### Transparent scoring
+
+Filtering is destructive, so every decision is auditable. Each surviving posting carries the list of reasons it scored what it did (`+6 english speaking`, `experience: 2 years`, `target city: Berlin`) and these render as tags on the dashboard. Every *rejected* posting is written to `data/rejected.json` with its rejection reason, so it's immediately obvious whether the filters are too aggressive — instead of silently returning an empty page.
+
+### Failure isolation
+
+Twelve sources are fetched concurrently, each in its own thread with retry and backoff. A source that 404s, rate-limits or changes its schema logs a warning and contributes zero rows; the other eleven complete normally. Career-page slugs go stale constantly, so partial failure is the expected steady state, not an exception.
+
+### A deliberate decision not to scrape
+
+LinkedIn, StepStone, Indeed and Xing all prohibit automated access in their terms of service and defend against it technically. Scraping them would produce a system that is both legally exposed and permanently one anti-bot update away from breaking.
+
+Instead the dashboard renders pre-built search URLs for each platform with `posted in last 24 hours` and `sort by date` already applied — one click to a filtered view — and the README documents setting up each platform's own email alerts into the same inbox. Coverage stays comparable; the system stays maintainable and within terms.
+
+*This felt worth writing down: the interesting engineering decision here was choosing what not to build.*
+
+---
+
+## Data sources
+
+**Direct from company ATS** — exact publication timestamps, direct application links, typically live before aggregators pick them up.
+
+| System | Notes |
 |---|---|
-| `titles_any` | 职位标题必须命中其一，**这是筛选的第一道闸** |
-| `titles_exclude` | 标题黑名单，过滤掉不符职级（senior/lead/实习等） |
-| `keywords_boost` | 正文命中就加分，权重自己定 |
-| `keywords_exclude` | 正文命中直接丢弃 |
-| `locations` | 国家 / 城市 / 是否接受远程 |
-| `requirements.max_years_experience` | 经验年限上限，当前 3 |
-| `requirements.exclude_german_required` | 是否淘汰要求德语的岗位，当前开启 |
-| `filters.min_score` | 分数门槛，当前 20。**漏岗位就调低，噪音多就调高** |
-| `filters.freshness_days` | 只看几天内发布的 |
-| `filters.alert_window_hours` | 多新的岗位才发邮件 |
+| Greenhouse | Dominant among US/EU tech companies |
+| Lever | Common at startups |
+| Ashby | Newer startup cohort |
+| SmartRecruiters | Enterprise |
+| Recruitee | Mid-size European companies |
+| Personio | **The default for German SMEs** — XML feed rather than JSON |
+| Workday | SAP, Siemens, Zalando, NVIDIA, Bayer. Publication dates arrive as relative strings (`Posted 3 Days Ago`) and are parsed back into timestamps |
 
-加目标公司改 `companies.yaml`，从公司招聘页 URL 里抄 slug 即可（文件里有说明）。
+**Public job-board APIs**
 
-## 调抓取频率
+| Source | Notes |
+|---|---|
+| Bundesagentur für Arbeit | Germany's federal employment agency — the broadest official coverage of the German market |
+| Arbeitnow | German roles, includes a visa-sponsorship flag |
+| Remotive · RemoteOK · Himalayas | Global remote roles |
 
-`.github/workflows/fetch.yml` 里的 cron：
+---
+
+## Tech stack
+
+Python 3.12 · `requests` · `PyYAML` · `python-dateutil` · SQLite · GitHub Actions · GitHub Pages
+
+No framework and only three dependencies — the problem doesn't need more, and every dependency is a thing that breaks unattended at 3am. The dashboard is a single self-contained HTML file with no build step: filtering, search and sorting run client-side over a JSON payload embedded at render time.
+
+~1,250 lines of Python across 22 modules.
+
+---
+
+## Project structure
+
+```
+job-radar/
+├── config.yaml                  # Candidate profile — the entire tuning surface
+├── companies.yaml               # 72 target companies, grouped by ATS
+├── requirements.txt
+│
+├── src/
+│   ├── main.py                  # Pipeline orchestration
+│   ├── models.py                # Job model, fingerprinting, age calculation
+│   ├── scoring.py               # Filter chain and weighted scoring
+│   ├── requirements_filter.py   # German / years-of-experience regex
+│   ├── store.py                 # SQLite dedupe and first-seen tracking
+│   ├── render.py                # Static dashboard generation
+│   ├── notify.py                # SMTP alerts
+│   └── sources/
+│       ├── base.py              # HTTP session, retry, date parsing, HTML stripping
+│       ├── ats_*.py             # 7 applicant tracking systems
+│       └── agg_*.py             # 5 job-board APIs
+│
+├── .github/workflows/fetch.yml  # Hourly schedule + Pages deployment
+├── data/                        # SQLite state, jobs.json, rejected.json
+└── docs/                        # Generated dashboard (served by GitHub Pages)
+```
+
+Adding a source means writing one function that returns `list[Job]` and registering it — roughly 30 lines. The pipeline needs no changes.
+
+---
+
+## Configuration
+
+Everything tunable lives in `config.yaml`. Editing it triggers a re-run automatically via the workflow's `push` trigger, so retuning never requires touching code.
 
 ```yaml
-- cron: "0 * * * *"       # 每小时（默认）
-- cron: "*/30 * * * *"    # 每 30 分钟
-- cron: "0 7,13,19 * * *" # 每天 3 次
+profile:
+  titles_any:        [ai engineer, data scientist, data analyst, ...]   # 35 terms
+  titles_exclude:    [senior, staff, lead, werkstudent, ...]            # 30 terms
+  keywords_boost:    {python: 4, visa: 5, "english speaking": 6, ...}   # weighted
+  keywords_exclude:  [security clearance, ...]
+
+requirements:
+  max_years_experience: 3
+  exclude_german_required: true
+  keep_when_description_missing: true    # some sources omit the body text
+
+locations:
+  countries:    [DE, NL, IE, AT, CH, ...]
+  cities:       [Berlin, Munich, Amsterdam, ...]
+  allow_remote: true
+
+filters:
+  freshness_days:      7     # ignore anything older
+  alert_window_hours: 24     # email threshold
+  min_score:          20     # dashboard threshold
 ```
 
-## 本地调试
+---
+
+## Running it yourself
 
 ```bash
+git clone https://github.com/Siri-cod/job-radar.git
+cd job-radar
 pip install -r requirements.txt
-python -m src.main --dry-run                    # 不发邮件
-python -m src.main --dry-run --only greenhouse  # 只测单个数据源
+python -m src.main --dry-run          # fetch and build, skip email
 open docs/index.html
 ```
 
+Useful flags: `--only greenhouse,arbeitnow` restricts to specific sources while debugging.
+
+<details>
+<summary><b>Deploying your own instance (~10 minutes)</b></summary>
+
+1. **Fork this repository.** Public repos get unlimited Actions minutes.
+
+2. **Grant Actions write access** — `Settings → Actions → General → Workflow permissions → Read and write permissions`. The workflow commits the refreshed dataset back to the repo.
+
+3. **Enable Pages** — `Settings → Pages → Source → GitHub Actions`.
+
+4. **Optional: email alerts.** Add these as `Settings → Secrets and variables → Actions` secrets. Gmail requires an [app password](https://myaccount.google.com/apppasswords), not your account password.
+
+   | Secret | Example |
+   |---|---|
+   | `SMTP_HOST` | `smtp.gmail.com` |
+   | `SMTP_PORT` | `587` |
+   | `SMTP_USER` | your address |
+   | `SMTP_PASS` | 16-character app password |
+   | `MAIL_TO` | destination address |
+
+5. **Edit `config.yaml`** with your own profile, then commit. Pushing changes to it triggers a run.
+
+6. **Trigger manually** — `Actions → Job Radar → Run workflow` — to verify before the hourly schedule takes over.
+
+Adjust frequency in `.github/workflows/fetch.yml`:
+
+```yaml
+- cron: "0 * * * *"        # hourly (default)
+- cron: "*/30 * * * *"     # every 30 minutes
+- cron: "0 7,13,19 * * *"  # three times daily
+```
+
+</details>
+
 ---
 
-## 补充设置：把平台的官方订阅也导进来
+## Known limitations
 
-在这几个平台各建 1~2 个 Job Alert，频率选 **Daily / 即时**，收件邮箱用同一个：
+- **Two sources omit description text.** The Bundesagentur and SmartRecruiters endpoints return metadata without a job body, so the German and experience filters cannot evaluate those postings. `keep_when_description_missing` controls the trade-off; it defaults to keeping them, favouring recall over precision. Fetching each detail page would close the gap at a significant cost in request volume.
+- **Career-page slugs drift.** Companies rename their boards, and there's no discovery API. Broken slugs surface as 404 warnings in the run log and need occasional manual pruning.
+- **Coverage is bounded by the target list.** Direct ATS access is precise but only reaches companies I've named. The aggregator sources provide breadth; the two approaches are complementary by design.
 
-- **LinkedIn** — 搜索后点 "Create job alert"，Date posted 选 Past 24 hours
-- **StepStone** — 搜索页右侧 "Jobs per E-Mail"
-- **Indeed** — 搜索页底部 "Get new jobs for this search by email"
-- **Xing** — 搜索后 "Suchagent anlegen"
+## Possible extensions
 
-这样官网直连（本程序）+ 平台订阅（邮件）两条腿走路，覆盖率接近全网，且完全合规。
+- Embedding-based semantic matching against a CV, replacing keyword scoring
+- Application tracking — mark applied/rejected on the dashboard, persisted alongside the dedupe state
+- Salary parsing and normalisation across currencies
+- Telegram or Slack delivery in addition to email
+
+---
+
+## License
+
+MIT
+
+---
+
+<sub>Built by [Siri-cod](https://github.com/Siri-cod). If you're a recruiter who found this: it was written to help me find you faster.</sub>
