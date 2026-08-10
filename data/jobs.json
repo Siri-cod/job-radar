@@ -1,44 +1,7 @@
 {
- "generated_at": "2026-08-10T05:19:21.249569+00:00",
- "count": 12,
+ "generated_at": "2026-08-10T07:16:13.091886+00:00",
+ "count": 11,
  "jobs": [
-  {
-   "title": "AI/LLM Engineer",
-   "company": "Clera",
-   "location": "Munich",
-   "url": "https://www.arbeitnow.com/jobs/companies/clera/ai-llm-engineer-munich-303117",
-   "source": "arbeitnow",
-   "posted_at": "2026-08-08T14:40:22+00:00",
-   "remote": false,
-   "description": "About the Role We're a fast-growing, Y Combinator–backed B2B SaaS startup building AI-powered automation for sales workflows in distribution and manufacturing. Our platform helps sales teams eliminate manual quoting and order processing by intelligently understanding customer requests, matching products, and integrating with enterprise ERP and CRM systems. We're looking for an AI/LLM Engineer to join our small, high-velocity team in Munich. You'll own end-to-end AI systems — from data pipelines to deployed agents — and directly shape the product at a critical stage of our growth. Visa sponsorship is available. What You'll Do Design, build, deploy, and optimize AI agents across the full stack, end-to-end Work with embeddings and fine-tune LLMs for classification and reranking tasks Optimize algorithms for intelligent product search Apply RLHF and DPO techniques to align LLMs with human feedback Build and maintain data pipelines to process large-scale unstructured data efficiently Contribute to backend scalability, stability, and performance improvements What We're Looking For Must-haves: 2+ years of software engineering experience Strong hands-on experience with NLP, LLMs, embeddings, ML, and AI agents Demonstrated experience building and scaling data and ML pipelines, including large-scale unstructured data Experience with PostgreSQL and vector databases (e.g. Weaviate, Pinecone) Strong computer science fundamentals Ability and willingness to work on-site in Munich, Germany Nice to have: Full-stack development experience with React, TypeScript, and Next.js Experience with containerization (Docker, Kubernetes) Cloud infrastructure experience (AWS, Azure, and/or GCP) and infrastructure-as-code (Terraform) Hands-on experience with RLHF and DPO for LLM alignment Location On-site in Munich, Germany Visa sponsorship is available for eligible candidates Compensation & Benefits Salary: €90,000 – €200,000 per year, depending on experience Opportunity to join a well-funded, early-stage team at a pivotal moment of growth Work on high-impact AI problems in the enterprise software and automation space Find more English Speaking Jobs in Germany on Arbeitnow",
-   "tags": [
-    "Engineering",
-    "Full Time"
-   ],
-   "employment_type": "",
-   "score": 64,
-   "reasons": [
-    "职位匹配: llm engineer",
-    "未要求德语",
-    "经验要求 2 年",
-    "目标城市: Munich",
-    "+6 english speaking",
-    "+5 visa",
-    "+5 sponsorship",
-    "+4 sql",
-    "+3 llm",
-    "+2 aws",
-    "+2 gcp",
-    "+2 azure",
-    "+2 docker",
-    "+1 kubernetes"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429314+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "2be2f8c4a42dba31",
-   "age_hours": 38.6
-  },
   {
    "title": "Founding Machine Learning Engineer",
    "company": "Clera",
@@ -74,7 +37,43 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9662ecb42644cfad",
-   "age_hours": 38.6
+   "age_hours": 40.6
+  },
+  {
+   "title": "AI/LLM Engineer",
+   "company": "Clera",
+   "location": "Munich",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/ai-llm-engineer-munich-303117",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role We're a fast-growing, Y Combinator–backed B2B SaaS startup building AI-powered automation for sales workflows in distribution and manufacturing. Our platform helps sales teams eliminate manual quoting and order processing by intelligently understanding customer requests, matching products, and integrating with enterprise ERP and CRM systems. We're looking for an AI/LLM Engineer to join our small, high-velocity team in Munich. You'll own end-to-end AI systems — from data pipelines to deployed agents — and directly shape the product at a critical stage of our growth. Visa sponsorship is available. What You'll Do Design, build, deploy, and optimize AI agents across the full stack, end-to-end Work with embeddings and fine-tune LLMs for classification and reranking tasks Optimize algorithms for intelligent product search Apply RLHF and DPO techniques to align LLMs with human feedback Build and maintain data pipelines to process large-scale unstructured data efficiently Contribute to backend scalability, stability, and performance improvements What We're Looking For Must-haves: 2+ years of software engineering experience Strong hands-on experience with NLP, LLMs, embeddings, ML, and AI agents Demonstrated experience building and scaling data and ML pipelines, including large-scale unstructured data Experience with PostgreSQL and vector databases (e.g. Weaviate, Pinecone) Strong computer science fundamentals Ability and willingness to work on-site in Munich, Germany Nice to have: Full-stack development experience with React, TypeScript, and Next.js Experience with containerization (Docker, Kubernetes) Cloud infrastructure experience (AWS, Azure, and/or GCP) and infrastructure-as-code (Terraform) Hands-on experience with RLHF and DPO for LLM alignment Location On-site in Munich, Germany Visa sponsorship is available for eligible candidates Compensation & Benefits Salary: €90,000 – €200,000 per year, depending on experience Opportunity to join a well-funded, early-stage team at a pivotal moment of growth Work on high-impact AI problems in the enterprise software and automation space Find Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 58,
+   "reasons": [
+    "职位匹配: llm engineer",
+    "未要求德语",
+    "经验要求 2 年",
+    "目标城市: Munich",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 sql",
+    "+3 llm",
+    "+2 aws",
+    "+2 gcp",
+    "+2 azure",
+    "+2 docker",
+    "+1 kubernetes"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429314+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "2be2f8c4a42dba31",
+   "age_hours": 40.6
   },
   {
    "title": "Founding Forward-Deployed ML Engineer",
@@ -111,7 +110,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "3bf27a37799f6a34",
-   "age_hours": 38.6
+   "age_hours": 40.6
   },
   {
    "title": "ML Engineer - Robotics",
@@ -144,7 +143,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "3e0efebeb8d3cb2c",
-   "age_hours": 38.6
+   "age_hours": 40.6
   },
   {
    "title": "Data Platform Engineer (m/f/d)",
@@ -177,7 +176,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "f3a38bb4061e847f",
-   "age_hours": 66.2
+   "age_hours": 68.1
   },
   {
    "title": "Analytics Engineer",
@@ -213,49 +212,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9a294e7b2f59bbdf",
-   "age_hours": 12.0
-  },
-  {
-   "title": "PySpark Data Engineer",
-   "company": "name",
-   "location": "Czechia, Switzerland",
-   "url": "https://himalayas.app/companies/joyful-craftsmen-ag/jobs/pyspark-data-engineer-156331832",
-   "source": "himalayas",
-   "posted_at": "2026-08-10T04:20:07+00:00",
-   "remote": true,
-   "description": "We are the Microsoft Data Platform Competence Center – leading experts in Microsoft data technologies. Our team has hands-on experience with the full spectrum of modern data solutions including Azure Data Factory, Synapse Analytics, Microsoft Fabric, Power BI, Purview, Azure SQL Database, Databricks, Palantir, and more. We constantly learn, experiment, and refine our engineering practices, implementing new innovations across the data ecosystem. Our team has grown to 40 specialists operating in both the Czech Republic and Switzerland . What you will do as a PySpark Data Engineer Design, build and optimize scalable data pipelines using Python & PySpark Work with modern data platforms ( Palantir Foundry / Databricks / similar ) Integrate data from finance and insurance source systems Support data delivery for analytics and reporting solutions (e.g. Power BI) Ensure data quality, reliability and performance of pipelines Collaborate with Business, Analytics and Engineering teams Support deployment, monitoring and production operations What we expect Strong experience in Python & PySpark Experience with Spark-based data platforms (Palantir Foundry is a big plus) Solid experience in data engineering and building ETL/ELT pipelines Strong knowledge of SQL and large-scale data processing Experience from financial services (insurance is preferred) Experience with Git and CI/CD pipelines Good communication skills in English What we offer you Budget for personal development (courses, conferences, certifications) Opportunity to work remotely on international projects Work from the comfort of your home or from our new design office We value our time – no overtime Access to our company library for inspiration Attractive mobile plan, Multisport card, and fuel card Barbecues on the terrace and plenty of other team events Originally posted on Himalayas",
-   "tags": [
-    "Data-Engineering",
-    "Data-Engineer",
-    "Big-Data",
-    "ETL-Developer",
-    "PySpark-Developer",
-    "Data-Pipeline-Engineer",
-    "Analytics-Engineering",
-    "Senior-Databricks-Engineer",
-    "Databricks-Engineer",
-    "Apache-Spark-Developer"
-   ],
-   "employment_type": "Full Time",
-   "score": 49,
-   "reasons": [
-    "职位匹配: data engineer",
-    "未要求德语",
-    "未标明经验年限",
-    "目标国家: CH",
-    "+4 python",
-    "+4 sql",
-    "+2 spark",
-    "+2 databricks",
-    "+3 power bi",
-    "+2 azure",
-    "24 小时内发布"
-   ],
-   "first_seen": "2026-08-10T05:19:21.246885+00:00",
-   "is_new": true,
-   "reject_reason": "",
-   "fingerprint": "c193880ac05ae577",
-   "age_hours": 1.0
+   "age_hours": 14.0
   },
   {
    "title": "Data Engineer (all genders)",
@@ -288,7 +245,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9c9c130a5a3b7970",
-   "age_hours": 38.4
+   "age_hours": 40.3
   },
   {
    "title": "AI Engineer, Enablement (Amsterdam)",
@@ -319,7 +276,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2178de5853ea912d",
-   "age_hours": 103.1
+   "age_hours": 105.0
   },
   {
    "title": "InnoMaster Big Data Engineering - part-time Master's Program",
@@ -348,7 +305,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "a7e50f4816e2a81e",
-   "age_hours": 35.9
+   "age_hours": 37.9
   },
   {
    "title": "AI Engineer, Enablement ",
@@ -379,7 +336,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "0d2269aa98bd2bc7",
-   "age_hours": 123.7
+   "age_hours": 125.6
   },
   {
    "title": "AI Developer — Interconnect Hardware Frontend",
@@ -387,12 +344,12 @@
    "location": "China, Shanghai",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer---Interconnect-Hardware-Frontend_JR2022861-1",
    "source": "workday",
-   "posted_at": "2026-08-08T05:18:51.761291+00:00",
+   "posted_at": "2026-08-07T07:15:43.664818+00:00",
    "remote": false,
    "description": "JR2022861",
    "tags": [],
    "employment_type": "",
-   "score": 25,
+   "score": 22,
    "reasons": [
     "职位匹配: ai developer",
     "目标国家: CH",
@@ -402,7 +359,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "bbc7d220bd91edd4",
-   "age_hours": 48.0
+   "age_hours": 72.0
   }
  ]
 }
