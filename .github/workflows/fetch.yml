@@ -2,10 +2,11 @@ name: Job Radar
 
 on:
   schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch:
+    - cron: "0 * * * *"          # hourly, on the hour (UTC)
+  workflow_dispatch:              # manual trigger
   push:
-    paths: ["config.yaml", "companies.yaml"]
+    branches: [main]
+    paths: ["config.yaml", "companies.yaml"]   # re-run when the profile changes
 
 permissions:
   contents: write
@@ -15,6 +16,9 @@ permissions:
 concurrency:
   group: job-radar
   cancel-in-progress: false
+
+env:
+  DATA_BRANCH: data
 
 jobs:
   fetch:
@@ -29,6 +33,22 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Generated artefacts live on the `data` branch, not on main.
+      # Restore the dedupe database so previously-seen roles aren't re-alerted.
+      - name: Restore state from data branch
+        run: |
+          mkdir -p data docs
+          if git ls-remote --exit-code --heads origin "$DATA_BRANCH" >/dev/null 2>&1; then
+            git fetch --depth 1 origin "$DATA_BRANCH"
+            git restore --source=FETCH_HEAD -- data 2>/dev/null \
+              || git checkout FETCH_HEAD -- data 2>/dev/null \
+              || echo "no data/ directory on $DATA_BRANCH yet"
+            git reset -q            # keep restored files out of main's index
+            echo "restored: $(ls -1 data | tr '\n' ' ')"
+          else
+            echo "branch '$DATA_BRANCH' not found — treating this as a first run"
+          fi
+
       - name: Fetch jobs and build dashboard
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
@@ -38,14 +58,29 @@ jobs:
           MAIL_TO:   ${{ secrets.MAIL_TO }}
         run: python -m src.main
 
-      - name: Commit data
+      # Publish state as a single-commit orphan branch, force-pushed each run.
+      # History is deliberately discarded: jobs.json and seen.sqlite change every
+      # hour, and retaining ~8,700 binary diffs a year would bloat the repository
+      # for no benefit. Only the latest snapshot is ever needed.
+      - name: Persist state to data branch
         run: |
+          set -e
+          TMP="$(mktemp -d)"
+          cp -a data "$TMP/data"
+          cp -a docs "$TMP/docs"
+          cd "$TMP"
+          git init -q -b "$DATA_BRANCH"
           git config user.name  "job-radar-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A data docs
-          git diff --staged --quiet || git commit -m "chore: update jobs $(date -u +%F\ %H:%M)"
-          git push
+          git add -A
+          git commit -q -m "data: snapshot $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push -q --force \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            "HEAD:refs/heads/$DATA_BRANCH"
+          echo "pushed snapshot to '$DATA_BRANCH'"
 
+      # Pages deploys from the build artefact, so docs/ never needs to be
+      # committed to main.
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
