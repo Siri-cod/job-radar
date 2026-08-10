@@ -291,6 +291,3 @@ Adjust frequency in `.github/workflows/fetch.yml`:
 
 MIT
 
----
-
-<sub>Built by [Siri-cod](https://github.com/Siri-cod). If you're a recruiter who found this: it was written to help me find you faster.</sub>
