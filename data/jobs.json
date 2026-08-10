@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-10T09:11:11.550314+00:00",
- "count": 11,
+ "generated_at": "2026-08-10T11:01:27.612888+00:00",
+ "count": 12,
  "jobs": [
   {
    "title": "Founding Machine Learning Engineer",
@@ -38,7 +38,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9662ecb42644cfad",
-   "age_hours": 42.5
+   "age_hours": 44.4
   },
   {
    "title": "Founding Forward-Deployed ML Engineer",
@@ -76,7 +76,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "3bf27a37799f6a34",
-   "age_hours": 42.5
+   "age_hours": 44.4
   },
   {
    "title": "AI/LLM Engineer",
@@ -112,7 +112,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2be2f8c4a42dba31",
-   "age_hours": 42.5
+   "age_hours": 44.4
   },
   {
    "title": "ML Engineer - Robotics",
@@ -145,7 +145,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "3e0efebeb8d3cb2c",
-   "age_hours": 42.5
+   "age_hours": 44.4
   },
   {
    "title": "Data Platform Engineer (m/f/d)",
@@ -178,7 +178,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "f3a38bb4061e847f",
-   "age_hours": 70.0
+   "age_hours": 71.9
   },
   {
    "title": "Analytics Engineer",
@@ -214,7 +214,49 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9a294e7b2f59bbdf",
-   "age_hours": 15.9
+   "age_hours": 17.7
+  },
+  {
+   "title": "PySpark Data Engineer",
+   "company": "name",
+   "location": "Czechia, Switzerland",
+   "url": "https://himalayas.app/companies/joyful-craftsmen-ag/jobs/pyspark-data-engineer-156331832",
+   "source": "himalayas",
+   "posted_at": "2026-08-10T04:20:07+00:00",
+   "remote": true,
+   "description": "We are the Microsoft Data Platform Competence Center – leading experts in Microsoft data technologies. Our team has hands-on experience with the full spectrum of modern data solutions including Azure Data Factory, Synapse Analytics, Microsoft Fabric, Power BI, Purview, Azure SQL Database, Databricks, Palantir, and more. We constantly learn, experiment, and refine our engineering practices, implementing new innovations across the data ecosystem. Our team has grown to 40 specialists operating in both the Czech Republic and Switzerland . What you will do as a PySpark Data Engineer Design, build and optimize scalable data pipelines using Python & PySpark Work with modern data platforms ( Palantir Foundry / Databricks / similar ) Integrate data from finance and insurance source systems Support data delivery for analytics and reporting solutions (e.g. Power BI) Ensure data quality, reliability and performance of pipelines Collaborate with Business, Analytics and Engineering teams Support deployment, monitoring and production operations What we expect Strong experience in Python & PySpark Experience with Spark-based data platforms (Palantir Foundry is a big plus) Solid experience in data engineering and building ETL/ELT pipelines Strong knowledge of SQL and large-scale data processing Experience from financial services (insurance is preferred) Experience with Git and CI/CD pipelines Good communication skills in English What we offer you Budget for personal development (courses, conferences, certifications) Opportunity to work remotely on international projects Work from the comfort of your home or from our new design office We value our time – no overtime Access to our company library for inspiration Attractive mobile plan, Multisport card, and fuel card Barbecues on the terrace and plenty of other team events Originally posted on Himalayas",
+   "tags": [
+    "Data-Engineering",
+    "Data-Engineer",
+    "Big-Data",
+    "ETL-Developer",
+    "PySpark-Developer",
+    "Data-Pipeline-Engineer",
+    "Analytics-Engineering",
+    "Senior-Databricks-Engineer",
+    "Databricks-Engineer",
+    "Apache-Spark-Developer"
+   ],
+   "employment_type": "Full Time",
+   "score": 49,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: CH",
+    "+4 python",
+    "+4 sql",
+    "+2 spark",
+    "+2 databricks",
+    "+3 power bi",
+    "+2 azure",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-08-10T05:19:21.246885+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "c193880ac05ae577",
+   "age_hours": 6.7
   },
   {
    "title": "Data Engineer (all genders)",
@@ -247,7 +289,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9c9c130a5a3b7970",
-   "age_hours": 42.3
+   "age_hours": 44.1
   },
   {
    "title": "AI Engineer, Enablement (Amsterdam)",
@@ -278,7 +320,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2178de5853ea912d",
-   "age_hours": 106.9
+   "age_hours": 108.8
   },
   {
    "title": "InnoMaster Big Data Engineering - part-time Master's Program",
@@ -307,7 +349,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "a7e50f4816e2a81e",
-   "age_hours": 39.8
+   "age_hours": 41.6
   },
   {
    "title": "AI Engineer, Enablement ",
@@ -338,7 +380,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "0d2269aa98bd2bc7",
-   "age_hours": 127.5
+   "age_hours": 129.4
   },
   {
    "title": "AI Developer — Interconnect Hardware Frontend",
@@ -346,7 +388,7 @@
    "location": "China, Shanghai",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer---Interconnect-Hardware-Frontend_JR2022861-1",
    "source": "workday",
-   "posted_at": "2026-08-07T09:10:15.447232+00:00",
+   "posted_at": "2026-08-07T11:01:02.820668+00:00",
    "remote": false,
    "description": "JR2022861",
    "tags": [],
