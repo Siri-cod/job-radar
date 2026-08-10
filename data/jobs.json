@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T11:01:27.612888+00:00",
+ "generated_at": "2026-08-10T12:51:45.599573+00:00",
  "count": 12,
  "jobs": [
   {
@@ -38,7 +38,44 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9662ecb42644cfad",
-   "age_hours": 44.4
+   "age_hours": 46.2
+  },
+  {
+   "title": "AI/LLM Engineer",
+   "company": "Clera",
+   "location": "Munich",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/ai-llm-engineer-munich-303117",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role We're a fast-growing, Y Combinator–backed B2B SaaS startup building AI-powered automation for sales workflows in distribution and manufacturing. Our platform helps sales teams eliminate manual quoting and order processing by intelligently understanding customer requests, matching products, and integrating with enterprise ERP and CRM systems. We're looking for an AI/LLM Engineer to join our small, high-velocity team in Munich. You'll own end-to-end AI systems — from data pipelines to deployed agents — and directly shape the product at a critical stage of our growth. Visa sponsorship is available. What You'll Do Design, build, deploy, and optimize AI agents across the full stack, end-to-end Work with embeddings and fine-tune LLMs for classification and reranking tasks Optimize algorithms for intelligent product search Apply RLHF and DPO techniques to align LLMs with human feedback Build and maintain data pipelines to process large-scale unstructured data efficiently Contribute to backend scalability, stability, and performance improvements What We're Looking For Must-haves: 2+ years of software engineering experience Strong hands-on experience with NLP, LLMs, embeddings, ML, and AI agents Demonstrated experience building and scaling data and ML pipelines, including large-scale unstructured data Experience with PostgreSQL and vector databases (e.g. Weaviate, Pinecone) Strong computer science fundamentals Ability and willingness to work on-site in Munich, Germany Nice to have: Full-stack development experience with React, TypeScript, and Next.js Experience with containerization (Docker, Kubernetes) Cloud infrastructure experience (AWS, Azure, and/or GCP) and infrastructure-as-code (Terraform) Hands-on experience with RLHF and DPO for LLM alignment Location On-site in Munich, Germany Visa sponsorship is available for eligible candidates Compensation & Benefits Salary: €90,000 – €200,000 per year, depending on experience Opportunity to join a well-funded, early-stage team at a pivotal moment of growth Work on high-impact AI problems in the enterprise software and automation space Find more English Speaking Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 64,
+   "reasons": [
+    "职位匹配: llm engineer",
+    "未要求德语",
+    "经验要求 2 年",
+    "目标城市: Munich",
+    "+6 english speaking",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 sql",
+    "+3 llm",
+    "+2 aws",
+    "+2 gcp",
+    "+2 azure",
+    "+2 docker",
+    "+1 kubernetes"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429314+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "2be2f8c4a42dba31",
+   "age_hours": 46.2
   },
   {
    "title": "Founding Forward-Deployed ML Engineer",
@@ -76,109 +113,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "3bf27a37799f6a34",
-   "age_hours": 44.4
-  },
-  {
-   "title": "AI/LLM Engineer",
-   "company": "Clera",
-   "location": "Munich",
-   "url": "https://www.arbeitnow.com/jobs/companies/clera/ai-llm-engineer-munich-303117",
-   "source": "arbeitnow",
-   "posted_at": "2026-08-08T14:40:22+00:00",
-   "remote": false,
-   "description": "About the Role We're a fast-growing, Y Combinator–backed B2B SaaS startup building AI-powered automation for sales workflows in distribution and manufacturing. Our platform helps sales teams eliminate manual quoting and order processing by intelligently understanding customer requests, matching products, and integrating with enterprise ERP and CRM systems. We're looking for an AI/LLM Engineer to join our small, high-velocity team in Munich. You'll own end-to-end AI systems — from data pipelines to deployed agents — and directly shape the product at a critical stage of our growth. Visa sponsorship is available. What You'll Do Design, build, deploy, and optimize AI agents across the full stack, end-to-end Work with embeddings and fine-tune LLMs for classification and reranking tasks Optimize algorithms for intelligent product search Apply RLHF and DPO techniques to align LLMs with human feedback Build and maintain data pipelines to process large-scale unstructured data efficiently Contribute to backend scalability, stability, and performance improvements What We're Looking For Must-haves: 2+ years of software engineering experience Strong hands-on experience with NLP, LLMs, embeddings, ML, and AI agents Demonstrated experience building and scaling data and ML pipelines, including large-scale unstructured data Experience with PostgreSQL and vector databases (e.g. Weaviate, Pinecone) Strong computer science fundamentals Ability and willingness to work on-site in Munich, Germany Nice to have: Full-stack development experience with React, TypeScript, and Next.js Experience with containerization (Docker, Kubernetes) Cloud infrastructure experience (AWS, Azure, and/or GCP) and infrastructure-as-code (Terraform) Hands-on experience with RLHF and DPO for LLM alignment Location On-site in Munich, Germany Visa sponsorship is available for eligible candidates Compensation & Benefits Salary: €90,000 – €200,000 per year, depending on experience Opportunity to join a well-funded, early-stage team at a pivotal moment of growth Work on high-impact AI problems in the enterprise software and automation space Find Jobs in Germany on Arbeitnow",
-   "tags": [
-    "Engineering",
-    "Full Time"
-   ],
-   "employment_type": "",
-   "score": 58,
-   "reasons": [
-    "职位匹配: llm engineer",
-    "未要求德语",
-    "经验要求 2 年",
-    "目标城市: Munich",
-    "+5 visa",
-    "+5 sponsorship",
-    "+4 sql",
-    "+3 llm",
-    "+2 aws",
-    "+2 gcp",
-    "+2 azure",
-    "+2 docker",
-    "+1 kubernetes"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429314+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "2be2f8c4a42dba31",
-   "age_hours": 44.4
-  },
-  {
-   "title": "ML Engineer - Robotics",
-   "company": "Clera",
-   "location": "remote",
-   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-ml-engineer-robotics-485884",
-   "source": "arbeitnow",
-   "posted_at": "2026-08-08T14:40:22+00:00",
-   "remote": false,
-   "description": "About the Role We are a Series A AI company based in Mountain View, CA, building high-quality training and post-training data, robust reinforcement learning environments, and intelligent agents that bridge the gap between AI research and real-world execution. Our work spans multimodal data, agentic systems, and physical intelligence — and we collaborate closely with frontier AI labs and enterprises. As an ML Engineer – Robotics , you will design, train, and deploy intelligent models that power autonomous systems at the intersection of machine learning, control systems, and real-world robotics. You'll build perception, planning, and decision-making pipelines that make machines truly adaptive, solving hard, interdisciplinary problems that combine data-driven learning with real-world physical constraints. What You'll Do Develop and optimize ML models for perception, motion planning, and control. Build computer vision and sensor fusion systems using camera, LiDAR, and IMU data. Integrate learning-based models with robotics software stacks (ROS/ROS2). Design pipelines for data collection, simulation, and reinforcement learning workflows. Collaborate with robotics and hardware engineers to deploy models in live, real-world environments. Continuously evaluate model performance and robustness across diverse scenarios and deployments. What We're Looking For Required 3–8 years of professional experience in Machine Learning, Robotics, or Computer Vision. Proficiency in Python and C++ for robotics and ML development. Hands-on experience with PyTorch and/or TensorFlow for model development. Proficiency with ROS or ROS2 and integrating ML models into robotics software stacks. Experience with robotics simulation and benchmarking tools such as Gazebo, Isaac Sim, CARLA, MuJoCo, or PyBullet . Experience designing and deploying perception, motion planning, and control pipelines for autonomous systems. Experience with sensor fusion using camera, LiDAR, and IMU data. Experience with data collection pipelines, simulation environments, and reinforcement learning workflows. Strong ability to evaluate model performance and robustness across diverse real-world scenarios. Nice to Have Familiarity with reinforcement learning, imitation learning, or adaptive control techniques. Background in localization, SLAM, or advanced control systems. Passion for embodied intelligence and pushing the boundaries of autonomous systems. Eligibility Must be eligible to work in the United States without company visa sponsorship. Visa sponsorship is not available for this role. Compensation & Benefits Salary: $220,000 – $300,000 USD annually, commensurate with experience. Location On-site in Mountain View, CA. Local candidates or candidates willing to relocate are required. Remote work is not available for this position. Find more English Speaking Jobs in Germany on Arbeitnow",
-   "tags": [
-    "Engineering",
-    "Full Time"
-   ],
-   "employment_type": "",
-   "score": 55,
-   "reasons": [
-    "职位匹配: ml engineer",
-    "未要求德语",
-    "经验要求 3 年",
-    "远程岗位",
-    "+6 english speaking",
-    "+5 visa",
-    "+5 sponsorship",
-    "+4 python",
-    "+3 pytorch",
-    "+3 tensorflow"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429455+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "3e0efebeb8d3cb2c",
-   "age_hours": 44.4
-  },
-  {
-   "title": "Data Platform Engineer (m/f/d)",
-   "company": "flix",
-   "location": "Berlin",
-   "url": "https://flix.careers/job/8690650002?gh_jid=8690650002",
-   "source": "greenhouse",
-   "posted_at": "2026-08-07T07:08:22-04:00",
-   "remote": false,
-   "description": "&lt;p&gt;We’re looking for a &lt;strong&gt;Data Platform Engineer (m/f/d)&lt;/strong&gt; to join our team and help build and operate the data infrastructure that powers Flix’s mobility platform.&lt;/p&gt; &lt;p&gt;At FlixTech, our data platform enables teams across the company to process, analyze, and act on large volumes of mobility data. The platform supports critical use cases such as network planning, pricing, operations, and business analytics. You will work on scalable infrastructure that processes millions of daily events and ensures reliable data availability across the organization.&lt;/p&gt; &lt;p&gt;You’ll be part of a cross-functional engineering environment collaborating with data analysts, data scientists, and platform engineers. The role focuses on building reliable, scalable data systems and enabling other teams to work efficiently with data.&lt;/p&gt; &lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Design, build, and maintain scalable data infrastructure running on AWS and Kubernetes&lt;/li&gt; &lt;li&gt;Develop and operate streaming and data platform components using technologies such as Kafka and Snowflake&lt;/li&gt; &lt;li&gt;Implement monitoring, alerting, and operational tooling to ensure platform reliability and performance&lt;/li&gt; &lt;li&gt;Own features end-to-end, including development, testing, deployment, monitoring, and maintenance&lt;/li&gt; &lt;li&gt;Build and maintain Infrastructure as Code using Terraform and GitLab CI/CD&lt;/li&gt; &lt;li&gt;Collaborate with data analysts, data scientists, and stakeholders to support data platform use cases&lt;/li&gt; &lt;li&gt;Contribute to improving platform reliability, automation, and engineering practices&lt;/li&gt; &lt;li&gt;Participate in on-call rotations to support the stability of the data platform&lt;/li&gt; &lt;/ul&gt; &lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;About You&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;3+ years of experience building or operating data infrastructure or data platforms&lt;/li&gt; &lt;li&gt;Hands-on experience with streaming technologies such as Kafka and data warehouses like Snowflake&lt;/li&gt; &lt;li&gt;Experience with Infrastructure as Code tools (e.g., Terraform) and CI/CD pipelines (e.g., GitLab)&lt;/li&gt; &lt;li&gt;Practical experience with cloud platforms (preferably AWS) and container platforms such as Kubernetes&lt;/li&gt; &lt;li&gt;Experience with monitoring and observability tools (e.g., Datadog or similar)&lt;/li&gt; &lt;li&gt;Solid programming skills in Python and interest in writing clean, maintainable code&lt;/li&gt; &lt;li&gt;Strong collaboration and communication skills when working with technical and business stakeholders&lt;/li&gt; &lt;li&gt;Fluent in English&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Nice to have:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Experience with advanced SQL or data transformation tools (e.g., dbt)&lt;/li&gt; &lt;li&gt;Experience with data processing frameworks (e.g., PySpark)&lt;/li&gt; &lt;li&gt;Knowledge of security and networking concepts relevant for data platforms&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;We recognize that everyone carries a unique set of valuable skills and experiences. If you think you could have an impact even though you don&#39;t meet 100% of the requirements, we still encourage you to apply. We want to hear from you! &nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;What We Offer&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li style=&quot;font-size: 12pt;&quot; data-renderer-start-pos=&quot;11445&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong data-rende",
-   "tags": [],
-   "employment_type": "",
-   "score": 55,
-   "reasons": [
-    "职位匹配: data platform engineer",
-    "未要求德语",
-    "经验要求 3 年",
-    "目标城市: Berlin",
-    "+4 python",
-    "+4 sql",
-    "+2 rag",
-    "+2 spark",
-    "+3 dbt",
-    "+2 snowflake",
-    "+2 aws",
-    "+1 kubernetes",
-    "公司官网直发"
-   ],
-   "first_seen": "2026-08-09T15:18:28.429469+00:00",
-   "is_new": false,
-   "reject_reason": "",
-   "fingerprint": "f3a38bb4061e847f",
-   "age_hours": 71.9
+   "age_hours": 46.2
   },
   {
    "title": "Analytics Engineer",
@@ -214,49 +149,72 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9a294e7b2f59bbdf",
-   "age_hours": 17.7
+   "age_hours": 19.6
   },
   {
-   "title": "PySpark Data Engineer",
-   "company": "name",
-   "location": "Czechia, Switzerland",
-   "url": "https://himalayas.app/companies/joyful-craftsmen-ag/jobs/pyspark-data-engineer-156331832",
-   "source": "himalayas",
-   "posted_at": "2026-08-10T04:20:07+00:00",
-   "remote": true,
-   "description": "We are the Microsoft Data Platform Competence Center – leading experts in Microsoft data technologies. Our team has hands-on experience with the full spectrum of modern data solutions including Azure Data Factory, Synapse Analytics, Microsoft Fabric, Power BI, Purview, Azure SQL Database, Databricks, Palantir, and more. We constantly learn, experiment, and refine our engineering practices, implementing new innovations across the data ecosystem. Our team has grown to 40 specialists operating in both the Czech Republic and Switzerland . What you will do as a PySpark Data Engineer Design, build and optimize scalable data pipelines using Python & PySpark Work with modern data platforms ( Palantir Foundry / Databricks / similar ) Integrate data from finance and insurance source systems Support data delivery for analytics and reporting solutions (e.g. Power BI) Ensure data quality, reliability and performance of pipelines Collaborate with Business, Analytics and Engineering teams Support deployment, monitoring and production operations What we expect Strong experience in Python & PySpark Experience with Spark-based data platforms (Palantir Foundry is a big plus) Solid experience in data engineering and building ETL/ELT pipelines Strong knowledge of SQL and large-scale data processing Experience from financial services (insurance is preferred) Experience with Git and CI/CD pipelines Good communication skills in English What we offer you Budget for personal development (courses, conferences, certifications) Opportunity to work remotely on international projects Work from the comfort of your home or from our new design office We value our time – no overtime Access to our company library for inspiration Attractive mobile plan, Multisport card, and fuel card Barbecues on the terrace and plenty of other team events Originally posted on Himalayas",
-   "tags": [
-    "Data-Engineering",
-    "Data-Engineer",
-    "Big-Data",
-    "ETL-Developer",
-    "PySpark-Developer",
-    "Data-Pipeline-Engineer",
-    "Analytics-Engineering",
-    "Senior-Databricks-Engineer",
-    "Databricks-Engineer",
-    "Apache-Spark-Developer"
-   ],
-   "employment_type": "Full Time",
-   "score": 49,
+   "title": "Data Platform Engineer (m/f/d)",
+   "company": "flix",
+   "location": "Berlin",
+   "url": "https://flix.careers/job/8690650002?gh_jid=8690650002",
+   "source": "greenhouse",
+   "posted_at": "2026-08-07T07:08:22-04:00",
+   "remote": false,
+   "description": "&lt;p&gt;We’re looking for a &lt;strong&gt;Data Platform Engineer (m/f/d)&lt;/strong&gt; to join our team and help build and operate the data infrastructure that powers Flix’s mobility platform.&lt;/p&gt; &lt;p&gt;At FlixTech, our data platform enables teams across the company to process, analyze, and act on large volumes of mobility data. The platform supports critical use cases such as network planning, pricing, operations, and business analytics. You will work on scalable infrastructure that processes millions of daily events and ensures reliable data availability across the organization.&lt;/p&gt; &lt;p&gt;You’ll be part of a cross-functional engineering environment collaborating with data analysts, data scientists, and platform engineers. The role focuses on building reliable, scalable data systems and enabling other teams to work efficiently with data.&lt;/p&gt; &lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Design, build, and maintain scalable data infrastructure running on AWS and Kubernetes&lt;/li&gt; &lt;li&gt;Develop and operate streaming and data platform components using technologies such as Kafka and Snowflake&lt;/li&gt; &lt;li&gt;Implement monitoring, alerting, and operational tooling to ensure platform reliability and performance&lt;/li&gt; &lt;li&gt;Own features end-to-end, including development, testing, deployment, monitoring, and maintenance&lt;/li&gt; &lt;li&gt;Build and maintain Infrastructure as Code using Terraform and GitLab CI/CD&lt;/li&gt; &lt;li&gt;Collaborate with data analysts, data scientists, and stakeholders to support data platform use cases&lt;/li&gt; &lt;li&gt;Contribute to improving platform reliability, automation, and engineering practices&lt;/li&gt; &lt;li&gt;Participate in on-call rotations to support the stability of the data platform&lt;/li&gt; &lt;/ul&gt; &lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;About You&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;3+ years of experience building or operating data infrastructure or data platforms&lt;/li&gt; &lt;li&gt;Hands-on experience with streaming technologies such as Kafka and data warehouses like Snowflake&lt;/li&gt; &lt;li&gt;Experience with Infrastructure as Code tools (e.g., Terraform) and CI/CD pipelines (e.g., GitLab)&lt;/li&gt; &lt;li&gt;Practical experience with cloud platforms (preferably AWS) and container platforms such as Kubernetes&lt;/li&gt; &lt;li&gt;Experience with monitoring and observability tools (e.g., Datadog or similar)&lt;/li&gt; &lt;li&gt;Solid programming skills in Python and interest in writing clean, maintainable code&lt;/li&gt; &lt;li&gt;Strong collaboration and communication skills when working with technical and business stakeholders&lt;/li&gt; &lt;li&gt;Fluent in English&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Nice to have:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Experience with advanced SQL or data transformation tools (e.g., dbt)&lt;/li&gt; &lt;li&gt;Experience with data processing frameworks (e.g., PySpark)&lt;/li&gt; &lt;li&gt;Knowledge of security and networking concepts relevant for data platforms&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;We recognize that everyone carries a unique set of valuable skills and experiences. If you think you could have an impact even though you don&#39;t meet 100% of the requirements, we still encourage you to apply. We want to hear from you! &nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;What We Offer&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li style=&quot;font-size: 12pt;&quot; data-renderer-start-pos=&quot;11445&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong data-rende",
+   "tags": [],
+   "employment_type": "",
+   "score": 52,
    "reasons": [
-    "职位匹配: data engineer",
+    "职位匹配: data platform engineer",
     "未要求德语",
-    "未标明经验年限",
-    "目标国家: CH",
+    "经验要求 3 年",
+    "目标城市: Berlin",
     "+4 python",
     "+4 sql",
+    "+2 rag",
     "+2 spark",
-    "+2 databricks",
-    "+3 power bi",
-    "+2 azure",
-    "24 小时内发布"
+    "+3 dbt",
+    "+2 snowflake",
+    "+2 aws",
+    "+1 kubernetes",
+    "公司官网直发"
    ],
-   "first_seen": "2026-08-10T05:19:21.246885+00:00",
+   "first_seen": "2026-08-09T15:18:28.429469+00:00",
    "is_new": false,
    "reject_reason": "",
-   "fingerprint": "c193880ac05ae577",
-   "age_hours": 6.7
+   "fingerprint": "f3a38bb4061e847f",
+   "age_hours": 73.7
+  },
+  {
+   "title": "ML Engineer - Robotics",
+   "company": "Clera",
+   "location": "remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-ml-engineer-robotics-485884",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-08T14:40:22+00:00",
+   "remote": false,
+   "description": "About the Role We are a Series A AI company based in Mountain View, CA, building high-quality training and post-training data, robust reinforcement learning environments, and intelligent agents that bridge the gap between AI research and real-world execution. Our work spans multimodal data, agentic systems, and physical intelligence — and we collaborate closely with frontier AI labs and enterprises. As an ML Engineer – Robotics , you will design, train, and deploy intelligent models that power autonomous systems at the intersection of machine learning, control systems, and real-world robotics. You'll build perception, planning, and decision-making pipelines that make machines truly adaptive, solving hard, interdisciplinary problems that combine data-driven learning with real-world physical constraints. What You'll Do Develop and optimize ML models for perception, motion planning, and control. Build computer vision and sensor fusion systems using camera, LiDAR, and IMU data. Integrate learning-based models with robotics software stacks (ROS/ROS2). Design pipelines for data collection, simulation, and reinforcement learning workflows. Collaborate with robotics and hardware engineers to deploy models in live, real-world environments. Continuously evaluate model performance and robustness across diverse scenarios and deployments. What We're Looking For Required 3–8 years of professional experience in Machine Learning, Robotics, or Computer Vision. Proficiency in Python and C++ for robotics and ML development. Hands-on experience with PyTorch and/or TensorFlow for model development. Proficiency with ROS or ROS2 and integrating ML models into robotics software stacks. Experience with robotics simulation and benchmarking tools such as Gazebo, Isaac Sim, CARLA, MuJoCo, or PyBullet . Experience designing and deploying perception, motion planning, and control pipelines for autonomous systems. Experience with sensor fusion using camera, LiDAR, and IMU data. Experience with data collection pipelines, simulation environments, and reinforcement learning workflows. Strong ability to evaluate model performance and robustness across diverse real-world scenarios. Nice to Have Familiarity with reinforcement learning, imitation learning, or adaptive control techniques. Background in localization, SLAM, or advanced control systems. Passion for embodied intelligence and pushing the boundaries of autonomous systems. Eligibility Must be eligible to work in the United States without company visa sponsorship. Visa sponsorship is not available for this role. Compensation & Benefits Salary: $220,000 – $300,000 USD annually, commensurate with experience. Location On-site in Mountain View, CA. Local candidates or candidates willing to relocate are required. Remote work is not available for this position. Find Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 49,
+   "reasons": [
+    "职位匹配: ml engineer",
+    "未要求德语",
+    "经验要求 3 年",
+    "远程岗位",
+    "+5 visa",
+    "+5 sponsorship",
+    "+4 python",
+    "+3 pytorch",
+    "+3 tensorflow"
+   ],
+   "first_seen": "2026-08-09T15:18:28.429455+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "3e0efebeb8d3cb2c",
+   "age_hours": 46.2
   },
   {
    "title": "Data Engineer (all genders)",
@@ -289,7 +247,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "9c9c130a5a3b7970",
-   "age_hours": 44.1
+   "age_hours": 45.9
   },
   {
    "title": "AI Engineer, Enablement (Amsterdam)",
@@ -320,7 +278,39 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "2178de5853ea912d",
-   "age_hours": 108.8
+   "age_hours": 110.6
+  },
+  {
+   "title": "AI & Data Science Engineer (m/w/d)",
+   "company": "cigus GmbH",
+   "location": "Oberkochen",
+   "url": "https://www.arbeitnow.com/jobs/companies/cigus-gmbh/ai-data-science-engineer-oberkochen-124893",
+   "source": "arbeitnow",
+   "posted_at": "2026-08-10T11:20:15+00:00",
+   "remote": false,
+   "description": "Hochtechnologie und Innovation... …aktiv mitgestalten und vorantreiben – für diese Position suchen wir eine engagierte Persönlichkeit (m/w/d), die mit Ideenreichtum, Verantwortungsbewusstsein und fachlicher Kompetenz überzeugt. Als Beratungsunternehmen unterstützen wir unseren Kunden bei der Suche nach einer passenden Person, die Herausforderungen nicht als Hürde, sondern als spannende Möglichkeit zur Weiterentwicklung versteht. Das erwartet dich: Entwicklung und Implementierung von Datenanalyse-, Prozessoptimierungs- und Machine-Learning-Tools für innovative EUV-Messsysteme Analyse großer Datensätze und Bilddaten gemeinsam mit funktionsübergreifenden Algorithmus- und Entwicklungsteams Entwicklung neuer Methoden für Machine Learning und datenbasierte Anwendungen in der EUV-Metrologie Umsetzung von KI-Initiativen von explorativer Datenanalyse bis zu agentischen KI-Systemen Überführung von Algorithmen und ML-Modellen in wartbare, produktionsreife und kundenorientierte Softwarelösungen Steuerung und Organisation von Data-Science-Projekten zur Erschließung neuer ML-Anwendungen in der EUV-Metrologie Für diese Position sind bestimmte fachliche und persönliche Voraussetzungen hilfreich. Die folgenden Anforderungen geben dir einen Überblick darüber, welche Erfahrungen und Eigenschaften für diese Rolle von Vorteil sind. Was du mitbringen solltest: Hochschulabschluss, idealerweise Promotion, in Physik, Mathematik, Informatik, Data Science, KI oder Ingenieurwissenschaften Mindestens drei Jahre Erfahrung entlang des gesamten Data-Science- und Machine-Learning-Lebenszyklus Fundierte Kenntnisse in Datenanalyse, statistischen Methoden, Machine Learning und zugrunde liegenden Algorithmen Erfahrung mit optischer Messtechnik oder ausgeprägtes technisches Verständnis für die Verarbeitung komplexer Messdaten Sehr gute Python -Kenntnisse sowie Erfahrung mit OOD, testgetriebener und agiler Softwareentwicklung Sicherer Umgang mit Git und Azure DevOps sowie Erfahrung mit produktionsreifen ML-Lösungen Selbstständige Arbeitsweise, Kommunikations- und Teamfähigkeit sowie Deutsch- und Englischkenntnisse mindestens auf B2-Niveau Find Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Engineering",
+    "master's degree",
+    "Full-time fixed-term",
+    "mid"
+   ],
+   "employment_type": "",
+   "score": 38,
+   "reasons": [
+    "职位匹配: data science",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: CH",
+    "+4 python",
+    "+2 azure",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-08-10T12:51:45.595128+00:00",
+   "is_new": true,
+   "reject_reason": "",
+   "fingerprint": "fed464a3aca386a6",
+   "age_hours": 1.5
   },
   {
    "title": "InnoMaster Big Data Engineering - part-time Master's Program",
@@ -349,7 +339,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "a7e50f4816e2a81e",
-   "age_hours": 41.6
+   "age_hours": 43.5
   },
   {
    "title": "AI Engineer, Enablement ",
@@ -380,7 +370,7 @@
    "is_new": false,
    "reject_reason": "",
    "fingerprint": "0d2269aa98bd2bc7",
-   "age_hours": 129.4
+   "age_hours": 131.2
   },
   {
    "title": "AI Developer — Interconnect Hardware Frontend",
@@ -388,7 +378,7 @@
    "location": "China, Shanghai",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer---Interconnect-Hardware-Frontend_JR2022861-1",
    "source": "workday",
-   "posted_at": "2026-08-07T11:01:02.820668+00:00",
+   "posted_at": "2026-08-07T12:51:15.282267+00:00",
    "remote": false,
    "description": "JR2022861",
    "tags": [],
