@@ -1,0 +1,304 @@
+{
+ "generated_at": "2026-09-05T22:32:16.167331+00:00",
+ "count": 10,
+ "jobs": [
+  {
+   "title": "Machine Learning Engineer (m/f/x)",
+   "company": "caronsale",
+   "location": "Berlin",
+   "url": "https://www.arbeitnow.com/jobs/companies/caronsale/machine-learning-engineer-berlin-36406",
+   "source": "arbeitnow",
+   "posted_at": "2026-09-04T14:55:21+00:00",
+   "remote": false,
+   "description": "&lt;h1&gt;Senior Machine Learning Engineer (m/w/d)&lt;/h1&gt; &lt;p&gt;Four models in production today. Fifteen to twenty by mid-2027. The shared pipeline that gets them there has to hold — and you own everything after handoff: packaging, deployment, drift detection, and the call on whether a model is fit to serve.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Berlin Schöneberg — you work from our office, hybrid with 3 days office and 2 days home office.&lt;/p&gt; &lt;h3&gt;About us&lt;/h3&gt; &lt;p&gt;CarOnSale is the AI-powered platform for B2B used car trading in Europe. Over 40,000 buyers from more than 20 countries trade on our platform — and 85% of inventory is exclusive to us. We connect software, pricing intelligence, logistics and financing in one layer — as the operating system for an entire industry.&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;One Platform. One Profit Engine.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;h3&gt;The platform you build in&lt;/h3&gt; &lt;p&gt;Our machine learning runs on one shared, central platform — not a separate pipeline per model. Five canonical stages: data extraction, validation, transformation, training and evaluation. A Snowflake data warehouse feeds a SageMaker managed feature store, and models reach production through governed CI/CD promotion lanes on Terraform-managed AWS infrastructure. Your job is to build inside it and make it stronger, so the next model costs less to ship than the last one.&lt;/p&gt; &lt;h3&gt;Your responsibilities&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;You own models from handoff through to production: packaging, deployment, monitoring, and the decision on whether a model is ready to serve&lt;/li&gt; &lt;li&gt;You keep production models reliable — drift detection, performance monitoring, alerting and incident response when something moves&lt;/li&gt; &lt;li&gt;You own the serving and inference path: fitted pipeline artifacts, inference entry points, monitoring hooks and feature-store parity&lt;/li&gt; &lt;li&gt;You review model design and evaluation methodology before anything ships, and catch data leakage, backward-window errors and weak evaluation during development, while they are still cheap to fix&lt;/li&gt; &lt;li&gt;You extend the shared platform so it stays useful for every model, without project-specific logic leaking into shared code&lt;/li&gt; &lt;li&gt;You set the engineering standards the platform runs on as it scales across the organisation&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;What you bring&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;2+ years in production machine learning engineering, with real ownership of models after handoff — not only training them&lt;/li&gt; &lt;li&gt;Strong Python: typed, tested, production-grade code, and you review the work of others&lt;/li&gt; &lt;li&gt;Enough machine learning depth to challenge a pipeline on problem framing, feature engineering, model selection and evaluation methodology&lt;/li&gt; &lt;li&gt;Hands-on experience with a managed ML platform — SageMaker, Vertex AI, Databricks or Azure ML — plus feature stores, CI/CD for machine learning, AWS and Terraform&lt;/li&gt; &lt;li&gt;An AI-native way of working: you use tools like Claude, ChatGPT or Copilot actively in your daily work&lt;/li&gt; &lt;li&gt;English at C1 level, written and spoken. German is not required — we work in English&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Nice to have&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Snowflake and dbt — you can pick both up here&lt;/li&gt; &lt;li&gt;Experience mentoring colleagues or reviewing their work&lt;/li&gt; &lt;li&gt;Comfort operating where the answer is not defined yet&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;What to expect from us&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;Hybrid working: 3 days in office, 2 days remote – plus 25 &quot;Work from Anywhere&quot; days per year&lt;/li&gt; &lt;li&gt;28 days annual leave&lt;/li&gt; &lt;li&gt;2× annual career &amp; development conversations&lt;/li&gt; &lt;li&gt;Company pension with ",
+   "tags": [
+    "Data"
+   ],
+   "employment_type": "",
+   "score": 53,
+   "reasons": [
+    "职位匹配: machine learning engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Berlin",
+    "+8 german is not required",
+    "+4 python",
+    "+3 dbt",
+    "+2 snowflake",
+    "+2 databricks",
+    "+2 aws",
+    "+2 azure"
+   ],
+   "first_seen": "2026-09-04T17:57:36.739968+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "d1abe04d5f2b1312",
+   "age_hours": 31.6
+  },
+  {
+   "title": "Machine Learning Engineer / MLOps Engineer (m/w/d)",
+   "company": "Rockstardevelopers GmbH",
+   "location": "Stuttgart",
+   "url": "https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/machine-learning-engineer-mlops-engineer-stuttgart-493718",
+   "source": "arbeitnow",
+   "posted_at": "2026-09-04T10:17:30+00:00",
+   "remote": true,
+   "description": "Du baust produktive KI-Systeme (LLM, RAG, Agenten) für große Kunden im öffentlichen Sektor. Kein Prototyp für die Schublade, sondern Software, die im Regelbetrieb läuft. Wer wir sind Rockstardevelopers, gegründet 2015, Büros in Stuttgart und München. Aus hunderten Projekten für Enterprise- und Mittelstandskunden wissen wir, wie man Software baut, die im Ernstfall trägt. Seit einer Weile verschiebt sich unser Schwerpunkt Richtung KI: LLM-Anwendungen, RAG, Agenten-Systeme, die beim Kunden wirklich produktiv gehen. Genau dafür suchen wir dich. Worum es geht Unsere Kunden sind IT-Dienstleister im öffentlichen Sektor, ein reguliertes Umfeld mit hohen Ansprüchen an Datenschutz und Betriebssicherheit. Dort baust du KI-Lösungen in bestehende Branchenlösungen ein: Dialogsysteme, semantische Suche, RAG-Pipelines, Agenten, alles im echten Produktivbetrieb für viele Nutzer. Projektsprache ist Deutsch. Ein Wort zu Remote, weil es oft die erste Frage ist: Der Alltag läuft remote-first innerhalb der DACH-Region. Ab und zu bist du vor Ort, den Rest der Zeit arbeitest du von dort, wo du gut arbeitest. Aufgaben Produktive Daten- und ML-Pipelines entwickeln Datenaufbereitung und Modelltraining automatisieren Model Serving aufbauen und betreiben, inklusive Monitoring und Alerting ML-Modelle in Fachanwendungen integrieren ML-Modelle überwachen, Model Drift erkennen Technologischen Stack und DevOps-/MLOps-Prozesse weiterentwickeln Qualifikation Das musst du mitbringen Die folgenden sechs Punkte sind harte Voraussetzungen, jeder muss nachweisbar sein. Wenn einer davon fehlt, können wir dich leider nicht ins Rennen schicken. So ehrlich sind wir lieber vorab, als dir Zeit zu stehlen. Mindestens 3 Jahre Erfahrung in CI/CD-Entwicklung Mindestens 3 Jahre Erfahrung in Python-Entwicklung Mindestens 3 Jahre Erfahrung mit Kubernetes und Docker Mindestens 3 Jahre Berufserfahrung als Machine Learning Engineer Mindestens 3 Jahre Projektarbeit in agilen Entwicklerteams Deutsch mindestens auf C1-Niveau in Wort und Schrift, nachweisbar über ein Sprachzertifikat oder als Muttersprache Das bringst du idealerweise mit Kein Muss, aber je mehr davon, desto besser: DevOps-Zertifizierung Kubernetes-Zertifizierung Prometheus und Grafana Softwaredesign und Softwarearchitektur Kubeflow oder OpenShift AI Praktische Erfahrung mit ML-Modellen im Produktivbetrieb Jenkins und ArgoCD Erfahrung im Sozialversicherungsumfeld SAFe Benefits Echte Produktivprojekte. KI, die beim Kunden in Betrieb geht. Kein Innovation-Lab, keine Folien. Remote-first in der DACH-Region. Gelegentlich vor Ort, ansonsten arbeitest du von dort, wo du gut arbeitest. Moderner KI-Stack. RAG, Agenten, Vektorsuche, MLOps. Aktueller Stack, kein Legacy-Ballast. Internes Upskilling. Wir investieren in deine KI-Skills. MacBook Flache Hierarchien. Die Gründer sind deine direkten Ansprechpartner. Ein Team, das sich kennt, auch bei verteiltem Arbeiten. Dann bewirb dich, ein Lebenslauf reicht, ein Anschreiben brauchst du nicht. Wenn du früh verfügbar bist, ist das ein klares Plus. Wir melden uns innerhalb weniger Tage. Find Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Remote",
+    "Software Development"
+   ],
+   "employment_type": "",
+   "score": 46,
+   "reasons": [
+    "职位匹配: machine learning engineer, mlops",
+    "未要求德语",
+    "经验要求 3 年",
+    "目标城市: Stuttgart",
+    "+4 python",
+    "+3 llm",
+    "+2 rag",
+    "+2 docker",
+    "+1 kubernetes"
+   ],
+   "first_seen": "2026-09-04T10:16:47.625003+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "eaf12b9a2a4e7c9b",
+   "age_hours": 36.2
+  },
+  {
+   "title": "Data Scientist with focus Bioinformatics / Diagnostics (f/m/d - part/full-time)",
+   "company": "Staburo",
+   "location": "Munich",
+   "url": "https://www.arbeitnow.com/jobs/companies/staburo/data-scientist-with-focus-bioinformatics-diagnostics-part-full-time-munich-288185",
+   "source": "arbeitnow",
+   "posted_at": "2026-09-04T17:09:42+00:00",
+   "remote": false,
+   "description": "Your responsibilities will include Analysis of multiomics data (e.g., NGS, transcriptomics, metabolomics) in oncology / inflammation Support non-clinical / clinical development in all phases, analysis plan (e.g. SAP), reporting Implementation and reporting of exploratory biomarker analyses Serving clients with ad-hoc data analysis requests and statistical consulting Following quality and documentation standards in a GxP environment Supporting the bioinformatics/statistics team, as well as independent work in diverse and exciting projects Your profile Master’s degree / PhD in bioinformatics, computer science, or equivalent education Experience in analysing multiomics and biomarker data (e.g., NGS data including transcriptomics); gene set analysis and clustering is a plus Experience in setting up / executing bioinformatics pipelines using e.g. Nextflow, containerisation Solid knowledge and understanding of statistical concepts e.g. hypothesis testing, survival analysis, linear models, as well as experience in the application of advanced statistics visualizing, exploring and modeling multivariate data sets Very good programming skills in R / Bioconductor; Shell-scripting and Git is a plus Good overview of state-of-the-art bioinformatics tools and proven record of the ability to collect, combine and analyse complex types of data Fast comprehension, analytical thinking, teamwork and a high degree of initiative, willingness to learn Creativity and joy in solving complex analytical questions and proactive working style Very good English skills, German is an advantage What we offer you We value communication, flat hierarchies, open corporate culture, and a harmonious work environment. We offer comprehensive individual development opportunities, continuous trainings, and flexible working hours. A modern and bright office with a subsidised canteen, as well as the opportunity to work 2 days per week from home are part of our everyday working life. Full remote work from anywhere in Germany for those who do not live in Munich can be discussed. You will join an interdisciplinary team allowing you to discuss with and learn from peers with many different backgrounds. Question? If you have any questions, please feel free to contact us by e-mail . Find more English Speaking Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Data Science",
+    "Biostatistics",
+    "Clinical research",
+    "Statistical programming",
+    "Machine learning",
+    "Bioinformatics",
+    "NGS analysis",
+    "Multiomics data",
+    "Transcriptomics",
+    "Entry",
+    "Permanent",
+    "Full time"
+   ],
+   "employment_type": "",
+   "score": 36,
+   "reasons": [
+    "职位匹配: data scientist",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Munich",
+    "+6 english speaking"
+   ],
+   "first_seen": "2026-08-31T14:41:37.465778+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "4390cfa17fe6b8cb",
+   "age_hours": 29.4
+  },
+  {
+   "title": "Data Engineer",
+   "company": "Nebius",
+   "location": "Germany",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/nebius/data-engineer-472202",
+   "source": "arbeitnow",
+   "posted_at": "2026-09-05T06:55:07+00:00",
+   "remote": false,
+   "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Nebius:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.&lt;/p&gt; &lt;p&gt;Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI.&lt;/p&gt; &lt;p&gt;Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&amp;D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&amp;D.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;The role&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&nbsp;&lt;/span&gt;&lt;/h3&gt; &lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;The Data Engineering team builds and operates the data platform that powers analytics, business intelligence, operational reporting, and data-driven products across Nebius. We ingest data from internal and external systems, develop reliable transformation pipelines and data models, and make trusted datasets available to business and product teams.&lt;br&gt;&lt;br&gt;We are looking for a Senior Data Engineer to own substantial parts of our data platform and deliver complex data products end to end. You will turn ambiguous business needs into pragmatic technical solutions, make architecture and implementation trade-offs, and improve the reliability, scalability, and usability of our data ecosystem.&lt;br&gt;&lt;br&gt;You will work closely with product, platform, and business teams, helping them use data effectively while ensuring that our systems remain maintainable and trustworthy as Nebius grows.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&lt;span data-ccp-charstyle=&quot;Strong&quot;&gt;Your responsibilities&lt;/span&gt;&lt;span data-ccp-charstyle=&quot;Strong&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&quot;134233117&quot;:true,&quot;134233118&quot;:true}&quot;&gt;&nbsp;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Own the design, delivery, and operation of complex data pipelines, datasets, and platform components.&lt;/li&gt; &lt;li&gt;Translate business and analytical requirements into scalable data models, reliable data products, and clear technical plans.&lt;/li&gt; &lt;li&gt;Design and evolve data architecture, storage, processing, and orchestration patterns for large-scale workloads.&lt;/li&gt; &lt;li&gt;Improve data quality, observability, lineage, and incident response for critical datasets and pipelines.&lt;/li&gt; &lt;li&gt;Investigate and resolve challenging performance, reliability, and data-correctness issues in production.&lt;/li&gt; &lt;li&gt;Establish reusable tools, conventions, and automation that improve engineering productivity and reduce operational risk.&lt;/li&gt; &lt;li&gt;Work with product teams and business stakeholders to define data contracts, priorities, and success criteria.&lt;/li&gt; &lt;li&gt;Contribute to technical direction through design reviews, thoughtful trade-offs, and documentation.&lt;/li&gt; &lt;li&gt;Support and mentor other engineers through reviews, pairing, and knowledge sharing.&lt;/li&gt; &lt;li&gt;Participate in the on-call rotation and take ownership of improving the operational health of the systems you support.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&lt;span data-ccp-charstyle=&quot;Strong&quot;&gt;Must-haves&lt;/span&gt;&lt;span data-ccp-charstyle=&quot;Strong&quot;&gt;:&lt;/span&gt;&lt;/span&gt;",
+   "tags": [
+    "Technology"
+   ],
+   "employment_type": "",
+   "score": 34,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: Germany",
+    "+2 rag",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-09-05T09:44:44.040418+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "42c0cad4d94f2a9e",
+   "age_hours": 15.6
+  },
+  {
+   "title": "Applied Operations Research Engineer",
+   "company": "Circonomit",
+   "location": "Berlin, Germany",
+   "url": "https://www.arbeitnow.com/jobs/companies/circonomit/applied-operations-research-engineer-berlin-227233",
+   "source": "arbeitnow",
+   "posted_at": "2026-09-04T05:20:12+00:00",
+   "remote": false,
+   "description": "We are building the world's decision infrastructure: the strategic twin of every industrial organization for complex combinatorial problems. We unlocked what wasn't possible before: mapping reality with its levers and constraints into a computer, then running n-dimensional optimization on critical value-chain decisions. We help Europe stay strong and the German Mittelstand make good decisions between market shifts, orders, machines and people. Founded by Dana (CEO) and Erik (CTO) from RWTH research, backed by a €2.8M round led by Vorwerk Ventures, with customers live on our optimization models. We move fast. We care. No patience for problems left unsolved. Your mission Hi, I'm Erik, CTO of Circonomit. This ad is specific on purpose: you should be able to tell from it whether this is your job. We build decision infrastructure for industrial companies: our customers model their production, with its capacities, costs and constraints, and we compute the answer to \"what should we do?\" before the decision is made. Our engine turns that model into one artifact that both evaluates like a spreadsheet and optimizes like a solver. It sits between two worlds: the mathematics that makes the answer correct, and the product that has to make it usable by people who are not mathematicians. That bridge is your mission. You work with our math and OR team to translate real customer problems into models, and you develop the engine that runs them. We will not sugarcoat it: combinatorial search is unpredictable, customer data arrives messy, and some weeks a deadline sets the priority. What you'll own Customer models, end to end. Turn a planning problem, with its capacities, costs, lead times and shift plans, into a model whose answer a plant manager acts on. That includes the data it runs on: ERP and Excel exports, and catching the numbers that cannot be right before the customer does. The interface between software and mathematics. Our engineers, and eventually our customers, build and extend models without needing us in the room. That means deciding where the abstraction belongs and what the modeling vocabulary has to cover, then building it and keeping it standing. Answers people can act on. A planner watches the number improve, can defend it in a meeting weeks later, and still gets something usable when the honest answer is \"impossible\": which rules collide, and what it would cost to bend one. Scale in both directions. A model that answers for one site still answers when it covers twelve, over more periods, against harder constraints. And a hundred customers solving at once, none of them noticing each other. How you get there is your call. Your features from first line to production. Nobody hands you a ticket and waits. How we work Small team, short lines of communication, no layers. You own your work end to end: you build it, you ship it to production yourself, you run it. Feedback runs both ways and continuously, in daily work and in weekly one-on-ones. We talk as equals, communicate proactively, and flag it early when something isn't working out. Saying no is part of the job. We review each other's work, and we like being together in the Cologne office, because the fastest conversations still happen in a room. Modeling and engine work sit in the same person here by design. Requirements You have modeled and shipped combinatorial optimization in industry (MILP, CP, or both), with models that survived messy data, deadlines and real users. Algorithm design you have actually shipped: you know where methods and solvers reach their limits, CP-SAT and Gurobi included, and you can say which technique bought you what, from warm starts and rolling horizon to relax-and-fix, aggregation, matheuristics, or a plain heuristic when an exact solve is the wrong tool. You have run optimization workloads where someone was waiting on the answer, not only in notebooks: cancellation, timeouts and parallel solves are problems you have already solved once. Python at p",
+   "tags": [
+    "Engineering",
+    "Computer Software",
+    "Tech",
+    "Full time",
+    "mid-senior"
+   ],
+   "employment_type": "",
+   "score": 34,
+   "reasons": [
+    "职位匹配: research engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Berlin",
+    "+4 python"
+   ],
+   "first_seen": "2026-09-04T10:16:47.625321+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "fe75d2bcc74bed53",
+   "age_hours": 41.2
+  },
+  {
+   "title": "Applied Operations Research Engineer",
+   "company": "Circonomit",
+   "location": "Cologne, Germany",
+   "url": "https://www.arbeitnow.com/jobs/companies/circonomit/applied-operations-research-engineer-cologne-101455",
+   "source": "arbeitnow",
+   "posted_at": "2026-09-04T05:20:12+00:00",
+   "remote": false,
+   "description": "We are building the world's decision infrastructure: the strategic twin of every industrial organization for complex combinatorial problems. We unlocked what wasn't possible before: mapping reality with its levers and constraints into a computer, then running n-dimensional optimization on critical value-chain decisions. We help Europe stay strong and the German Mittelstand make good decisions between market shifts, orders, machines and people. Founded by Dana (CEO) and Erik (CTO) from RWTH research, backed by a €2.8M round led by Vorwerk Ventures, with customers live on our optimization models. We move fast. We care. No patience for problems left unsolved. Your mission Hi, I'm Erik, CTO of Circonomit. This ad is specific on purpose: you should be able to tell from it whether this is your job. We build decision infrastructure for industrial companies: our customers model their production, with its capacities, costs and constraints, and we compute the answer to \"what should we do?\" before the decision is made. Our engine turns that model into one artifact that both evaluates like a spreadsheet and optimizes like a solver. It sits between two worlds: the mathematics that makes the answer correct, and the product that has to make it usable by people who are not mathematicians. That bridge is your mission. You work with our math and OR team to translate real customer problems into models, and you develop the engine that runs them. We will not sugarcoat it: combinatorial search is unpredictable, customer data arrives messy, and some weeks a deadline sets the priority. What you'll own Customer models, end to end. Turn a planning problem, with its capacities, costs, lead times and shift plans, into a model whose answer a plant manager acts on. That includes the data it runs on: ERP and Excel exports, and catching the numbers that cannot be right before the customer does. The interface between software and mathematics. Our engineers, and eventually our customers, build and extend models without needing us in the room. That means deciding where the abstraction belongs and what the modeling vocabulary has to cover, then building it and keeping it standing. Answers people can act on. A planner watches the number improve, can defend it in a meeting weeks later, and still gets something usable when the honest answer is \"impossible\": which rules collide, and what it would cost to bend one. Scale in both directions. A model that answers for one site still answers when it covers twelve, over more periods, against harder constraints. And a hundred customers solving at once, none of them noticing each other. How you get there is your call. Your features from first line to production. Nobody hands you a ticket and waits. How we work Small team, short lines of communication, no layers. You own your work end to end: you build it, you ship it to production yourself, you run it. Feedback runs both ways and continuously, in daily work and in weekly one-on-ones. We talk as equals, communicate proactively, and flag it early when something isn't working out. Saying no is part of the job. We review each other's work, and we like being together in the Cologne office, because the fastest conversations still happen in a room. Modeling and engine work sit in the same person here by design. Requirements You have modeled and shipped combinatorial optimization in industry (MILP, CP, or both), with models that survived messy data, deadlines and real users. Algorithm design you have actually shipped: you know where methods and solvers reach their limits, CP-SAT and Gurobi included, and you can say which technique bought you what, from warm starts and rolling horizon to relax-and-fix, aggregation, matheuristics, or a plain heuristic when an exact solve is the wrong tool. You have run optimization workloads where someone was waiting on the answer, not only in notebooks: cancellation, timeouts and parallel solves are problems you have already solved once. Python at p",
+   "tags": [
+    "Engineering",
+    "Computer Software",
+    "Tech",
+    "Full time",
+    "mid-senior"
+   ],
+   "employment_type": "",
+   "score": 34,
+   "reasons": [
+    "职位匹配: research engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Cologne",
+    "+4 python"
+   ],
+   "first_seen": "2026-09-04T10:16:47.625362+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "0a859140f6fffb8f",
+   "age_hours": 41.2
+  },
+  {
+   "title": "Data Analyst (m/w/d)",
+   "company": "Pets Nature GmbH",
+   "location": "Fellbach",
+   "url": "https://www.arbeitnow.com/jobs/companies/pets-nature-gmbh/data-analyst-fellbach-369404",
+   "source": "arbeitnow",
+   "posted_at": "2026-09-04T12:30:32+00:00",
+   "remote": true,
+   "description": "Über die Position Als Data Analyst bildest du eine wichtige Schnittstelle zwischen Vertrieb, Marketing und Produktentwicklung. Der Schwerpunkt deiner Tätigkeit liegt in der Analyse interner Verkaufsdaten sowie externer Markt-, Wettbewerbs- und Handelsdaten. Du führst unterschiedliche Datenquellen zusammen, identifizierst relevante Entwicklungen und bereitest deine Erkenntnisse verständlich für die beteiligten Fachbereiche auf. Aus deinen Analysen leitest du konkrete Handlungsempfehlungen für Produkte, Sortimente, Verkaufsmodule und Produkteinführungen ab. Auf Basis deiner Erkenntnisse unterstützt du die datenbasierte Entwicklung und kontinuierliche Optimierung unserer Verkaufsmodule. Dabei berücksichtigst du die Performance einzelner Produkte und Produktgruppen, aktuelle Markt- und Verbrauchertrends sowie die Anforderungen unserer Kunden und Vertriebskanäle. Darüber hinaus begleitest du Produkteinführungen aus analytischer Perspektive – von der Bewertung des Marktpotenzials über die Definition geeigneter Kennzahlen bis zur Erfolgskontrolle nach dem Marktstart. Aufgaben Datenanalyse und Datenaufbereitung Analyse interner Verkaufs-, Absatz- und Umsatzdaten Auswertung externer Markt-, Wettbewerbs- und Handelsdaten, beispielsweise von Nielsen Zusammenführung und Aufbereitung von Daten aus unterschiedlichen internen und externen Quellen Analyse der Performance einzelner Produkte, Produktgruppen, Kunden, Vertriebskanäle und Verkaufsmodule Untersuchung von Absatzentwicklungen, Wachstumsraten, Marktanteilen und weiteren relevanten Kennzahlen Identifizierung von Auffälligkeiten, Zusammenhängen und Veränderungen innerhalb der Daten Durchführung regelmäßiger sowie anlassbezogener Analysen Sicherstellung einer nachvollziehbaren und konsistenten Datengrundlage Prüfung der verwendeten Daten auf Vollständigkeit, Plausibilität und Qualität Weiterentwicklung bestehender Analysemethoden und Auswertungsstrukturen Reporting und Visualisierung Erstellung und Weiterentwicklung regelmäßiger Reports, Dashboards und Kennzahlenübersichten Aufbereitung komplexer Daten und Zusammenhänge in verständlichen Präsentationen und Entscheidungsvorlagen Zielgruppengerechte Darstellung der Analyseergebnisse für Vertrieb, Marketing, Produktentwicklung und weitere Fachbereiche Regelmäßiges Reporting relevanter Entwicklungen, Chancen und Risiken Definition und Weiterentwicklung geeigneter Kennzahlen zur Bewertung von Produkten, Sortimenten und Maßnahmen Automatisierung und Standardisierung wiederkehrender Auswertungen Unterstützung der Fachbereiche bei datenbezogenen Fragestellungen Präsentation der gewonnenen Erkenntnisse und Handlungsempfehlungen Ableitung von Handlungsempfehlungen Übersetzung von Analyseergebnissen in konkrete und umsetzbare Empfehlungen Identifizierung von Wachstumsfeldern, Optimierungspotenzialen und möglichen Risiken Erkennen von Sortimentslücken, Überschneidungen und Produkten mit Optimierungsbedarf Ableitung von Empfehlungen für Produkte, Produktgruppen, Zielgruppen und Vertriebskanäle Unterstützung datenbasierter Entscheidungen in Vertrieb, Marketing und Produktentwicklung Bewertung der Auswirkungen geplanter Maßnahmen auf Absatz, Umsatz und Sortiment Nachverfolgung umgesetzter Maßnahmen und Analyse ihrer Ergebnisse Analyse und Optimierung von Verkaufsmodulen Analyse der Performance bestehender Verkaufsmodule Bewertung der Zusammensetzung der Module anhand interner Verkaufsdaten und externer Marktinformationen Identifizierung erfolgreicher Produktkombinationen sowie weniger leistungsstarker Bestandteile Entwicklung datenbasierter Empfehlungen zur Optimierung der Produktzusammensetzung Unterstützung bei der Entwicklung neuer markt-, kunden- und zielgruppengerechter Verkaufsmodule Ableitung von Empfehlungen zur Sortimentsbreite, Sortimentstiefe und Gewichtung einzelner Produkte Anpassung der Verkaufsmodule an unterschiedliche Kunden, Zielgruppen und Vertriebskanäle Bewertung neuer Produkte hinsichtlich ihrer Eignung für bestehende oder neu zu ",
+   "tags": [
+    "Remote",
+    "IT"
+   ],
+   "employment_type": "",
+   "score": 32,
+   "reasons": [
+    "职位匹配: data analyst, data analyst (m/w/d)",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: CH",
+    "+2 rag"
+   ],
+   "first_seen": "2026-09-04T14:40:11.227870+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "ca2a913733fe220c",
+   "age_hours": 34.0
+  },
+  {
+   "title": "Data Engineer, Operations Technology (all genders)",
+   "company": "hellofresh",
+   "location": "Warszawa, Masovian Voivodeship, Poland",
+   "url": "https://careers.hellofresh.com/global/en/job/8170849?gh_jid=8170849",
+   "source": "greenhouse",
+   "posted_at": "2026-09-01T11:23:40-04:00",
+   "remote": false,
+   "description": "&lt;p&gt;Work with HelloFresh in Warsaw and its HelloTech organisation, HelloFresh’s global technology backbone with more than 1000 people, building the digital products that power our end-to-end food experience. From meal kits and ready-to-eat meals to specialty offerings like pet food and premium meat &amp; seafood, HelloTech creates the platforms that bring tailored food solutions to millions of customers every month.&lt;/p&gt; &lt;p&gt;Our subscription-based, direct-to-consumer model relies on technology at every step, from customer-facing apps and personalization logic to pricing, forecasting, supply chain optimization, and initiatives that help reduce food waste. While our brands operate independently to serve distinct customer needs, they are united by shared platforms, data, and operational excellence built by HelloTech.&lt;/p&gt; &lt;p&gt;HelloTech works in autonomous, cross-functional alliances, each owning a specific product or domain end to end. By working with our Warsaw office, you will help shape scalable, data-driven products used across our markets, working with a modern tech stack and international teams to continuously improve how people discover, order, and enjoy HelloFresh’s products, today and in the future.&lt;/p&gt; &lt;h2&gt;About the Team&lt;/h2&gt; &lt;p&gt;The Supply Chain Data Engineering team powers the end-to-end operational backbone of HelloFresh across our global markets. Our core mission is to harmonize supply chain data to enable seamless, data-driven decision-making across enterprise domains - including menu planning, procurement, fulfillment, logistics. We build, scale, and maintain the foundational data assets that power critical operational processes and telemetry. Bringing together Data Engineers, Data Scientists, Operations Analysts, and Product Managers, our autonomous, cross-functional team transforms massive operational data streams into actionable intelligence to optimize forecasting, logistics, kitting, inventory, minimize food waste, and ensure the timely delivery of fresh ingredients to millions of customers worldwide.&lt;/p&gt; &lt;h2&gt;About the Role: What&#39;s in the Box&lt;/h2&gt; &lt;p&gt;As a Data Engineer in Supply Chain Operations, you will take technical ownership of the end-to-end data lifecycle—spanning system architecture, pipeline design, production development, and continuous operations. You will build and scale high-throughput batch and real-time streaming data pipelines that harmonize data streams across menu planning, forecasting, procurement, fulfillment and logistics.&lt;/p&gt; &lt;p&gt;In this role, you play a critical part in driving operational efficiency, cost optimization, and supply chain scalability by ensuring our global data infrastructure is performant, resilient, and mission-critical. Partnering closely with Data Scientists, Operations Analysts, and SCM stakeholders, you will model complex physical domain entities and engineer robust data assets that power real-time tracking,&nbsp; analytics, and automated decision-making across HelloFresh&#39;s operational business process.&lt;/p&gt; &lt;h2&gt;What You&#39;ll Do: The Recipe&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Become an integral part of a high-impact engineering team supporting global supply chain, procurement, and logistics operations.&lt;/li&gt; &lt;li&gt;Design, build, and maintain robust batch and streaming data pipelines connecting procurement systems, warehouse management systems (WMS), and logistics networks.&lt;/li&gt; &lt;li&gt;Model complex supply chain domains—including recipe component sourcing, inventory turnover, fulfillment batching, and route optimization—into clean, scalable analytical datasets.&lt;/li&gt; &lt;li&gt;Develop real-time data integrations for tracking ingredient inventory levels, order assembly status, and carrier shipment tracking across distribution centers.&lt;/li&gt; &lt;li&gt;Partner with Data Scientists and Operations Analysts to operationalize demand forecasting mod",
+   "tags": [],
+   "employment_type": "",
+   "score": 31,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: DE",
+    "+3 llm",
+    "公司官网直发"
+   ],
+   "first_seen": "2026-09-01T19:04:58.814672+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "58ab8bc040a787ca",
+   "age_hours": 103.1
+  },
+  {
+   "title": "Machine Learning Engineer",
+   "company": "adobe",
+   "location": "San Jose",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Machine-Learning-Engineer_R171645-1",
+   "source": "workday",
+   "posted_at": "2026-09-03T22:31:39.720359+00:00",
+   "remote": false,
+   "description": "R171645",
+   "tags": [],
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "职位匹配: machine learning engineer",
+    "目标国家: SE",
+    "公司官网直发"
+   ],
+   "first_seen": "2026-09-04T00:35:33.873799+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "2cb343e730b3c8d0",
+   "age_hours": 48.0
+  },
+  {
+   "title": "AI Engineer Data APIs",
+   "company": "Benzinga",
+   "location": "Remote",
+   "url": "https://remoteOK.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224",
+   "source": "remoteok",
+   "posted_at": "2026-08-30T21:00:01+00:00",
+   "remote": true,
+   "description": "Remote - Before you read further: applying to this role requires a Loom video walkthrough under 5 minutes of the best thing you have built, plus a repo or live link. Tell us the hardest problem you hit and how you solved it. Focus on architecture decisions and tradeoffs, not a f... Please mention the word **CHARMINGLY** and tag RMTMwLjEzMS4xOTUuMTM2 when applying to show you read the job post completely (#RMTMwLjEzMS4xOTUuMTM2). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "tags": [
+    "golang",
+    "video",
+    "engineer"
+   ],
+   "employment_type": "",
+   "score": 24,
+   "reasons": [
+    "职位匹配: ai engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "远程岗位"
+   ],
+   "first_seen": "2026-09-01T00:16:13.368045+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "f7edae79db83fbab",
+   "age_hours": 145.5
+  }
+ ]
+}
