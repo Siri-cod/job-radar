@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Job Radar</title>
+<style>
+:root{--bg:#0e1116;--card:#171b22;--line:#262c36;--fg:#e6edf3;--dim:#8b949e;
+      --hot:#f85149;--new:#3fb950;--acc:#58a6ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+     font:15px/1.55 -apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--dim);font-size:13px;margin-bottom:18px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;
+      padding:10px 14px;min-width:96px}
+.stat b{display:block;font-size:20px}.stat span{color:var(--dim);font-size:12px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+input,select{background:var(--card);border:1px solid var(--line);color:var(--fg);
+             border-radius:8px;padding:8px 10px;font-size:14px}
+input[type=search]{flex:1;min-width:200px}
+.plat{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.plat a{background:var(--card);border:1px solid var(--line);color:var(--acc);
+        text-decoration:none;font-size:13px;padding:6px 11px;border-radius:999px}
+.plat a:hover{border-color:var(--acc)}
+.job{background:var(--card);border:1px solid var(--line);border-radius:12px;
+     padding:14px 16px;margin-bottom:10px}
+.job.isnew{border-color:#2ea04366;box-shadow:inset 3px 0 0 var(--new)}
+.jt{font-size:16px;font-weight:600;margin:0 0 4px}
+.jt a{color:var(--fg);text-decoration:none}.jt a:hover{color:var(--acc)}
+.meta{color:var(--dim);font-size:13px;display:flex;gap:10px;flex-wrap:wrap}
+.tags{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:11px;border:1px solid var(--line);border-radius:999px;
+     padding:2px 8px;color:var(--dim)}
+.badge{font-size:11px;border-radius:999px;padding:2px 8px;font-weight:600}
+.b-new{background:#2ea04326;color:var(--new)}
+.b-hot{background:#f8514926;color:var(--hot)}
+.b-score{background:#58a6ff22;color:var(--acc)}
+.apply{float:right;background:var(--acc);color:#04121f;text-decoration:none;
+       font-size:13px;font-weight:600;padding:6px 14px;border-radius:8px}
+.empty{color:var(--dim);text-align:center;padding:48px 0}
+</style></head><body><div class="wrap">
+<h1>Job Radar</h1>
+<div class="sub">最近更新：2026-09-12 19:56 UTC · 每小时自动抓取 · 数据源：公司官网 ATS + 免费公开岗位 API</div>
+<div class="stats">
+  <div class="stat"><b id="s-total">0</b><span>符合条件</span></div>
+  <div class="stat"><b id="s-24h" style="color:var(--hot)">0</b><span>24 小时内</span></div>
+  <div class="stat"><b id="s-new" style="color:var(--new)">0</b><span>本次新增</span></div>
+  <div class="stat"><b id="s-src">0</b><span>数据源</span></div>
+</div>
+<div class="plat"><a href="https://www.linkedin.com/jobs/search/?keywords=AI%20Engineer&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · AI Engineer · 24h</a><a href="https://www.stepstone.de/jobs/AI-Engineer?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · AI Engineer · 24h</a><a href="https://de.indeed.com/jobs?q=AI%20Engineer&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · AI Engineer · 24h</a><a href="https://www.xing.com/jobs/search?keywords=AI%20Engineer&sort=date" target="_blank" rel="noopener">Xing · AI Engineer · 24h</a><a href="https://www.linkedin.com/jobs/search/?keywords=Machine%20Learning%20Engineer&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · Machine Learning Engineer · 24h</a><a href="https://www.stepstone.de/jobs/Machine-Learning-Engineer?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · Machine Learning Engineer · 24h</a><a href="https://de.indeed.com/jobs?q=Machine%20Learning%20Engineer&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · Machine Learning Engineer · 24h</a><a href="https://www.xing.com/jobs/search?keywords=Machine%20Learning%20Engineer&sort=date" target="_blank" rel="noopener">Xing · Machine Learning Engineer · 24h</a><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · Data Scientist · 24h</a><a href="https://www.stepstone.de/jobs/Data-Scientist?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · Data Scientist · 24h</a><a href="https://de.indeed.com/jobs?q=Data%20Scientist&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · Data Scientist · 24h</a><a href="https://www.xing.com/jobs/search?keywords=Data%20Scientist&sort=date" target="_blank" rel="noopener">Xing · Data Scientist · 24h</a><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · Data Analyst · 24h</a><a href="https://www.stepstone.de/jobs/Data-Analyst?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · Data Analyst · 24h</a><a href="https://de.indeed.com/jobs?q=Data%20Analyst&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · Data Analyst · 24h</a><a href="https://www.xing.com/jobs/search?keywords=Data%20Analyst&sort=date" target="_blank" rel="noopener">Xing · Data Analyst · 24h</a><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Engineer&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · Data Engineer · 24h</a><a href="https://www.stepstone.de/jobs/Data-Engineer?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · Data Engineer · 24h</a><a href="https://de.indeed.com/jobs?q=Data%20Engineer&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · Data Engineer · 24h</a><a href="https://www.xing.com/jobs/search?keywords=Data%20Engineer&sort=date" target="_blank" rel="noopener">Xing · Data Engineer · 24h</a></div>
+<div class="bar">
+  <input type="search" id="q" placeholder="搜索职位 / 公司 / 地点…">
+  <select id="fresh">
+    <option value="9999">全部时间</option>
+    <option value="24">24 小时内</option>
+    <option value="72">3 天内</option>
+    <option value="168" selected>7 天内</option>
+  </select>
+  <select id="src"><option value="">全部来源</option></select>
+  <select id="sort">
+    <option value="score">按匹配度排序</option>
+    <option value="date">按发布时间排序</option>
+  </select>
+</div>
+<div id="list"></div>
+</div>
+<script>
+const JOBS = [{"title": "AI Engineer - Data", "company": "Almedia", "location": "Berlin", "url": "https://www.arbeitnow.com/jobs/companies/almedia/ai-engineer-data-berlin-450785", "source": "arbeitnow", "posted_at": "2026-09-11T23:40:15+00:00", "remote": false, "tags": ["Tech", "Full Time"], "employment_type": "", "score": 60, "reasons": ["职位匹配: ai engineer", "未要求德语", "未标明经验年限", "目标城市: Berlin", "+4 relocation", "+4 python", "+4 sql", "+3 langchain", "+3 llm", "+2 rag", "+2 bigquery", "+2 aws", "+2 gcp", "24 小时内发布"], "first_seen": "2026-09-12T02:25:09.663647+00:00", "is_new": false, "reject_reason": "", "fingerprint": "84ef5e5adacfd070", "age_hours": 20.3}, {"title": "Data Scientist (f/m/d)", "company": "Pair", "location": "Berlin (Hybrid)", "url": "https://www.arbeitnow.com/jobs/companies/pair/data-scientist-berlin-hybrid-47229", "source": "arbeitnow", "posted_at": "2026-09-11T23:09:30+00:00", "remote": false, "tags": ["data science", "machine learning", "AI", "LLM", "Experienced", "Permanent", "Full time"], "employment_type": "", "score": 60, "reasons": ["职位匹配: data scientist", "未要求德语", "经验要求 2 年", "目标城市: Berlin", "+6 english speaking", "+4 python", "+4 sql", "+3 pytorch", "+2 scikit-learn", "+3 llm", "+2 aws", "24 小时内发布"], "first_seen": "2026-08-27T13:25:53.793855+00:00", "is_new": false, "reject_reason": "", "fingerprint": "b0b388ed5bb3cd68", "age_hours": 20.8}, {"title": "Data Engineer (m/f/d)", "company": "Ecoplanet Green Operations Gmbh", "location": "München", "url": "https://www.arbeitnow.com/jobs/companies/ecoplanet-green-operations-gmbh/data-engineer-munchen-63681", "source": "arbeitnow", "posted_at": "2026-09-12T05:09:37+00:00", "remote": false, "tags": ["Data Engineering", "Experienced", "Permanent", "Full time"], "employment_type": "", "score": 47, "reasons": ["职位匹配: data engineer", "未要求德语", "未标明经验年限", "目标城市: München", "+5 german is a plus", "+4 python", "+4 sql", "24 小时内发布"], "first_seen": "2026-08-30T02:46:31.433227+00:00", "is_new": false, "reject_reason": "", "fingerprint": "8f7963486992fe26", "age_hours": 14.8}, {"title": "Stage Data Analyst - Paris (H/F/X)", "company": "Artefact", "location": "9th arrondissement of Paris, 75009, Paris", "url": "https://www.arbeitnow.fr/jobs/companies/artefact/stage-data-analyst-paris-9th-arrondissement-of-paris-75009-paris-123583", "source": "arbeitnow", "posted_at": "2026-09-11T22:55:04+00:00", "remote": false, "tags": ["Data Analytics"], "employment_type": "", "score": 45, "reasons": ["职位匹配: data analyst", "未要求德语", "未标明经验年限", "目标国家: SE", "+4 sql", "+3 tableau", "+2 aws", "+2 gcp", "+2 azure", "24 小时内发布"], "first_seen": "2026-09-11T23:44:56.010334+00:00", "is_new": false, "reject_reason": "", "fingerprint": "b95956c4e0663494", "age_hours": 21.0}, {"title": "Geospatial Data Analyst (f/m/x) in the field of AI & Satellite Data", "company": "LiveEO GmbH", "location": "LiveEO GmbH Berlin Office (Hybrid)", "url": "https://www.arbeitnow.com/jobs/companies/liveeo-gmbh/geospatial-data-analyst-in-the-field-of-ai-satellite-data-liveeo-gmbh-berlin-office-hybrid-99091", "source": "arbeitnow", "posted_at": "2026-09-12T11:09:54+00:00", "remote": false, "tags": ["Experienced", "Temporary", "Full time"], "employment_type": "", "score": 44, "reasons": ["职位匹配: data analyst", "未要求德语", "未标明经验年限", "目标城市: Berlin", "+4 python", "+4 sql", "+2 aws", "24 小时内发布"], "first_seen": "2026-08-20T03:40:44.457510+00:00", "is_new": false, "reject_reason": "", "fingerprint": "8837438d56a8d92f", "age_hours": 8.8}, {"title": "Stage Data Analyst - Paris (H/F/X)", "company": "Artefactlinkedin", "location": "9th arrondissement of Paris, 75009, Paris", "url": "https://www.arbeitnow.fr/jobs/companies/artefactlinkedin/stage-data-analyst-paris-9th-arrondissement-of-paris-75009-paris-51047", "source": "arbeitnow", "posted_at": "2026-09-11T22:55:13+00:00", "remote": false, "tags": ["Data Analytics"], "employment_type": "", "score": 41, "reasons": ["职位匹配: data analyst", "未要求德语", "未标明经验年限", "目标国家: SE", "+3 tableau", "+2 aws", "+2 gcp", "+2 azure", "24 小时内发布"], "first_seen": "2026-09-11T23:44:56.010591+00:00", "is_new": false, "reject_reason": "", "fingerprint": "7a9e70f3c004b277", "age_hours": 21.0}, {"title": "Stage Data Scientist - Paris (H/F/X)", "company": "Artefactlinkedin", "location": "9th arrondissement of Paris, 75009, Paris", "url": "https://www.arbeitnow.fr/jobs/companies/artefactlinkedin/stage-data-scientist-paris-9th-arrondissement-of-paris-75009-paris-141837", "source": "arbeitnow", "posted_at": "2026-09-09T22:56:04+00:00", "remote": false, "tags": ["Data Science"], "employment_type": "", "score": 39, "reasons": ["职位匹配: data scientist", "未要求德语", "未标明经验年限", "目标国家: SE", "+5 junior", "+2 aws", "+2 gcp", "+2 azure"], "first_seen": "2026-09-09T23:43:33.626923+00:00", "is_new": false, "reject_reason": "", "fingerprint": "36ecb24a68af9840", "age_hours": 69.0}, {"title": "Financial Data Analyst ", "company": "stripe", "location": "LOCATION", "url": "https://stripe.com/jobs/search?gh_jid=8185294", "source": "greenhouse", "posted_at": "2026-09-09T13:48:42-04:00", "remote": false, "tags": [], "employment_type": "", "score": 38, "reasons": ["职位匹配: data analyst", "未要求德语", "未标明经验年限", "目标国家: AT", "+4 python", "+4 sql", "+2 rag", "公司官网直发"], "first_seen": "2026-09-09T18:17:16.702607+00:00", "is_new": false, "reject_reason": "", "fingerprint": "cd5205f0effb1394", "age_hours": 74.1}, {"title": "Machine Learning Engineer / ML Engineer - Roleplay Sessions", "company": "synthesia", "location": "Remote", "url": "https://jobs.ashbyhq.com/synthesia/637a0f3b-fd23-409a-b66b-917d1411d56e", "source": "ashby", "posted_at": "2026-09-09T06:43:59.378000+00:00", "remote": false, "tags": ["Engineering", "Engineering"], "employment_type": "FullTime", "score": 33, "reasons": ["职位匹配: machine learning engineer, ml engineer", "未要求德语", "经验要求 2 年", "远程岗位", "+2 rag", "公司官网直发"], "first_seen": "2026-09-09T10:30:40.677976+00:00", "is_new": false, "reject_reason": "", "fingerprint": "63e3db0e2c3c0bbf", "age_hours": 85.2}, {"title": "Research Engineer, Takeoff Intel", "company": "anthropic", "location": "Remote-Friendly (Travel Required) | San Francisco, CA", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416882008", "source": "greenhouse", "posted_at": "2026-09-08T13:00:27-04:00", "remote": true, "tags": [], "employment_type": "", "score": 33, "reasons": ["职位匹配: research engineer", "未要求德语", "未标明经验年限", "目标国家: IE", "+5 junior", "公司官网直发"], "first_seen": "2026-09-08T19:45:31.147720+00:00", "is_new": false, "reject_reason": "", "fingerprint": "c85f5d83e656ad65", "age_hours": 98.9}, {"title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)", "company": "anthropic", "location": "Zürich, CH", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412334008", "source": "greenhouse", "posted_at": "2026-09-07T04:25:53-04:00", "remote": false, "tags": [], "employment_type": "", "score": 33, "reasons": ["职位匹配: research engineer", "未要求德语", "未标明经验年限", "目标城市: Zürich", "+3 llm", "公司官网直发"], "first_seen": "2026-09-07T16:57:36.905242+00:00", "is_new": false, "reject_reason": "", "fingerprint": "343bc0c069290a87", "age_hours": 131.5}, {"title": "Security Research Engineer, AI Safety and Security Engineering", "company": "nvidia", "location": "6 Locations", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Security-Research-Engineer--AI-Safety-and-Security-Engineering_JR2021887", "source": "workday", "posted_at": "2026-09-11T19:56:26.878172+00:00", "remote": false, "tags": [], "employment_type": "", "score": 25, "reasons": ["职位匹配: research engineer", "目标国家: AT", "公司官网直发"], "first_seen": "2026-09-11T21:29:42.977772+00:00", "is_new": false, "reject_reason": "", "fingerprint": "179d114d0d8bf5ce", "age_hours": 24.0}, {"title": "Applied AI Engineer", "company": "nvidia", "location": "6 Locations", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Applied-AI-Engineer_JR2018181-1", "source": "workday", "posted_at": "2026-09-11T19:56:26.878148+00:00", "remote": false, "tags": [], "employment_type": "", "score": 25, "reasons": ["职位匹配: ai engineer", "目标国家: AT", "公司官网直发"], "first_seen": "2026-08-11T19:57:31.837620+00:00", "is_new": false, "reject_reason": "", "fingerprint": "ab5ccac43ae758ee", "age_hours": 24.0}, {"title": "Applied AI Engineer", "company": "nvidia", "location": "4 Locations", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Applied-AI-Engineer_JR2018178-3", "source": "workday", "posted_at": "2026-09-11T19:56:26.878133+00:00", "remote": false, "tags": [], "employment_type": "", "score": 25, "reasons": ["职位匹配: ai engineer", "目标国家: AT", "公司官网直发"], "first_seen": "2026-08-24T23:16:24.349120+00:00", "is_new": false, "reject_reason": "", "fingerprint": "478a3349c2e61dc8", "age_hours": 24.0}, {"title": "Machine Learning Engineer", "company": "adobe", "location": "San Jose", "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Machine-Learning-Engineer_R171718", "source": "workday", "posted_at": "2026-09-11T19:56:22.764655+00:00", "remote": false, "tags": [], "employment_type": "", "score": 25, "reasons": ["职位匹配: machine learning engineer", "目标国家: SE", "公司官网直发"], "first_seen": "2026-09-04T00:35:33.873799+00:00", "is_new": false, "reject_reason": "", "fingerprint": "2cb343e730b3c8d0", "age_hours": 24.0}];
+const $ = s => document.querySelector(s);
+const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ago = h => h>=9999 ? "时间未知" : h<1 ? "刚刚" : h<24 ? Math.round(h)+" 小时前"
+                 : Math.round(h/24)+" 天前";
+
+const srcs = [...new Set(JOBS.map(j=>j.source))].sort();
+srcs.forEach(s => $("#src").insertAdjacentHTML("beforeend", `<option value="${s}">${s}</option>`));
+$("#s-src").textContent = srcs.length;
+$("#s-24h").textContent = JOBS.filter(j=>j.age_hours<=24).length;
+$("#s-new").textContent = JOBS.filter(j=>j.is_new).length;
+
+function render(){
+  const q = $("#q").value.toLowerCase().trim();
+  const maxAge = +$("#fresh").value, src = $("#src").value, sort = $("#sort").value;
+  let rows = JOBS.filter(j =>
+    j.age_hours <= maxAge &&
+    (!src || j.source === src) &&
+    (!q || (j.title+" "+j.company+" "+j.location).toLowerCase().includes(q)));
+  rows.sort((a,b) => sort==="score" ? b.score-a.score || a.age_hours-b.age_hours
+                                    : a.age_hours-b.age_hours || b.score-a.score);
+  $("#s-total").textContent = rows.length;
+  $("#list").innerHTML = rows.length ? rows.map(card).join("")
+    : '<div class="empty">没有符合条件的岗位。放宽筛选，或在 config.yaml 里调整关键词。</div>';
+}
+function card(j){
+  return `<div class="job ${j.is_new?'isnew':''}">
+    <a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener">去投递 →</a>
+    <div class="jt"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div>
+    <div class="meta">
+      <span>🏢 ${esc(j.company)}</span><span>📍 ${esc(j.location||"—")}</span>
+      <span>🕒 ${ago(j.age_hours)}</span><span>🔗 ${esc(j.source)}</span>
+    </div>
+    <div class="tags">
+      ${j.is_new?'<span class="badge b-new">新发现</span>':''}
+      ${j.age_hours<=24?'<span class="badge b-hot">24h 内</span>':''}
+      <span class="badge b-score">匹配 ${j.score}</span>
+      ${(j.reasons||[]).slice(0,5).map(r=>`<span class="tag">${esc(r)}</span>`).join("")}
+    </div></div>`;
+}
+["q","fresh","src","sort"].forEach(id => {
+  $("#"+id).addEventListener(id==="q"?"input":"change", render);
+});
+render();
+</script></body></html>
