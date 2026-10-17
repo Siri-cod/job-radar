@@ -1,0 +1,898 @@
+{
+ "generated_at": "2026-10-17T19:55:28.732978+00:00",
+ "count": 29,
+ "jobs": [
+  {
+   "title": "Junior Data Scientist",
+   "company": "Almedia",
+   "location": "Berlin",
+   "url": "https://www.arbeitnow.com/jobs/companies/almedia/junior-data-scientist-berlin-448340",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-17T11:40:16+00:00",
+   "remote": false,
+   "description": "This isn’t your regular job. Almedia is a place where those who want to push harder can accelerate their careers faster than anywhere else. We’re aiming to become Germany’s second bootstrapped unicorn. Almedia is already Europe’s #3 fastest-growing company in 2025 (FT1000). We are building the future of marketing by rewarding our community of over 95 million users for engaging with our advertisers’ products. We are offering a new way to acquire users for the biggest companies in the world. Berlin, On-site €60K – €85K + Equity Most Junior Data Scientists spend their first years building dashboards and reporting on what already happened. Here, you'll work on models that run in production and shape what millions of users see every day. You'll join a small team of people who have built and shipped ML systems at scale, and learn from them directly. You get real problems from week one, and the support to solve them. Show us you can own more, and we'll give you more. What You'll Do 🎯 Build models that predict user value, engagement and reward behaviour, and see them live in our product Run A/B tests on offers, rewards and ranking, and work out what actually caused the result Build and fix the data pipelines your models depend on Take on new problems with no playbook yet, from first idea to production What You'll Bring 💡 Strong Python and SQL. You use AI tools to move faster, and you still check the output You get going on a vague problem without waiting for a spec, and you take it further than you were asked You quickly see which number matters and which question to answer first Proof that you aim high: a project, result or choice where you went past \"good enough\" when nobody asked you to Bonus: a strong result in a Kaggle challenge, hackathon or competition, or a system you built and fixed yourself when it broke Why Almedia A small, selective team of very sharp people. We keep it small on purpose, so every hire raises the bar Equity in Almedia. Every Berlin-based employee gets a stake, so you share in what you help build Top-of-market pay as the baseline. Outlier impact gets paid accordingly Small team, high bar. If that sounds like home, apply. We believe in fostering talent, evaluating all skill levels during the hiring process, and providing a clear path for growth. Almedia is an equal opportunity employer. We embrace and celebrate diversity, and encourage individuals from all backgrounds to apply. Compensation: €60K – €85K • Exceptional commitment deserves exceptional reward • €60K – €85K • Exceptional commitment deserves exceptional reward Find more English Speaking Jobs in Germany on Arbeitnow",
+   "tags": [
+    "Tech",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 55,
+   "reasons": [
+    "职位匹配: data scientist",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Berlin",
+    "+6 english speaking",
+    "+5 junior",
+    "+4 python",
+    "+4 sql",
+    "+2 rag",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-10-17T14:45:05.484700+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "06246e6375a4ecba",
+   "age_hours": 8.3
+  },
+  {
+   "title": "Data Engineer - Data Platform & Ontology (m/f/d)",
+   "company": "Statista",
+   "location": "Hamburg or Berlin",
+   "url": "https://www.arbeitnow.com/jobs/companies/statista/data-engineer-data-platform-ontology-hamburg-or-berlin-119444",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T23:40:22+00:00",
+   "remote": false,
+   "description": "At Statista , we’re all about facts and data, for we are the world's leading business data platform. By providing reliable and easy-to-use data as well as various data analytics products and services, we empower people worldwide to make fact-based decisions. Founded in Hamburg in 2007, we have quickly grown into a global company with offices in major cities such as London, New York, Berlin and Tokyo. And we still have a lot of plans. Our constant growth does not only prove our success, but also keeps creating new development and career opportunities for our employees. We value and celebrate our diverse culture. You are welcome here for who you are, no matter where you come from, what you look like, or whether you prefer bar graphs to pie charts. Your story matters – keep writing it as part of our team. Are you ready to join us? About the Role As Data Engineer on our Healthcare Platform, you will own the foundational data ingestion, entity-resolution, and platform infrastructure end-to-end. You will design and operate scalable batch/streaming data pipelines, harden platform orchestration, and ensure system reliability, security, and cost efficiency. A central challenge of this role is building and operationalizing our unified healthcare data ontology —a consistent semantic model covering hospitals, departments, specialties, metrics, and classification standards. Working closely with Analytics Engineers, Data Scientists, and Methodology experts, you will turn heterogeneous, multi-country hospital data into a coherent, highly queryable data asset. Key Responsibilities Pipeline Infrastructure & Orchestration: Build, optimize, and operate reliable ELT pipelines (using Python, SQL, and Prefect/Airflow) to ingest data from heterogeneous international sources, APIs, databases, and lakehouse storage (S3, Apache Iceberg). Healthcare Ontology & Entity Resolution: Drive the implementation of entity resolution and master data management (MDM) for international hospital entities, mapping raw source data to canonical structures and maintaining standardized vocabularies (e.g., ICD/OPS, specialty taxonomies). Data Contracts & Schema Governance: Establish strict data contracts (Pydantic, dbt contracts) and schema management, ensuring dataset reproducibility, data lineage tracking, and automated validation across all platform pipelines. Platform Efficiency & Cloud Infrastructure: Optimize data storage, query execution, and compute costs across AWS and Snowflake, keeping data assets performant, secure, and cost-effective. Automation & CI/CD: Implement automated testing and deployment workflows for data pipelines using GitHub Actions and Infrastructure as Code (Terraform). Cross-Functional Data Enablement: Partner directly with Analytics Engineers, Data Scientists, and domain experts to deliver documented, research-grade, and production-ready datasets. Qualifications Core Requirements (Must-Haves) Data Ingestion & Pipeline Orchestration: Advanced Python and analytical SQL for complex data ingestion across diverse file formats, REST APIs, databases, and cloud lakes (S3/Iceberg). Hands-on experience with modern orchestrators (Prefect, Airflow, or Dagster). Entity Resolution & Data Governance: Practical experience with entity resolution/record linkage frameworks (e.g., Splink, dedupe, recordlinkage) and schema management/data contracts (Pydantic, dbt contracts, or JSON Schema). Cloud Platform & Warehouse Infrastructure: Deep hands-on experience in an AWS production environment (S3, ECS/EC2) combined with cloud data warehouses (Snowflake). Automated CI/CD & Workflow Automation: Proven track record of automating data pipeline deployments, integration tests, and validation workflows via GitHub Actions. Nice-to-Haves (What Will Make You Stand Out) Knowledge Graphs & Healthcare Terminologies: Exposure to ontology/semantic frameworks (RDF/OWL, SKOS, Neo4j, LinkML) or international medical classifications/vocabularies (SNOMED CT, ICD/OPS, FHIR). Metadata & ",
+   "tags": [
+    "Healthcare",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 54,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Berlin",
+    "+4 python",
+    "+4 sql",
+    "+2 rag",
+    "+3 dbt",
+    "+3 airflow",
+    "+2 snowflake",
+    "+2 aws",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-08-27T13:25:53.793920+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "83c7a0c5c0a42d6d",
+   "age_hours": 20.3
+  },
+  {
+   "title": "Data Engineer H/F",
+   "company": "capco",
+   "location": "Germany",
+   "url": "https://www.arbeitnow.fr/jobs/companies/capco/data-engineer-h-f-393580",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-15T23:55:15+00:00",
+   "remote": false,
+   "description": "&lt;p&gt;&lt;/p&gt; &lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Capco France recherche des &lt;strong&gt;Data Engineers&lt;/strong&gt; pour accompagner les acteurs majeurs des services financiers dans la conception et la mise en œuvre de plateformes et solutions data modernes, robustes et évolutives.&lt;/p&gt; &lt;p&gt;Au sein de notre Practice &lt;strong&gt;Data &amp; Analytics&lt;/strong&gt;, vous interviendrez sur des projets de transformation à fort impact, de la conception des architectures et pipelines de données jusqu’à leur mise en production et leur optimisation.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Ce que vous ferez&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Concevoir, développer et maintenir des pipelines de données robustes et évolutifs permettant d’ingérer, transformer et mettre à disposition des données issues de sources multiples.&lt;/li&gt; &lt;li&gt;Participer à la conception et à l’évolution d’architectures data modernes, notamment dans des environnements Cloud, en tenant compte des enjeux de performance, de sécurité et de scalabilité.&lt;/li&gt; &lt;li&gt;Garantir la qualité, la fiabilité et l’observabilité des données grâce à des pratiques de tests, monitoring, documentation et automatisation.&lt;/li&gt; &lt;li&gt;Collaborer avec les équipes Data, Cloud, Architecture et métiers afin de transformer les besoins fonctionnels en solutions techniques performantes et maintenables.&lt;/li&gt; &lt;li&gt;Utiliser de manière responsable les outils d’IA et d’automatisation approuvés pour accélérer le développement, les tests, la documentation ou l’analyse des incidents, avec revue humaine et respect des standards de sécurité et de gouvernance&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Ce que nous recherchons&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Une expérience significative en &lt;strong&gt;Data Engineering, minimum 5 ans&lt;/strong&gt;, avec une bonne maîtrise de Python et SQL et une expérience dans la conception de pipelines de données.&lt;/li&gt; &lt;li&gt;Une expérience des technologies et architectures data modernes, ainsi que d’au moins un environnement Cloud tel qu’AWS, Azure ou GCP.&lt;/li&gt; &lt;li&gt;Une bonne compréhension des problématiques de modélisation, transformation, qualité et gouvernance des données.&lt;/li&gt; &lt;li&gt;Une capacité à collaborer avec des profils techniques et métiers, à résoudre des problématiques complexes et à communiquer clairement les choix techniques.&lt;/li&gt; &lt;li&gt;Une curiosité pour les usages de l’IA et des workflows AI-enabled appliqués au Data Engineering, avec une attention portée à la sécurité, à la qualité, à la traçabilité et à la validation humaine.&lt;/li&gt; &lt;li&gt;Capacité à évoluer dans des environnements complexes, réglementés et internationaux, avec une excellente communication en français et en anglais.&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;&lt;strong&gt;Atouts supplémentaires&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Une expérience avec des technologies telles que &lt;strong&gt;Spark, Databricks, Snowflake, Kafka ou dbt&lt;/strong&gt;.&lt;/li&gt; &lt;li&gt;Une pratique des principes &lt;strong&gt;DataOps, CI/CD, Infrastructure as Code&lt;/strong&gt; ou des approches d’automatisation appliquées aux plateformes data.&lt;/li&gt; &lt;li&gt;Une expérience dans la banque, les marchés de capitaux, l’assurance ou plus largement les services financiers.&lt;/li&gt; &lt;li&gt;Une connaissance des problématiques de sécurité, gouvernance, lineage et protection des données dans des environnements réglementés.&lt;/li&gt; &lt;li&gt;Une expérience pratique de l’utilisation de Generative AI ou Agentic AI pour améliorer des workflows d’ingénierie, avec des mécanismes appropriés de revue, contrôle et traçabilité.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Pourquoi rejoindre Capco ?&nbsp;&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;",
+   "tags": [
+    "Tech & Engineering"
+   ],
+   "employment_type": "",
+   "score": 51,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: Germany",
+    "+4 python",
+    "+4 sql",
+    "+2 spark",
+    "+3 dbt",
+    "+2 snowflake",
+    "+2 databricks",
+    "+2 aws",
+    "+2 gcp",
+    "+2 azure"
+   ],
+   "first_seen": "2026-10-16T02:30:20.074212+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "77fdc93261aed375",
+   "age_hours": 44.0
+  },
+  {
+   "title": "Junior Data Engineer",
+   "company": "IG&H",
+   "location": "Utrecht, Utrecht, Nederland",
+   "url": "https://www.arbeitnow.nl/jobs/companies/igh/junior-data-engineer-utrecht-90566",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T20:32:31+00:00",
+   "remote": false,
+   "description": "Bij IG&H helpen we onze klanten om voorop te blijven lopen in hun markt. Dat doen we door slimme technologie, data en consultancy te combineren in een wereld die continu verandert. We werken samen, doorbreken silo’s en bouwen oplossingen waar organisaties écht verder mee komen. Sta jij aan het begin van je carrière als Data Engineer en wil je hieraan bijdragen? Dan maken we graag kennis met je. We zijn op zoek naar een Data Engineer om datagedreven producten te ontwerpen, te bouwen en een nieuwe databackbone te creëren voor onze data science-projecten. De Data Engineer zal de lead nemen om onze klanten naar het volgende niveau van datahandling en data-automatiseringsmogelijkheden te brengen. Verder zal je (technische) leiderschapsvaardigheden, ervaring en visie toepassen om efficiënte datatoepassingen te creëren. Wij zoeken iemand die: Onder begeleiding meewerkt aan het ontwerpen en bouwen van herbruikbare datamodellen en data-oplossingen Datapijplijnen ontwikkelt of onderhoudt (zoals ETL/ELT-processen) en meewerkt aan het opzetten van data lakes en data warehouses Interesse heeft in het toepassen van analysemethoden en deze stap voor stap in de praktijk leert gebruiken Wil leren werken met cloudinfrastructuur en bijbehorende data-platformen Zich wil ontwikkelen binnen een commercieel gerichte en/of consultingomgeving Graag samenwerkt in teamverband met collega’s met verschillende expertises Zich prettig voelt in een omgeving met gemotiveerde mensen die samen streven naar hoge kwaliteit voor klanten Over het Data & AI team Wij helpen onze klanten innoveren en gebruikmaken van de nieuwste data- en AI-technologie. Het Data & AI-team bestaat uit 30 data-experts (Data Scientisten, Analisten en Consultants) die nauw samenwerken met de 30 engineers in ons Technology-team en nog eens 20 datawetenschappers bij de zusterbedrijven van IG&H. Het team levert data science en analytische projecten en heeft in de afgelopen twee jaar meer dan 40 (Gen)AI-projecten gerealiseerd voor onze klanten in Retail, Financial Services en Health. Wat breng je mee: Jij hebt een BSc of MSc diploma in een technisch veld, zoals Data Science, Computer Science, Fysica of Engineering. Jij hebt 0 tot 2 jaar werkervaring. Jij beheerst de Nederlandse en Engelse taal uitstekend, zowel mondeling als schriftelijk. Jij hebt een engineering mindset, een passie voor data en datatechnologie, en een ambitie om jezelf verder te ontwikkelen. Jij hebt enige ervaring met SQL, Python en data processing frameworks en pakketten zoals PySpark en Pandas. Jij hebt enige ervaring met Databricks, Snowflake of vergelijkbare dataplatformtechnologien. Jij bent bekend met het ontwerpen en bouwen van deployment pipelines in Azure DevOps of GitHub Actions. Jij hebt enige ervaring met werken volgens DevOps-methodologieën. Wat wij jou bieden: Werken bij een Great Place to Work met een prettige sfeer en enthousiaste collega's die je ondersteunen; Mooie kans om een actieve bijdrage te leveren aan de verdere (internationale) groei van de organisatie; Een bruto maandsalaris tussen de € 3100,- en € 3500,- obv 40 uur exclusief vakantiegeld (vakantiegeld wordt maandelijks uitbetaald). Auto van de zaak/goede mobiliteitsregeling; Je start op 2 januari of 1 februari 2027 ; De mogelijkheid om parttime (32 uur) te werken, minimaal 4 dagen per week; We ondersteunen incidenteel werken in het buitenland voor maximaal 4 weken per jaar; 25 vakantiedagen met de mogelijkheid om meer op te nemen; De mogelijkheid om na 3 jaar dienstverband een sabbatical op te nemen; IG&H faciliteert een Healthy Human programma, waarbij je begeleiding krijgt bij alle aanpassingen in het leven, zoals het krijgen van een kind of mantelzorger zijn voor een ziek familielid; Royale bonusregeling; Waarom IG&H? IG&H transformeert toonaangevende bedrijven in de gezondheidszorg, retail en financiële sectoren. Samen met onze wereldklasse technologiepartners helpen we onze klanten vooruit te komen en relevant te blijven, met inzichtelijk ad",
+   "tags": [
+    "Data & AI",
+    "Entry",
+    "fulltime fixed term"
+   ],
+   "employment_type": "",
+   "score": 51,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: DE",
+    "+5 junior",
+    "+4 python",
+    "+4 sql",
+    "+2 rag",
+    "+2 spark",
+    "+2 snowflake",
+    "+2 databricks",
+    "+2 azure"
+   ],
+   "first_seen": "2026-10-14T22:54:36.092051+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "2afec370ab180fb7",
+   "age_hours": 71.4
+  },
+  {
+   "title": "Data Engineer",
+   "company": "adesso Netherlands",
+   "location": "Utrecht, Utrecht, Netherlands",
+   "url": "https://www.arbeitnow.nl/jobs/companies/adesso-netherlands/data-engineer-utrecht-175174",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T20:32:33+00:00",
+   "remote": false,
+   "description": "Bouw dataplatformen die klaar zijn voor wat er morgen met data en AI gebeurt. Bij adesso zoeken we een Data Engineer die verder kijkt dan alleen het bouwen van pipelines. Iemand die nadenkt over hoe data wordt verzameld, gemodelleerd, ontsloten en gebruikt en die graag werkt aan moderne data-oplossingen binnen Microsoft Azure en Snowflake. Je werkt aan dataplatformen die organisaties daadwerkelijk gebruiken. Als basis voor reporting en analytics, maar steeds vaker ook voor machine learning, AI en agentic toepassingen. Jouw rol Als Data Engineer ontwerp en bouw je schaalbare data-oplossingen voor onze klanten. Je werkt aan het hele traject: van databron en architectuur tot een betrouwbaar platform waarop data daadwerkelijk gebruikt kan worden. Daarbij werk je voornamelijk binnen het Azure-ecosysteem en denk je mee over keuzes rondom architectuur, datamodellering, performance en schaalbaarheid. Je bent niet alleen degene die bouwt. Je begrijpt waarom bepaalde keuzes worden gemaakt, kunt hierover sparren met klanten en collega's en neemt verantwoordelijkheid voor de kwaliteit van de oplossing. Wat ga je doen? · Ontwerpen, bouwen en onderhouden van schaalbare data pipelines en dataplatformen; · Ontwikkelen van cloud-native data-oplossingen; · Integreren, transformeren en ontsluiten van data uit verschillende bronnen; · Ontwerpen en implementeren van moderne Data Warehouse- en Lakehouse-architecturen; · Toepassen van datamodelleringsmethodieken zoals Kimball en Data Vault; · Bouwen van betrouwbare datasets voor analytics, dashboards, machine learning en AI-toepassingen; · Werken met technologieën zoals Microsoft Fabric, Azure Databricks, Azure Data Factory en Snowflake; · Optimaliseren van performance, schaalbaarheid, betrouwbaarheid en datakwaliteit; · Inrichten en verbeteren van CI/CD-processen en toepassen van DataOps-principes; · Meedenken met klanten over data-architectuur, integraties en technische keuzes; · Samenwerken met Data Scientists, AI Engineers, Data Architects en andere specialisten binnen ons Data & AI-team. We zoeken niet iemand die ieder vinkje op een technologielijst kan zetten. We zoeken vooral een Data Engineer die een stevig technisch fundament heeft, nieuwsgierig blijft en verantwoordelijkheid neemt voor wat hij of zij bouwt. Je hebt: · Minimaal 4 jaar relevante ervaring als Data Engineer of in een vergelijkbare rol; · Sterke kennis van SQL en Python; · Ervaring met het ontwerpen en bouwen van ETL/ELT-processen en data pipelines; · Ervaring met Microsoft Azure en relevante Azure-datadiensten, zoals Databricks, Fabric, Snowflake; · Ervaring met datamodellering en moderne data-architecturen, bijvoorbeeld Kimball en Data Vault; · Kennis van Data Warehouse- en/of Lakehouse-concepten; · Ervaring met CI/CD, DevOps en bij voorkeur Infrastructure as Code; · Oog voor datakwaliteit, performance, schaalbaarheid en onderhoudbaarheid; · Het vermogen om technische keuzes uit te leggen en hierover met klanten en collega's te sparren; · Een uitstekende beheersing van de Nederlandse taal. Mooi meegenomen Heb je daarnaast ervaring met een aantal van onderstaande technologieën of onderwerpen? Mooi. Maar we verwachten niet dat je alles al hebt gedaan. · Microsoft Fabric; · Azure Databricks; · Azure Data Factory; · Snowflake; · Apache Spark / PySpark; · Delta Lake; · Power BI; · Collibra of andere data governance-oplossingen; · Azure OpenAI, Azure AI Foundry of andere AI-services binnen Azure; · Infrastructure as Code, bijvoorbeeld Terraform of Bicep. Data & AI bij adesso Data is bij ons geen losstaand onderdeel van een project. Het is steeds vaker de basis waarop nieuwe digitale oplossingen worden gebouwd. Binnen ons Data & AI-team werken Data Engineers, Data Scientists, AI Engineers en andere specialisten samen aan oplossingen die verder gaan dan alleen dashboards of losse modellen. Van moderne dataplatformen en machine learning tot generative AI en agentic AI: we willen technologie niet alleen interessant vinden, maar vooral ",
+   "tags": [
+    "Data & Analytics",
+    "Mid",
+    "fulltime permanent"
+   ],
+   "employment_type": "",
+   "score": 47,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: Netherlands",
+    "+4 python",
+    "+4 sql",
+    "+2 spark",
+    "+2 snowflake",
+    "+2 databricks",
+    "+3 power bi",
+    "+2 azure"
+   ],
+   "first_seen": "2026-10-14T22:54:36.092217+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "b1b85c24b668ddc0",
+   "age_hours": 71.4
+  },
+  {
+   "title": "Research Engineer (m/f/d)",
+   "company": "Sereact GmbH",
+   "location": "Zurich",
+   "url": "https://www.arbeitnow.ch/jobs/companies/sereact-gmbh/research-engineer-zurich-327456",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T20:40:19+00:00",
+   "remote": false,
+   "description": "Research Engineer, Manipulation Data & Teleoperation — Zurich This role owns the data generation layer of Sereact's VLA stack: teleoperation systems and data collection infrastructure that feed Cortex, built from our Zurich research hub. About Sereact Sereact is a Series B embodied-AI company. Cortex, our VLA model, is deployed in live warehouse robotic cells across the EU and US. Zurich is our newest research hub, focused on the manipulation and control problems that sit underneath Cortex. The role This is a Research Engineer position. It is scoped to the data generation layer of the VLA stack: teleoperation hardware and software, retargeting pipelines that map human demonstrations onto robot hands, and the data collection infrastructure that feeds Cortex. It requires building the systems that produce the data those models train on, and working closely with the training team on what that data needs to look like. What you'll do Build and operate teleoperation systems for dexterous manipulation, including retargeting algorithms that map human hand and arm motion onto robot end-effectors Design and maintain scalable, UMI-style data collection hardware and software that other engineers at Sereact rely on Benchmark control and retargeting approaches using rigorous, human-factors-informed methodology Instrument and support the physical robots deployed in the Zurich hub, including day-to-day work on the control stack Work with the model-training team to define what data they need and close the loop on data quality Build tooling or infrastructure outside your immediate brief when it unblocks the wider team What you'll bring MSc (or equivalent, in progress) in robotics, mechanical engineering, or a closely related field, with a thesis or capstone project on manipulation, teleoperation, or retargeting Hands-on experience building a data collection device or system for robot learning (UMI or a comparable system), not just operating one someone else built Working knowledge of retargeting algorithms for mapping human input onto robot hands or end-effectors 1 to 2 years of combined research, internship, or industry experience in robotics, mechatronics, or a related engineering discipline Software and systems engineering skills strong enough to build and maintain infrastructure other engineers rely on, not only research-grade prototypes Comfortable working as an individual contributor in a small, still-forming team Nice to have A conference submission on manipulation, teleoperation, or retargeting where the candidate is an author (an MSc thesis submitted to a venue like CoRL counts; supervising a student team whose own work was later published does not) Teaching or TA experience in a robotics course Some exposure to large-model training, even without an independent training record A concrete example of building something outside the formal role brief because the team needed it Location: Zurich Area, Switzerland: This role is based in our Zurich office, offering a vibrant ecosystem for robotics and AI. What We Offer: Free meals at the workplace. Flexible working hours and the option to work from home when needed. Direct collaboration with founders and world-leading AI experts. Access to large-scale compute clusters and proprietary robotic datasets. A key role in shaping the future of embodied AI. Competitive compensation and a relocation package for the Zurich area Find more English Speaking Jobs in Switzerland on Arbeitnow",
+   "tags": [
+    "Software",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 46,
+   "reasons": [
+    "职位匹配: research engineer",
+    "未要求德语",
+    "经验要求 1 年",
+    "目标城市: Zurich",
+    "+6 english speaking",
+    "+4 relocation",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-10-07T06:45:41.440186+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "cba5a9ec83284a62",
+   "age_hours": 23.3
+  },
+  {
+   "title": "Partial Discharge Data Scientist",
+   "company": "Optics11",
+   "location": "Amsterdam, Noord-Holland, Netherlands",
+   "url": "https://www.arbeitnow.nl/jobs/companies/optics11/partial-discharge-data-scientist-amsterdam-32702",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T20:32:33+00:00",
+   "remote": false,
+   "description": "We are looking for an experienced Data Scientist to develop advanced analytics for our partial discharge monitoring and predictive maintenance platform. Optics11 is a deep-tech company developing advanced fiber-optic sensing technologies for challenging environments and applications in energy and underwater security. Our systems enable high-performance sensing and monitoring through advanced photonics, signal processing, and data-driven intelligence. We are expanding our partial discharge R&D team with a Data Scientist who is motivated to translate complex business and engineering challenges into scalable, data-driven solutions that enabling next-generation acoustic emission monitoring solutions by processing sensor signals to early detect, localize and quantify partial discharge in energy infrastructure. You will work closely with cross-functional teams (embedded, software, and hardware) to design, develop, and deploy advanced algorithms that predict energy infrastructure failures. Previous experience in partial discharge, acoustic emission or electrical signal processing is an advantage, but not a dealbreaker. We value strong analytical thinking, curiosity, and the willingness to learn new domains. Key Responsibilities: Design, develop, validate, and maintain algorithms for sensor data analysis, partial-discharge monitoring, and predictive analytics. Translate complex business and engineering requirements into robust, production-ready algorithms. Analyse large-scale sensor, time-series, and operational datasets to identify meaningful patterns and improve monitoring platform performance Develop signal-processing, feature-engineering, statistical-modelling, and machine-learning pipelines. Collaborate with software and platform engineers to integrate algorithms into the cloud monitoring platform and edge environments. Monitor deployed algorithm performance and contribute to model maintenance, retraining, and continuous improvement. Why Join Us? Join one of Europe’s most promising deep-tech scale-ups. Shape the future of a rapidly growing multidisciplinary R&D organization. Competitive salary and benefits package. Enjoy regular team activities and company events. Fresh team lunches provided 3 times/week. Requirements: Strong professional experience with Python and commonly used scientific and data-science libraries (e.g., pandas, NumPy, SciPy, scikit-learn). Strong foundation in statistical analysis, algorithm development, machine learning, and data modelling. Practical experience analysing sensor signals and time-series data. Solid understanding of signal-processing techniques such as filtering, denoising, spectral analysis, Fourier or wavelet transforms, and dimensionality reduction. Experience developing, validating, and deploying machine-learning models in production or cloud environments. Ability to connect patterns in data with physical processes and real-world system behaviour. Experience with at least one deep-learning framework, such as PyTorch, TensorFlow, or JAX. Ability to write clear, modular, tested, and maintainable Python code. Experience contributing to end-to-end data-science or ML projects, from problem framing and experimentation to deployment and monitoring. Qualifications: You have at least 3 years of professional experience in data science with a focus on sensor data analysis. Familiarity with real-time systems, edge computing, or predictive maintenance solutions is a plus. M.Sc . or Ph.D. degree in a relevant discipline in science or engineering. Strong analytical and problem-solving skills. Solid understanding of mathematics and physics, with the ability to apply theory to real engineering problems. A pragmatic, hands-on mindset and willingness to work with imperfect real-world data. You have strong verbal and written communication skills in English (Dutch is an advantage). Ability to work independently, take ownership, and collaborate effectively across disciplines. Nice to Have: Experience with partial",
+   "tags": [
+    "R&D",
+    "Mid",
+    "fulltime permanent"
+   ],
+   "employment_type": "",
+   "score": 46,
+   "reasons": [
+    "职位匹配: data scientist",
+    "未要求德语",
+    "经验要求 3 年",
+    "目标城市: Amsterdam",
+    "+4 python",
+    "+3 pytorch",
+    "+3 tensorflow",
+    "+2 scikit-learn",
+    "+2 rag"
+   ],
+   "first_seen": "2026-10-14T22:54:36.092238+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "b262160ff10ec42d",
+   "age_hours": 71.4
+  },
+  {
+   "title": "Medior Data Engineer",
+   "company": "IG&H",
+   "location": "Utrecht, Utrecht, Nederland",
+   "url": "https://www.arbeitnow.nl/jobs/companies/igh/medior-data-engineer-utrecht-236003",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T20:32:31+00:00",
+   "remote": false,
+   "description": "Bij IG&H helpen we onze klanten om koplopers in hun markt te worden door de business technology expert te zijn waarop ze kunnen vertrouwen in de voortdurend veranderende digitale wereld. We doorbreken silo’s en brengen consultingvaardigheden samen met diepgaande expertise in data, technologie en organisatieverandering om organisaties succesvol te transformeren. Wil jij hierin de lead nemen als Data Engineer? We zijn op zoek naar een Data Engineer om datagedreven producten te ontwerpen, te bouwen en een nieuwe databackbone te creëren voor onze data science-projecten. De Data Engineer zal de lead nemen om onze klanten naar het volgende niveau van datahandling en data-automatiseringsmogelijkheden te brengen. Verder zal je (technische) leiderschapsvaardigheden, ervaring en visie toepassen om efficiënte datatoepassingen te creëren. Wij zoeken iemand die: De lead neemt in het ontwerpen en bouwen van herbruikbare datamodellen en -oplossingen. Datapijplijnen ontwikkelt, inclusief ETL-processen, en data lakes en data warehouses opzet. Analysemethoden operationaliseert en toepast in de praktijk. De benodigde cloudinfrastructuur inricht en beheert. Gewend is om te werken in een commercieel gerichte en/of consulting organisatie. Graag werkt in een teamsetting met collega’s met verschillende vaardigheden. Zich thuis voelt in een omgeving met zeer gemotiveerde mensen die zich richten op het leveren van de hoogste kwaliteit aan klanten. Over het Data & AI team Wij helpen onze klanten innoveren en gebruikmaken van de nieuwste data- en AI-technologie. Het Data & AI-team bestaat uit 30 data-experts (Data Scientisten, Analisten en Consultants) die nauw samenwerken met de 30 engineers in ons Technology-team en nog eens 20 datawetenschappers bij de zusterbedrijven van IG&H. Het team levert data science en analytische projecten en heeft in de afgelopen twee jaar meer dan 40 (Gen)AI-projecten gerealiseerd voor onze klanten in Retail, Financial Services en Health. Wat breng je mee: Jij hebt een BSc of MSc diploma in een technisch veld, zoals Data Science, Computer Science, Fysica of Engineering. Jij hebt 2 tot 6 jaar werkervaring Jij beheerst de Nederlandse en Engelse taal uitstekend, zowel mondeling als schriftelijk. Jij hebt een engineering mindset, een passie voor data en datatechnologie, en een ambitie om jezelf verder te ontwikkelen. Jij hebt ruime ervaring met SQL, Python en data processing frameworks en pakketten zoals PySpark en Pandas. Jij hebt ervaring met Databricks, Snowflake of vergelijkbare dataplatformtechnologien. Jij bent bekend met het ontwerpen en bouwen van deployment pipelines in Azure DevOps of GitHub Actions. Jij hebt ervaring met werken volgens DevOps-methodologieën. Wat wij jou bieden: Werken bij een Great Place to Work met een prettige sfeer en enthousiaste collega's die je ondersteunen; Mooie kans om een actieve bijdrage te leveren aan de verdere (internationale) groei van de organisatie; We bieden per direct een vast contract (onbepaalde tijd); Uitstekend salaris en arbeidsvoorwaarden; Auto van de zaak/goede mobiliteitsregeling; De mogelijkheid om parttime (32 uur) te werken, minimaal 4 dagen per week; We ondersteunen incidenteel werken in het buitenland voor maximaal 4 weken per jaar; 25 vakantiedagen met de mogelijkheid om meer op te nemen; De mogelijkheid om na 3 jaar dienstverband een sabbatical op te nemen; IG&H faciliteert een Healthy Human programma, waarbij je begeleiding krijgt bij alle aanpassingen in het leven, zoals het krijgen van een kind of mantelzorger zijn voor een ziek familielid; Royale bonusregeling; Waarom IG&H? IG&H transformeert toonaangevende bedrijven in de gezondheidszorg, retail en financiële sectoren. Samen met onze wereldklasse technologiepartners helpen we onze klanten vooruit te komen en relevant te blijven, met inzichtelijk advies, geweldig ontwerp en ongeëvenaarde digitale platforms. Onze uitzonderlijke resultaten komen voort uit het succesvol afstemmen van mensen, bedrijfsvoering en techno",
+   "tags": [
+    "Data & AI",
+    "Mid",
+    "fulltime permanent"
+   ],
+   "employment_type": "",
+   "score": 46,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: DE",
+    "+4 python",
+    "+4 sql",
+    "+2 rag",
+    "+2 spark",
+    "+2 snowflake",
+    "+2 databricks",
+    "+2 azure"
+   ],
+   "first_seen": "2026-10-14T22:54:36.092254+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "d297d88d5980f12a",
+   "age_hours": 71.4
+  },
+  {
+   "title": "Machine Learning Engineer, Applied AI",
+   "company": "Bjak",
+   "location": "Germany",
+   "url": "https://www.arbeitnow.com/jobs/companies/bjak/machine-learning-engineer-applied-ai-germany-371827",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T23:40:21+00:00",
+   "remote": false,
+   "description": "About There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting. Role Build and improve ML systems that power our AI-native applications. Work on classification, retrieval, ranking, personalization and evaluation, taking ownership from model development to production deployment. This role is for engineers who enjoy solving practical ML problems, improving model quality and shipping reliable systems used by real users. Focus Build and improve ML models for classification, ranking, retrieval and personalization. Develop efficient classifiers and optimize model accuracy, precision, latency and cost. Improve search relevance and context retrieval using embeddings, hybrid search and reranking. Build personalization models that learn from user behavior while respecting privacy. Develop evaluation pipelines, labeled datasets and metrics to measure model quality. Fine-tune and adapt existing models when supported by sufficient data. Build and maintain ML training, inference and deployment pipelines. Debug production issues, monitor model performance and ship improvements based on real-world feedback. Tech Stack Python PyTorch / JAX Embeddings, vector search and ranking models Production ML systems and inference pipelines Ideal Experience Strong foundations in machine learning and modern neural architectures. Hands-on experience building and deploying ML models in production. Experience in classification, ranking, retrieval, recommendation systems or personalization. Understanding of model evaluation, experimentation and performance metrics. Comfortable writing production-quality code and working with real-world datasets. Able to balance model quality, latency, cost and reliability. Strong ownership, problem-solving skills Outcomes ML models in production meet expected accuracy, relevance, latency and reliability targets. Classification and ranking improvements deliver measurable gains in model quality. Evaluation pipelines identify regressions and support reliable model releases. Training, inference and data pipelines are robust, reproducible and maintainable. Model improvements are driven by real-world feedback and measurable results. Collaborates effectively with engineering and product teams to deliver reliable ML-powered features. How We Work The best products in the world are built by small, world-class teams. We are a high-talent-density, hands-on team. We make decisions collectively and move quickly, balancing high-quality work with continuous learning. Joining our team requires the ability to bring structure, exercise judgment and execute independently. Our goal is to put a truly magical product into the hands of our users. Interview Process If there appears to be a fit, we'll reach out to schedule 3, but no more than 4 interviews. Applications are evaluated by our technical team members. Interviews will be conducted virtually and/or onsite. We value transparency and efficiency, so expect a prompt decision. If you've demonstrated the exceptional skills and mindset we're looking for, we'll extend an offer to join us. Find more English Speaking Jobs in Germany on Arbeitnow",
+   "tags": [
+    "ActAI Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 45,
+   "reasons": [
+    "职位匹配: machine learning engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: Germany",
+    "+6 english speaking",
+    "+4 python",
+    "+3 pytorch",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-10-17T02:23:06.879611+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "10cb9af805c2eb61",
+   "age_hours": 20.3
+  },
+  {
+   "title": "Computer Vision Engineer - Tracker",
+   "company": "Harmattan Ai",
+   "location": "Zurich",
+   "url": "https://www.arbeitnow.ch/jobs/companies/harmattan-ai/computer-vision-engineer-tracker-zurich-288136",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T11:40:24+00:00",
+   "remote": false,
+   "description": "About Us Harmattan AI is a next-generation defense prime building autonomous and scalable defense systems. Following the close of a $200M Series B, valuing the company at $1.4 billion, we are expanding our teams and capabilities to deliver mission-critical systems to allied forces. Our work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges. We operate in a demanding environment where rigor, ownership, and execution are expected. About the Role As a Computer Vision Engineer in the Computer Vision Tracker team , you will join us at a very early stage, giving you a unique opportunity to heavily influence the technical direction of the team. Operating out of Lausanne, Paris, or Zurich, you will focus on creating a global 3D Object Tracking pipeline, at the intersection between the Computer Vision, Sensor Fusion and GNC teams. Responsibilities Computer Vision Algorithm Development: Research and implement state-of-the-art Computer Vision approaches to Object Tracking in multiple modalities and scenarios, combining classical and geometrical methods with AI detection models developed in-house. Multi-Sensor Fusion: Fuse data from multiple sensors (Cameras, IMU, Radar, etc.) to provide high-precision target estimation and robust tracking through challenging conditions. Edge Optimization for Low-Compute Deployment: Optimize and embed tracking algorithms on heterogeneous platforms with limited compute resources, ensuring real-time performance alongside other software bricks running on the drone. Cross-Team Collaboration: Work closely with the GNC, Sensor Fusion, and AI teams to integrate your tracking pipelines into a seamless, production-ready environment. R esearch & Innovation: Stay at the absolute forefront of scientific trends in computer vision, tracking algorithms, and sensor fusion to introduce cutting-edge methodologies to the product. Mentorship: Depending on seniority, support the team by managing or mentoring junior engineers. Candidate Requirements Educational Background: A strong academic record with a degree in a STEM field (e.g., Computer Science, Robotics, Engineering, Mathematics). Embedded Algorithmic Expertise: Proven track record in the research, development, and productization of Computer Vision & Sensor-Fusion algorithms in hardware-constrained environments. Technical Competence: Strong proficiency in C++ and Python for real-time systems. Experience with optimizing code for edge deployment. Nice to have Highly structured, analytical, task-aligned, and research-oriented. Excellent communication and influence skills, with the ability to effectively translate and present complex algorithmic trade-offs to downstream users and senior stakeholders. Thrives under pressure in a fast-paced environment with a “no-task-is-too-small” mentality toward building foundational team infrastructure. Commitment: 100% dedication to Harmattan AI’s mission, vision, and ambitious growth plans, ready to go the extra mile to ensure operational excellence. We look forward to hearing how you can help shape the future of autonomous defense systems at Harmattan AI. Find more English Speaking Jobs in Switzerland on Arbeitnow",
+   "tags": [
+    "R&D",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 45,
+   "reasons": [
+    "职位匹配: computer vision engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Zurich",
+    "+6 english speaking",
+    "+5 junior",
+    "+4 python"
+   ],
+   "first_seen": "2026-10-07T14:07:20.859866+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "c0b09cc20d22cde0",
+   "age_hours": 32.3
+  },
+  {
+   "title": "Stage - Data Scientist - H/F/X - Janvier 2027",
+   "company": "Veepee",
+   "location": "Saint-Denis",
+   "url": "https://www.arbeitnow.fr/jobs/companies/veepee/stage-data-scientist-janvier-2027-saint-denis-383013",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T02:30:22+00:00",
+   "remote": false,
+   "description": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou encore la beauté ... Veepee a réalisé en 2024 un chiffre d’affaires de 3,3 milliards d’euros TTC et compte 5 000 collaborateurs répartis dans 10 pays. 📄 DESCRIPTION DU POSTE En tant que data scientist, vous rejoindrez l'équipe Pulsar aux côtés de trois autres data scientists. 🎯 MISSIONS Veepee développe des algorithmes de pointe en matière de prévision et de tarification, qui constituent des priorités stratégiques pour l’entreprise. Votre stage sera axé sur l’amélioration de la précision de nos modèles de tarification et de prévision, en travaillant sur des caractéristiques transversales. Il existe de nombreuses pistes de recherche prometteuses pour améliorer nos algorithmes d’apprentissage automatique, notamment : les attributs des produits, tels que la normalisation des tailles et des couleurs, et la réduction de dimension à l’aide des achats associés les représentations de marques à partir de l’historique d’achats des utilisateurs, et les représentations de produits à partir de leurs descriptions et de leurs images En collaboration étroite avec l’équipe de prévision et de tarification, vous explorerez, développerez des prototypes et comparerez différentes approches de modélisation avancées. Votre travail sera évalué à l’aide d’indicateurs de performance clés (KPI) clairs, lors d’évaluations hors ligne rigoureuses menées sur de grands ensembles de données. Dès qu’un modèle aura démontré de solides performances, vous aurez la possibilité de le déployer dans notre environnement MLOps cloud (Kubernetes, Docker, Airflow, MLflow, GitLab…). 👉 PRÉ REQUIS Bac +5 en data sciences Solides connaissances en Python Maîtrise de SQL Bonne compréhension de l'apprentissage automatique (évaluation ML, classification, régression, etc.) Intérêt pour les bonnes pratiques en génie logiciel Atout : connaissance de dbt, Git, Docker, Kubernetes Excellentes compétences en communication en français et en anglais Capacité à identifier, analyser et résoudre des problèmes Autonomie, curiosité et volonté de mettre en production des solutions Envie d'apprendre de nouvelles technologies et approches scientifiques ✅ AVANTAGES 👉Bureau flexible avec au minimum 3 jour sur place et jusqu’à 2 jours à domicile 👉Plateforme d’apprentissage des langues en ligne 👉Comité d’entreprise CE et ses nombreux avantages 👉Accès à une restaurant d’entreprise et cantine connecté 👉Accès à la salle de sport 👉 Congés selon la durée du contrat The Veepee Group processes your data collected as part of the management of your recruitment in order to manage your application file for the position for which you have applied. To find out more about our personal data protection policy , we invite you to consult it on our career site. Find Jobs in France on Arbeitnow",
+   "tags": [
+    "Data",
+    "Internship"
+   ],
+   "employment_type": "",
+   "score": 45,
+   "reasons": [
+    "职位匹配: data scientist",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: DE",
+    "+4 python",
+    "+4 sql",
+    "+3 dbt",
+    "+3 airflow",
+    "+2 docker",
+    "+1 kubernetes"
+   ],
+   "first_seen": "2026-10-16T07:45:30.609342+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "a79bc560963c523d",
+   "age_hours": 41.4
+  },
+  {
+   "title": "Data Engineer",
+   "company": "Centric",
+   "location": "Amsterdam, Noord-Holland, Nederland",
+   "url": "https://www.arbeitnow.nl/jobs/companies/centric/data-engineer-amsterdam-375099",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T20:32:32+00:00",
+   "remote": false,
+   "description": "Word lid van ons team en maak deel uit van de beweging die de toekomst van data vormgeeft. Samen gaan we vooruit, samen creëren we impact, en samen maken we data betekenisvol. Klaar om de leiding te nemen in de wereld van data-engineering? Jouw avontuur begint hier bij Centric! Maak werk van deze mogelijkheden. Wat jij doet Als Data Engineer benut je geavanceerde Business Intelligence-tools om data uit diverse bronnen te ontsluiten en in een krachtig 'data warehouse' te transformeren. Hiermee leg je het fundament voor geavanceerde analyses en rapportages die cruciaal zijn voor strategische besluitvorming en operationele optimalisatie. Jouw missie is het verbinden, organiseren en ontsluiten van gegevens op een manier die Centric en onze klanten een voorsprong geeft. Hoe doe je dat? Door het doel van de klant voorop te zetten én te scoren. Het is jouw passie voor data en jouw drive om bedrijven te helpen slagen in het tijdperk van datagedreven besluitvorming. Je bent geen gewone data engineer, je bent een visionair, een probleemoplosser en een pionier in data-intelligentie. Bij Centric krijg je de kans om je talenten te benutten, te groeien en te werken aan inspirerende projecten voor diverse toonaangevende organisaties. Wat doe je nog meer? Ontwerpen en implementeren van data-oplossingen en -architecturen Extraheren, transformeren en laden van gegevens (ETL) uit verschillende bronnen Werken met moderne (Cloud-)technologie in het datawerkveld Optimaliseren van gegevensprocessen voor prestaties en schaalbaarheid Samenwerken met multidisciplinaire teams om de behoeften van de klant te begrijpen en te vertalen naar technische oplossingen Onderhouden en monitoren van gegevensstromen en systemen Als Data Engineer treed je in dienst bij Centric en word je ingezet bij één of meerdere opdrachtgevers. De diversiteit in werklocatie, welke maximaal één uur van huis ligt, laat je kennismaken met vele organisaties. Zo blijf je je ontwikkelen binnen jouw vakgebied. Met jouw Field Manager stel je een ontwikkelplan op en samen bepalen jullie welke opleidingen, trainingen en /opdrachten passen bij jouw ontwikkelingswensen. Tot slot word je onderdeel van de vakgroep (EC), waarin kennisdeling en onderlinge coaching met collega’s centraal staat. Dit krijg je Bij Centric bieden we een dynamische omgeving waarin je jouw vaardigheden kunt benutten voor diverse uitdagende projecten bij boeiende klanten. Hier krijg je de mogelijkheid om voortdurend bij te leren en te groeien in een omgeving die in de voorhoede staat van de nieuwste ontwikkelingen. Daarnaast krijg je als Data Engineer bij Centric: Een brutosalaris tot € 6.000,- per maand afhankelijk van kennis en ervaring Mogelijkheid tot thuiswerken en een goede werk-privébalans doordat je de ruimte krijgt om te bepalen hoe jij jouw werkweek indeelt Uitgebreide opleidings- en ontwikkelmogelijkheden 26 vakantiedagen, 8% vakantietoeslag (uitbetaling in mei) en loyaliteitsdagen: hoe langer je in dienst bent, hoe meer vrije tijd Een bijdrage aan je pensioen en korting op je collectieve zorgverzekering Een laptop en telefoon van de zaak Een thuiswerkplekvergoeding van € 15,- per maand plus € 2,45 netto per thuiswerkdag Mobiliteitsbudget, omdat jij zelf wil bepalen hoe je van werk naar huis reist Personeelsaanbiedingen bij toonaangevende merken Een bonus tot € 1.500,- als jij een nieuwe collega aan ons voorstelt Een personeelsvereniging die écht leuke dingen organiseert. Ga je mee naar Praag, de Efteling of skiën? Dit breng je mee Wij zorgen voor een werkomgeving waar jij blij kunt zijn en gewaardeerd wordt. Andersom vragen wij van jou als Data Engineer: Een afgeronde hbo- of wo-studie Minimaal 5 jaar werkervaring in een vergelijkbare functie Aantoonbare ervaring met Azure-dataservices zoals Azure Data Factory, Azure Databricks, Azure Synapse Analytics, etc Kennis van programmeertalen en querytalen zoals SQL, Python, Scala, etc. Vaardigheid om oplossingen te ontwerpen die voldoen aan veiligheids- en complianc",
+   "tags": [
+    "Cloud",
+    "Mid",
+    "fulltime fixed term"
+   ],
+   "employment_type": "",
+   "score": 44,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Amsterdam",
+    "+4 python",
+    "+4 sql",
+    "+2 rag",
+    "+2 databricks",
+    "+2 azure"
+   ],
+   "first_seen": "2026-10-14T22:54:36.092275+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "b6c3c3bba6cecd1c",
+   "age_hours": 71.4
+  },
+  {
+   "title": "Computer Vision Engineer",
+   "company": "Harmattan Ai",
+   "location": "Zurich",
+   "url": "https://www.arbeitnow.ch/jobs/companies/harmattan-ai/computer-vision-engineer-zurich-303109",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T11:40:24+00:00",
+   "remote": false,
+   "description": "About Us Harmattan AI is a next-generation defense prime building autonomous and scalable defense systems. Following the close of a $200M Series B, valuing the company at $1.4 billion, we are expanding our teams and capabilities to deliver mission-critical systems to allied forces. Our work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges. We operate in a demanding environment where rigor, ownership, and execution are expected. About the Role We are looking for a Computer Vision Engineer to join our Machine Learning and Computer Vision team. This role is crucial for developing core technical components across various robotics/aerospace projects. Responsibilities Research & Data Preparation : Conduct research on state-of-the-art Computer Vision methodologies. Participate in the creation and curation of training and validation datasets. Perform statistical analyses and develop visualization tools to ensure data quality. Algorithm Development & Optimization : Build and refine training pipelines and metrics to enhance model performance. Develop and optimize Computer Vision algorithms for multiple robotics/aerospace projects. Deployment & Integration : Implement ML/CV models into production-ready environments. Ensure seamless integration with Harmattan AI’s systems and conduct rigorous code reviews. Validation & Monitoring : Test algorithms in real-world environments and develop monitoring tools. Track model performance and continuously improve deployed solutions. Cross-Team Collaboration : Work closely with software and simulation teams to align development with system requirements. Communicate findings effectively to stakeholders. Candidate Requirements Educational Background : A degree from a top-tier engineering school or university (Master’s degree in Computer Science or related field, PhD is a plus) Technical Expertise : Strong mathematical foundations, coding skills (Python, C++ is a plus) and hands-on ML/CV project experience. Experience in top AI companies is a huge plus. Passion for ML : Enthusiasm for Machine Learning and Computer Vision. Strong Communication & Teamwork : Ability to collaborate effectively with diverse teams Commitment : 100% dedication to Harmattan AI’s mission, vision, and ambitious growth plans, ready to go the extra mile to ensure operational excellence. We look forward to hearing how you can help shape the future of autonomous defense systems at Harmattan AI. Find more English Speaking Jobs in Switzerland on Arbeitnow",
+   "tags": [
+    "R&D",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 40,
+   "reasons": [
+    "职位匹配: computer vision engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Zurich",
+    "+6 english speaking",
+    "+4 python"
+   ],
+   "first_seen": "2026-10-16T12:55:05.454916+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "76543409b9e65f49",
+   "age_hours": 32.3
+  },
+  {
+   "title": "Machine Learning Engineer, Applied AI",
+   "company": "Bjak",
+   "location": "Switzerland",
+   "url": "https://www.arbeitnow.ch/jobs/companies/bjak/machine-learning-engineer-applied-ai-zurich-427794",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T23:40:22+00:00",
+   "remote": false,
+   "description": "About There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting. Role Build and improve ML systems that power our AI-native applications. Work on classification, retrieval, ranking, personalization and evaluation, taking ownership from model development to production deployment. This role is for engineers who enjoy solving practical ML problems, improving model quality and shipping reliable systems used by real users. Focus Build and improve ML models for classification, ranking, retrieval and personalization. Develop efficient classifiers and optimize model accuracy, precision, latency and cost. Improve search relevance and context retrieval using embeddings, hybrid search and reranking. Build personalization models that learn from user behavior while respecting privacy. Develop evaluation pipelines, labeled datasets and metrics to measure model quality. Fine-tune and adapt existing models when supported by sufficient data. Build and maintain ML training, inference and deployment pipelines. Debug production issues, monitor model performance and ship improvements based on real-world feedback. Tech Stack Python PyTorch / JAX Embeddings, vector search and ranking models Production ML systems and inference pipelines Ideal Experience Strong foundations in machine learning and modern neural architectures. Hands-on experience building and deploying ML models in production. Experience in classification, ranking, retrieval, recommendation systems or personalization. Understanding of model evaluation, experimentation and performance metrics. Comfortable writing production-quality code and working with real-world datasets. Able to balance model quality, latency, cost and reliability. Strong ownership, problem-solving skills Outcomes ML models in production meet expected accuracy, relevance, latency and reliability targets. Classification and ranking improvements deliver measurable gains in model quality. Evaluation pipelines identify regressions and support reliable model releases. Training, inference and data pipelines are robust, reproducible and maintainable. Model improvements are driven by real-world feedback and measurable results. Collaborates effectively with engineering and product teams to deliver reliable ML-powered features. How We Work The best products in the world are built by small, world-class teams. We are a high-talent-density, hands-on team. We make decisions collectively and move quickly, balancing high-quality work with continuous learning. Joining our team requires the ability to bring structure, exercise judgment and execute independently. Our goal is to put a truly magical product into the hands of our users. Interview Process If there appears to be a fit, we'll reach out to schedule 3, but no more than 4 interviews. Applications are evaluated by our technical team members. Interviews will be conducted virtually and/or onsite. We value transparency and efficiency, so expect a prompt decision. If you've demonstrated the exceptional skills and mindset we're looking for, we'll extend an offer to join us. Find Jobs in Switzerland on Arbeitnow",
+   "tags": [
+    "ActAI Engineering",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 39,
+   "reasons": [
+    "职位匹配: machine learning engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: Switzerland",
+    "+4 python",
+    "+3 pytorch",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-10-17T02:23:06.879591+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "6e0dbb3b9a4f9436",
+   "age_hours": 20.3
+  },
+  {
+   "title": "Associate Data Scientist",
+   "company": "AlgaeCal",
+   "location": "Vancouver",
+   "url": "https://remoteOK.com/remote-jobs/remote-associate-data-scientist-algaecal-1137531",
+   "source": "remoteok",
+   "posted_at": "2026-10-16T00:00:56+00:00",
+   "remote": true,
+   "description": "Description Machine Learning Maestro: You donât just work with data - you decode it, predict the future with it, and turn it into action. Your models donât just sit on a shelf - they shape strategy, optimize efficiency, and fuel company growth. You thrive on uncovering hidden patterns, validating hypotheses, and embedding machine learning models into real-world AI applications. If that sounds like you - read on. AlgaeCal is looking for a top-tier Associate Data Scientist who can turn raw information into strategies that drive measurable results. This job will give you ALL the feels: At AlgaeCal, weâre driven by a single idea. To end the fear of bone loss. In the United States, an estimated 54 million people have low bone density. The good news? AlgaeCal has the worldâs only clinically-backed natural solution to this problem. We give hope to everyone worried about bone loss. If that excites you, youâll find no better place to continue your career than at AlgaeCal. This job might be for you if youâve gotâ¦ Experience as a Data Scientist (or a similar role) and can back it up with a resume that shows real results. Youâve built predictive models, optimized AI applications, and refined data architectures that have had a measurable impact. You donât just analyze numbersâyou translate data into actionable insights that drive business decisions. Serious coding skills in Python or R. You know how to build and refine machine learning models that actually work. Youâve used statistical modeling and data science tools to solve complex problems and unlock growth opportunities. Expertise in SQL and relational databases. Writing efficient queries? Optimizing data structures? Your resume is packed with quantifiable examples thatâll make us drool with desire! You know how to work with large datasets, ensuring data is organized, accessible, and primed for analysis. A deep understanding of machine learning algorithms. Whether itâs regression, clustering, or neural networks, you know how to choose the right approach for the right challenge. You donât just apply modelsâyou understand how they work under the hood. Hands-on experience with data warehouses. BigQuery or similar? Check. You understand how to design, maintain, and optimize scalable data storage solutions that support robust analytics. A knack for standardizing and improving data models. Youâve worked with data at scale, refining schemas and improving architectures to ensure efficiency, accuracy, and usability across the organization. A laser-sharp eye for detail. Youâre the kind of person who spots trends, outliers, and opportunities that others miss. Your ability to catch anomalies helps ensure our models and analytics are always on point. An entrepreneurial approach to data. You donât just crunch numbersâyou think strategically about how data can be leveraged to create business value. Youâre proactive in identifying new ways AI and machine learning can drive efficiency, sales, and profitability. Industry know-how that adds value. If youâve got experience in consumer packaged goods, e-commerce, or the health/supplement industry, thatâs a huge plus. You understand how data can shape customer experience, optimize operations, and maximize ROI. Now, time to be honest: is this really you? If youâre nodding your head and feeling that flutter of excitement, then we canât wait to meet you. Other Qualities Youâll Need At AlgaeCal weâre going to insist that you have these 3 qualities: Youâre humbleââyou put the team and othersâ needs ahead of your own Youâre hungry to learn more Youâre people smartââin the sense that youâre a great teammate The truth is, if you donât have these qualities you wonât last long at AlgaeCal. So if youâre missing one of them, be honest. Save yourself a lot of headaches and skip to a job posting that is a better fit for you. What Will You Earn? We believe in rewarding top talent. Letâs talk abo",
+   "tags": [
+    "design",
+    "python",
+    "customer support",
+    "marketing",
+    "dev",
+    "flutter",
+    "exec",
+    "data science",
+    "ops",
+    "stats",
+    "sales",
+    "medical",
+    "ecommerce",
+    "digital nomad"
+   ],
+   "employment_type": "",
+   "score": 39,
+   "reasons": [
+    "职位匹配: data scientist",
+    "未要求德语",
+    "未标明经验年限",
+    "远程岗位",
+    "+4 python",
+    "+4 sql",
+    "+2 rag",
+    "+2 bigquery"
+   ],
+   "first_seen": "2026-10-17T02:23:06.879638+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "ef92b2af98e6bf06",
+   "age_hours": 43.9
+  },
+  {
+   "title": "Data Analyst (Mensch) mit dem Schwerpunkt Go-to-Market & Insights",
+   "company": "Eventinc GmbH",
+   "location": "Hamburg",
+   "url": "https://www.arbeitnow.com/jobs/companies/eventinc-gmbh/data-analyst-mensch-mit-dem-schwerpunkt-go-to-market-insights-hamburg-282737",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-15T21:30:59+00:00",
+   "remote": false,
+   "description": "Worum gehts? Bei Event Inc wollen wir Entscheidungen konsequent auf Basis von Daten treffen. Das gilt von der Go-to-Market-Strategie bis zur Conversion-Optimierung, in Marketing, Sales und Product. Mit Dir bündeln wir die Analysekompetenz an einer Stelle und schaffen eine gemeinsame Datenbasis, auf die sich alle verlassen können. Deine Rolle Als Data Analyst (Mensch) mit dem Schwerpunkt Go-to-Market & Insights bist Du die zentrale Anlaufstelle für Datenanalysen entlang unserer gesamten Wertschöpfungskette. Du bist Teil unseres Product Teams und arbeitest Hand in Hand mit unseren Data Engineers. Du begleitest Maßnahmen von der ersten Exploration über die Empfehlung bis zur Wirkungsmessung. Performance im Blick: Du überwachst laufend unsere GTM-Performance über Marketing, Sales und Product hinweg, von Funnel-Analysen über Kanal-Performance bis zu Conversion-Raten. Zahlen, die etwas bewegen: Du lieferst Ad-hoc-Analysen für unsere Teams, immer mit konkreten Handlungsempfehlungen statt reinen Reports. Von der Idee bis zur Wirkung: Gemeinsam mit den Teams entwickelst Du Hypothesen und übersetzt sie in Experimente und A/B-Tests. Mit Vorher-/Nachher-Vergleichen misst Du, ob Maßnahmen wirklich wirken. Muster erkennen: Du machst Cohort- und Funnel-Analysen über Kundensegmente und Marketplace-Bereiche hinweg (z. B. Pharma vs. Automotive). Mit Win/Loss-Analysen bei Enterprise-Deals lieferst Du wertvollen Input für unser Sales Enablement. Traffic-Kanäle optimieren: In enger Abstimmung mit Marketing, Sales und Product optimierst Du unsere Traffic-Kanäle, z. B. mit Blick auf SEO/GEO-Performance und Content-Wirkung. Reporting smart automatisieren: Zusammen mit einem Data Engineer baust Du eine KI- und automatisierungsgestützte Reporting-Infrastruktur auf. So fließt Deine Zeit in Analyse und Empfehlung statt in manuelle Datenaufbereitung. Schnittstelle mit Gewicht: Du bist die zentrale Datenquelle für GTM-Entscheidungen und arbeitest direkt mit unserem CPO zusammen. Was uns gefällt Fundierte Basis: Du hast ein Studium oder eine vergleichbare Ausbildung in Data Science, Statistik, (Wirtschafts-)Informatik, Mathematik, BWL oder einem ähnlichen Bereich erfolgreich abgeschlossen. Erfahrung, die zählt: Du bringst 2–5 Jahre Berufserfahrung in Data, Business oder Product Analytics mit. Mit Marketing-, Sales- oder Marketplace-Funnel-Metriken und Tracking kennst Du Dich aus. Analytisches Handwerkszeug: Du hast fundierte Kenntnisse in Datenanalyse und Statistik und weißt, wie man aussagekräftige KPIs entwickelt. Daten in Klartext: Du leitest aus Zahlen konkrete, verständliche Empfehlungen ab und vermittelst sie so, dass jedes Team etwas damit anfangen kann. Struktur, auch wenn's voll wird: Du arbeitest eigenständig und behältst den Überblick, auch wenn mehrere Teams gleichzeitig etwas von Dir brauchen. Tech-Neugier: Du verstehst Code und schreibst ihn auch selbst (z. B. Python). Idealerweise hast Du schon mit Coding Agents Analysen erstellt oder automatisierte, KI-gestützte Reportings aufgebaut. Das ist kein Muss, aber ein großes Plus. Was Dir gefällt Teamspirit, der Spaß macht: Freu Dich auf ein motiviertes, hochqualifiziertes Team mit flachen Hierarchien und echtem Zusammenhalt. Dazu gibt's regelmäßige Teamevents wie Afterwork-Drinks auf der Dachterrasse, Culture Nights oder Spieleabende. Sei ein Sparfuchs: Profitiere von exklusiven Rabatten auf Top-Marken und Reisen über PepXpress und Corporate Benefits. Gut versorgt: Natürlich stehen Dir der obligatorische Obstkorb, eine Müslibar sowie kalte und warme Getränke jederzeit zur Verfügung. Individuelle Hardware-Wahl: Du entscheidest, ob Du mit einem Mac oder einem Windows-Gerät arbeitest. Arbeitszeiten: Unsere Kernarbeitszeit ist von 10 bis 17 Uhr. Den Rest gestaltest Du nach Deinem Rhythmus. Büro mit Wow-Faktor: Du arbeitest mit Blick auf die Elbe und einige der schönsten Sehenswürdigkeiten Hamburgs. Pick your Perk: Du wählst 20 € Benefitsy, 20 € Zuschuss zum Deutschlandticket oder 20 € Zuschuss für Urb",
+   "tags": [
+    "Marketing and Communication",
+    "Unbefristeter arbeitsvertrag"
+   ],
+   "employment_type": "",
+   "score": 38,
+   "reasons": [
+    "职位匹配: data analyst",
+    "未要求德语",
+    "经验要求 2 年",
+    "目标城市: Hamburg",
+    "+4 python",
+    "+2 rag"
+   ],
+   "first_seen": "2026-10-13T21:41:00.162208+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "940a28d48b826e73",
+   "age_hours": 46.4
+  },
+  {
+   "title": "Data Scientist",
+   "company": "Kayak",
+   "location": "Zurich Office",
+   "url": "https://www.arbeitnow.ch/jobs/companies/kayak/data-scientist-zurich-403873",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-13T05:41:02+00:00",
+   "remote": false,
+   "description": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is the world's leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business. As an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is at our core and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world. KAYAK is looking for a mid-level Data Scientist to build recommendation systems that improve how travelers discover and choose travel options. You’ll translate product and business questions into measurable modeling problems, develop and test solutions with data and experimentation, and partner with researchers, engineers, and cross-functional teams to bring promising work into production. Your work will improve the traveler experience and key business metrics across KAYAK. If you’re excited to solve challenging recommendation problems and make a measurable difference for travelers, we’d love to hear from you. This role will be required to work from our Zurich office 3 days per week. In this role, you will: Translate product and business challenges into well-defined modeling problems, hypotheses, and measurable objectives. Ship production-ready, scalable Machine Learning solutions with real-world impact on user experience and key business metrics. Design and evaluate experiments, building rapid prototypes, assessing results rigorously, and iterating on promising ideas. Collaborate across Data Science, Product, and Engineering, communicating findings, recommendations, and trade-offs clearly and concisely to both technical and non-technical audiences. Please apply if you have: Strong technical foundations in statistics, machine learning, and programming, backed by a track record of solving complex, real-world data science problems. Demonstrated capability matters more than academic credentials. Hands-on experience developing ML models in business or production environments, with the ability to clearly explain the problems addressed, your specific contributions, and the resulting impact. Ownership, sound judgment, and analytical thinking, with the ability to navigate technical trade-offs, work independently, and recognize when to seek guidance. Fluency with AI-assisted workflows, leveraging modern tools to improve productivity and quality while critically evaluating their outputs and limitations. Curiosity, humility, and a collaborative mindset, with a commitment to continuous learning, sharing knowledge, and improving together. Bonus qualifications Hands-on experience with technologies relevant to KAYAK’s stack, such as PyTorch, Polars, CometML, Arize, Docker, Airflow, Trino and Git/Github. Familiarity with Agile ways of working, such as sprint planning and team ceremonies. Benefits & Perks Work from (almost) anywhere for up to 20 days per year Focus on mental health and well-being: Company-paid therapy sessions through SpringHealth Company-paid subscription to HeadSpace Company-wide week off a year - the whole team fully recharges (and returns without a pile-up of work!) No meeting Fridays Paid parental leave Paid volunteer time Focus on your career growth: Development Dollars Leadership development Access to thousands of on-demand e-learnings Travel Discounts Employee Resource Groups 5 weeks paid vacation + a day off for your birthday Social events & Thursday happy hours Free lunch 2 days per week Pension plan contributions Supplemental accident insurance Health insurance subsidy of 250 CHF per month Lunch Check Card of 180 CHF per month Profawo membership which is a non-profit organization dedicated to promoti",
+   "tags": [
+    "Cost Centers",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 37,
+   "reasons": [
+    "职位匹配: data scientist",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Zurich",
+    "+3 pytorch",
+    "+2 rag",
+    "+3 airflow",
+    "+2 docker"
+   ],
+   "first_seen": "2026-10-13T08:47:09.827392+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "e77421722fa88906",
+   "age_hours": 110.2
+  },
+  {
+   "title": "Robotics Data Engineer (m/f/d) Data Generation & Curation",
+   "company": "Agilerobotsse",
+   "location": "Munich, Bavaria",
+   "url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/robotics-data-engineer-data-generation-curation-munich-bavaria-57898",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T14:55:19+00:00",
+   "remote": false,
+   "description": "&lt;p&gt;&lt;strong&gt;The AI Teams at Agile Robots&lt;/strong&gt; are looking for a &lt;strong&gt;Robotics Data Engineer (m/f/d) Data Generation &amp; Curation&lt;/strong&gt;, who will build the pipeline that records, curates, and prepares multimodal robot datasets for foundation-model training. The pipeline has to run across different robot setups and combine real recordings with synthetic data from simulation.&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Multimodal Capture:&lt;/strong&gt; Build ROS 2 based capture for RGB and RGB-D cameras, wrist cameras, joint encoders, force-torque sensors, and teleoperation signals.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Synchronization:&lt;/strong&gt; Keep multimodal streams time-aligned through sensor synchronization, calibration, and timestamp integrity checks.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Dataset Health:&lt;/strong&gt; Define and run health checks that detect dropped frames, sync drift, corrupt frames, and missing modalities.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Dataset Curation:&lt;/strong&gt; Filter and deduplicate recorded data, maintain dataset metadata, and define train and evaluation splits.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Synthetic Data Integration:&lt;/strong&gt; Integrate synthetic data generated in simulation into the same datasets and formats as real recordings.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Preprocessing:&lt;/strong&gt; Build preprocessing that aligns, slices, and inspects recorded episodes into a form that foundation-model training can use directly.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Formats &amp; Release:&lt;/strong&gt; Design dataset schemas and storage formats, version datasets so experiments can be reproduced, and package them for external release where approved.&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Essential Skills&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Engineering Background:&lt;/strong&gt; Degree in Computer Science, Robotics, Electrical Engineering, or a related field, or equivalent qualification plus professional experience building comparable data or robotics software systems.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;ROS 2 Pipelines:&lt;/strong&gt; Hands-on experience building sensor recording or data pipelines in ROS 2 with Python.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Sensor Synchronization:&lt;/strong&gt; Experience synchronizing multiple cameras and sensors, including calibration and handling timestamp drift.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Dataset Schemas:&lt;/strong&gt; Experience designing schemas and storage layouts for multimodal time-series data, in formats such as Parquet, Zarr, or HDF5.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Camera Pipelines:&lt;/strong&gt; Working knowledge of camera pipelines and video encoding, and how they affect data size and frame integrity.&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Beneficial Skills&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Dataset Curation:&lt;/strong&gt; Experience building curation steps for machine learning datasets, such as filtering, deduplication, and split design.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Synthetic Data:&lt;/strong&gt; Familiarity with combining simulated and real data in one training dataset.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;C++ Development:&lt;/strong&gt; Experience writing C++ for performance-critical capture or driver code.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Robot Learning Datasets:&lt;/strong&gt; Familiarity with dataset conventions used in robot learning, such as LeRobot.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Teleoperation Data:&lt;/strong&gt; Experience recording teleoperation data for imitation learning.&lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h3 class=&quot;TranslationField-module__fieldItemName___Q0F_7 TranslationField-module__aboutUsWrapper___WXJpq&quot;&gt;&lt;strong&gt;What we offer&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&g",
+   "tags": [
+    "AI Platform"
+   ],
+   "employment_type": "",
+   "score": 36,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Munich",
+    "+4 python",
+    "+2 rag"
+   ],
+   "first_seen": "2026-10-16T17:07:52.588867+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "8b6966845fda3e92",
+   "age_hours": 29.0
+  },
+  {
+   "title": "Data Scientist",
+   "company": "Univé",
+   "location": "Zwolle, Overijssel, Nederland",
+   "url": "https://www.arbeitnow.nl/jobs/companies/unive/data-scientist-zwolle-115148",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T20:32:32+00:00",
+   "remote": false,
+   "description": "Ben jij klaar om met data en AI écht impact te maken? Bij Univé krijg je niet alleen de ruimte om te experimenteren, maar ook de verantwoordelijkheid om jouw ideeën uit te bouwen tot slimme oplossingen die door de hele organisatie worden gebruikt. Wil jij vooroplopen, vernieuwen én met jouw werk miljoenen Univé-leden raken? Dan is dit jouw volgende stap. Wie ben jij Jij bent een Data Scientist die verder kijkt dan de techniek. Je doorgrondt complexe vraagstukken snel, overziet het grotere geheel en bepaalt zelfstandig welke aanpak nodig is om van data tot een betrouwbare en bruikbare oplossing te komen. Je maakt inhoudelijke keuzes, kunt deze goed onderbouwen en neemt collega’s en stakeholders daarin mee. Binnen het team vervul je een stevige inhoudelijke rol. Je bent een sparringpartner voor andere data scientists, data engineers, data-analisten en de business. Je durft bestaande werkwijzen kritisch te bekijken, deelt actief je kennis en helpt collega’s verder in hun ontwikkeling. Je werkt zorgvuldig en integer en voelt je verantwoordelijk voor wat je ontwikkelt. Voor jou is een oplossing pas geslaagd wanneer deze niet alleen technisch goed werkt, maar ook verantwoord kan worden ingezet, beheersbaar is en aantoonbare waarde oplevert. Je bent communicatief sterk en kunt complexe analyses en AI-oplossingen helder uitleggen aan collega’s met verschillende achtergronden. Wat neem je mee? wo-werk- en denkniveau, bij voorkeur met een opleiding in Data Science, Artificial Intelligence, Business Analytics, econometrie, wiskunde, statistiek of een vergelijkbare richting; meerdere jaren relevante ervaring als Data Scientist; ervaring met het zelfstandig uitvoeren van complexe data-sciencevraagstukken en het onderbouwen van inhoudelijke keuzes; sterke programmeervaardigheden in Python; ervaring met Git, cloudomgevingen en een professionele ontwikkelwerkwijze; kennis van machinelearningtechnieken en algoritmen zoals Random Forest, Gradient Boosting, deep learning en large language models; ervaring met het vertalen van modellen en analyses naar concrete toepassingen, adviezen en verbeteringen voor de organisatie; ervaring met moderne AI-ontwikkeltools, zoals Codex of Claude Code, of de nieuwsgierigheid om deze snel eigen te maken; een analytische, innovatieve en samenwerkingsgerichte instelling; uitstekende beheersing van de Nederlandse taal, zowel mondeling als schriftelijk. Wat ga je doen Als Data Scientist binnen het Data & AI Office werk je aan complexe en uiteenlopende vraagstukken voor heel Univé. Je ontwikkelt voorspellende modellen, voert diepgaande analyses uit en bouwt AI-oplossingen die daadwerkelijk in de praktijk worden gebruikt. Denk aan toepassingen rondom klantbediening, schade, risicosignalering, procesoptimalisatie en slimme ondersteuning van medewerkers. Je kijkt daarbij verder dan het bouwen van een technisch goed model. Je onderzoekt wat de organisatie echt nodig heeft, kiest een passende aanpak en brengt een oplossing van experiment naar productie. Je zorgt dat modellen betrouwbaar, uitlegbaar en beheersbaar zijn en maakt de resultaten begrijpelijk voor collega’s en stakeholders. Je werkt intensief samen met andere data scientists, data engineers, data-analisten, business informatie analisten en collega’s uit de verschillende bedrijfsonderdelen en waardestromen. Binnen het Data & AI Office werken we AI-first. Dat betekent dat we moderne AI-hulpmiddelen inzetten om slimmer en sneller te ontwikkelen, testen en documenteren. Tegelijkertijd blijven kwaliteit, veiligheid en menselijke controle altijd leidend. Concreet houd je je bezig met: ontwikkelen, testen en verbeteren van AI- en machinelearningoplossingen; vertalen van klant-, polis-, schade- en procesdata naar inzichten, voorspellingen en concrete toepassingen; experimenteren met onder andere machine learning, deep learning, large language models en generatieve AI; ontwikkelen van oplossingen in Python en werken met data vanuit Snowflake; toepassen van moderne AI-on",
+   "tags": [
+    "IT & Data",
+    "Mid",
+    "fulltime fixed term"
+   ],
+   "employment_type": "",
+   "score": 34,
+   "reasons": [
+    "职位匹配: data scientist",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: DE",
+    "+4 python",
+    "+2 snowflake"
+   ],
+   "first_seen": "2026-10-14T22:54:36.092349+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "0f0ed4f091123f0c",
+   "age_hours": 71.4
+  },
+  {
+   "title": "Data Engineer",
+   "company": "Van Mossel Automotive Group Netherlands B.V.",
+   "location": "Waalwijk, Noord-Brabant, Nederland",
+   "url": "https://www.arbeitnow.nl/jobs/companies/van-mossel-automotive-group-netherlands-bv/data-engineer-waalwijk-60489",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T20:32:32+00:00",
+   "remote": false,
+   "description": "Wij zijn op zoek naar een Data Engineer met een passie voor data-integratie. In deze rol ben je verantwoordelijk voor het ontwerpen, bouwen en beheren van betrouwbare dataoplossingen waarmee gegevens uit verschillende systemen worden samengebracht. Je zorgt ervoor dat data tijdig, volledig en van hoge kwaliteit beschikbaar is voor rapportages, analyses en datagedreven besluitvorming. Wat ga je doen? Als Data Engineer werk je aan het ontsluiten, integreren en transformeren van data uit diverse bronnen, zoals bedrijfsapplicaties, databases, API's en cloudplatformen. Je houdt je onder andere bezig met: Ontwerpen, ontwikkelen en beheren van ETL/ELT-processen; Integreren van data uit verschillende interne en externe bronnen; Ontwikkelen en optimaliseren van data pipelines; Bewaken van datakwaliteit, beschikbaarheid en performance; Inrichten van monitoring en foutafhandeling binnen datastromen; Samenwerken met BI-specialisten, Product Owner, Data Engineers en business stakeholders; Bijdragen aan de verdere ontwikkeling van het data platform en data-architectuur; Documenteren van oplossingen en datamodellen; Ondersteunen van de organisatie bij de overgang naar een meer datagedreven werkwijze. Wie ben jij? Jij hebt een passie voor automatiseren en kan experimenteren met nieuwe toepassingen door verbanden in data te leggen en te normaliseren. Je hebt een ‘can do’ instelling en een creatieve benadering t.a.v. complexe data vraagstukken. Je ziet een omgeving met verschillende klantwensen en toenemende groei aan data en bronnen als een uitdaging. Praktisch gezien vragen we: HBO/WO werk- en denkniveau. Ervaring met een data integratie tool is een pré. Sterke kennis van SQL en relationele databases; Uitstekende probleemoplossende vaardigheden en oog voor detail; Goede communicatieve vaardigen en een goede beheersing van de Nederlandse taal; Het vermogen om effectief samen te werken in een teamomgeving; Een proactieve en leergierige houding; Je werkt analytisch, gestructureerd en bent sterk in stellen van prioriteiten; Je bent bereid om op onze locatie in Waalwijk te werken; Fulltime beschikbaar. Wat bieden wij jou? Om onze missie ‘Voor mobiliteit, voor iedereen’ waar te maken, verwachten wij veel van onze medewerkers, maar natuurlijk mag je dan ook iets van ons verwachten. Wij bieden naast een afwisselende en verantwoordelijke functie ook een plezierige werkomgeving waar jouw ontwikkeling voorop staat. Verder kun je rekenen op: Een aantrekkelijk salaris, passend bij jouw werkervaring; 24 vakantiedagen op jaarbasis; 8% vakantiegeld; Pensioenregeling; Andere extra’s, zoals personeelskorting en collectiviteitskorting op je zorgverzekering; Uiteraard krijg je van ons een laptop en telefoon; Toegang tot de bedrijfsfitness; Mogelijkheid voor persoonlijke groei via onze Van Mossel Academy. Enthousiast geworden en herken jij je in het profiel? Dan nodigen we je van harte uit om te reageren! Stuur je cv en motivatie via de website. Find Jobs in Netherlands on Arbeitnow",
+   "tags": [
+    "ICT",
+    "Mid",
+    "fulltime fixed term"
+   ],
+   "employment_type": "",
+   "score": 34,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: DE",
+    "+4 sql",
+    "+2 rag"
+   ],
+   "first_seen": "2026-10-14T22:54:36.092299+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "02480a6d1cd4d553",
+   "age_hours": 71.4
+  },
+  {
+   "title": "Machine Learning Engineer (m/f/d) VLA Training & Evaluation",
+   "company": "Agilerobotsse",
+   "location": "Munich, Bavaria",
+   "url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/machine-learning-engineer-vla-training-evaluation-munich-bavaria-18568",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T14:55:19+00:00",
+   "remote": false,
+   "description": "&lt;p&gt;&lt;strong&gt;The AI Teams at Agile Robots&lt;/strong&gt; are looking for a &lt;strong&gt;Machine Learning Engineer (m/f/d) VLA Training &amp; Evaluation&lt;/strong&gt;, who will build the frameworks for fine-tuning and benchmarking robot foundation models on collected robot data. The frameworks are meant to work across different foundation models and for teams with modest data and compute.&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Training Workflows:&lt;/strong&gt; Build reusable, model-agnostic training and evaluation workflows, with experiment tracking, model versioning, and checkpoint management, so that different foundation models can be swapped in without rebuilding the pipeline.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Fine-Tuning:&lt;/strong&gt; Implement fine-tuning of pretrained vision-language-action models on collected robot data, for example with parameter-efficient methods such as LoRA or adapters, or with distillation.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Policy Training:&lt;/strong&gt; Build training loops for action-chunking and transformer-based action models, diffusion policies, and VLM/VLA heads.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Benchmarks:&lt;/strong&gt; Build benchmarks with generalization splits, success metrics, and failure-analysis templates.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Transfer Studies:&lt;/strong&gt; Work with simulation engineers on studies, including metrics and ablations, that test whether improvements in simulation realism improve performance on the real robot.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Research Baselines:&lt;/strong&gt; Turn published methods into working baselines and templates that others can extend.&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Essential Skills&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Academic Background:&lt;/strong&gt; Degree in Computer Science, Machine Learning, Robotics, or a related field (Master’s or PhD typical), or an equivalent combination of formal training and demonstrated experience training deep learning models.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Training Internals:&lt;/strong&gt; Hands-on experience writing and debugging training loops in PyTorch or JAX, including data loading, loss design, and optimizer behavior.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Fine-Tuning:&lt;/strong&gt; Experience fine-tuning pretrained models and adapting them to new tasks and data.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Robot Learning:&lt;/strong&gt; Working understanding of how imitation-learned policies, such as action-chunking or diffusion policies, turn observations into robot actions.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Experiment Management:&lt;/strong&gt; Experience designing evaluations and ablations, and running experiments with tracking, versioning, and checkpoint management so that others can reproduce them.&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Beneficial Skills&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;VLA Models:&lt;/strong&gt; Experience fine-tuning vision-language-action or vision-language models for robot control.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Real-Robot Evaluation:&lt;/strong&gt; Experience evaluating learned policies on physical robots.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Sim-to-Real:&lt;/strong&gt; Familiarity with measuring how well models trained in simulation transfer to real hardware.&lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h3 class=&quot;TranslationField-module__fieldItemName___Q0F_7 TranslationField-module__aboutUsWrapper___WXJpq&quot;&gt;&lt;strong&gt;What we offer&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt; &lt;div&gt;A dynamic high-tech company, combined with financial soundness and world-class investors.&lt;/div&gt; &lt;/li&gt; &lt;li&gt; &lt;div&gt;Join an interdisciplinary, international team with 60+ different nationalities in a collaborative work environment.&lt;/div&gt; &lt;/li&gt;",
+   "tags": [
+    "AI Platform"
+   ],
+   "employment_type": "",
+   "score": 33,
+   "reasons": [
+    "职位匹配: machine learning engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Munich",
+    "+3 pytorch"
+   ],
+   "first_seen": "2026-10-16T17:07:52.589013+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "d5ee9636229f611e",
+   "age_hours": 29.0
+  },
+  {
+   "title": "AI Engineer I",
+   "company": "Globalizationpartners",
+   "location": "Germany",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/globalizationpartners/ai-engineer-i-153881",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T20:55:40+00:00",
+   "remote": false,
+   "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt; color: rgb(40, 40, 40);&quot;&gt;About Us&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: rgb(40, 40, 40); font-size: 12pt;&quot;&gt;Our leading SaaS-based Global Employment Platform™ enables clients to expand into over 180 countries quickly and efficiently, without the complexities of establishing local entities. At G-P, we’re dedicated to breaking down barriers to global business and creating opportunities for everyone, everywhere.&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: rgb(40, 40, 40); font-size: 12pt;&quot;&gt;Our diverse, remote-first teams are essential to our success. We empower our Dream Team members with flexibility and resources, fostering an environment where innovation thrives and every contribution is valued and celebrated.&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: rgb(40, 40, 40); font-size: 12pt;&quot;&gt;The work you do here will positively impact lives around the world. We stand by our promise: Opportunity Made Possible. In addition to competitive compensation and benefits, we invite you to join us in expanding your skills and helping to reshape the future of work.&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; color: rgb(40, 40, 40); font-size: 12pt;&quot;&gt;At G-P, we assist organizations in building exceptional global teams in days, not months—streamlining the hiring, onboarding, and management process to unlock growth potential for all.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt; color: rgb(40, 40, 40);&quot;&gt;G-P helps organizations build global teams in minutes, not months. As part of this mission, we’ve created an indispensable AI agent for HR leaders, G-P Gia™ .&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt; color: rgb(40, 40, 40);&quot;&gt;Gia is our AI-powered global HR agent that provides HR compliance guidance instantly. Built on over a decade of global employment and legal expertise and 100,000+ vetted articles, Gia analyzes and generates compliant documents and delivers the answers that HR leaders trust — reducing reliance on outside legal counsel and cutting compliance costs by up to 95%.&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-family: arial, helvetica, sans-serif; font-size: 12pt; color: rgb(40, 40, 40);&quot;&gt;&lt;strong&gt;About this Position&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt; color: rgb(40, 40, 40);&quot;&gt;We are seeking a highly motivated AI Engineer to join our G-P&#39;s Gia AI Engineering team, building the data and AI tooling behind Gia&#39;s go-to-market: pipelines, integrations, analytics and agent workflows.&lt;/span&gt;&lt;/p&gt; &lt;p style=&quot;line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt; color: rgb(40, 40, 40);&quot;&gt;&lt;strong&gt;What you will do:&lt;/strong&gt;&nbsp;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt; color: rgb(40, 40, 40);&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt; color: rgb(40, 40, 40);&quot;&gt;Bui",
+   "tags": [
+    "Technology"
+   ],
+   "employment_type": "",
+   "score": 32,
+   "reasons": [
+    "职位匹配: ai engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: Germany",
+    "24 小时内发布"
+   ],
+   "first_seen": "2026-10-16T23:11:23.511162+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "c79666029c6ec585",
+   "age_hours": 23.0
+  },
+  {
+   "title": "Graphene Photonics Data Analyst (f/m/d)",
+   "company": "Black Semiconductor GmbH",
+   "location": "Aachen, Germany",
+   "url": "https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/graphene-photonics-data-analyst-aachen-381282",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T05:40:16+00:00",
+   "remote": false,
+   "description": "About us We see the semiconductor industry as a realm of possibility. We see opportunity. We see the profound impact that our graphene solutions will have in transforming the industry. We invite you to join us in driving change with our fundamentally human-centered approach, uniting bright minds around a shared vision. The vision is: Prove to everybody that you can make a fundamental change. Prove with your knowledge and skills how things can be done differently. Together, we can change the paradigm of how the world connects About our technology The semiconductor industry’s growing demand for more powerful chips with higher bandwidth and lower power finds its solution in our technology. We connect chips to high-throughput, low-delay computing networks. The key lies in harnessing the physical properties of graphene to combine electronic computing with photonic communication, allowing countless chips to interact almost as if they were one. Our graphene photonic innovation increases computing power and efficiency to a new order of magnitude In short, we connect chips to create powerful and energy-efficient networks, overcoming connectivity limitations in the semiconductor industry. We deliver the graphene solution The Role As a Graphene Photonics Data Analyst , you will transform complex characterization data into reliable insights that guide device design, process development, and manufacturing decisions. You will own and evolve our analysis software, develop new methods for emerging experiments, and help scale our analytical capabilities as we transition from R&D to high-volume production. To join our team, you should be excited to: Own and continuously improve our characterization analysis software suite Develop new analysis methods as experiments and measurement capabilities evolve Handle large measurement datasets spanning electrical, optical, and electro-optical characterization Ensure the integrity, accuracy, and traceability of analysis outputs Turn raw measurement data into actionable insights for process and design decisions Extract device parameters from measured data and benchmark results against physical and compact models Perform statistical process and yield analyses to identify trends, correlations, and outliers across wafers and lots Correlate characterization results with process parameters, closing the loop between measurement and process control Integrate analysis outputs with fab MES and data systems to enable real-time process feedback Define standardized analysis protocols and transition mature R&D code into robust, production-ready tools Optimize analysis pipelines for throughput and scalability as we move toward high-volume production Your Qualifications An M.S. or PhD in Data Science, Physics, or another relevant technical discipline At least two years of relevant industry or research experience; a related PhD project Strong Python skills and a genuine passion for building high-quality software A proven track record of designing, developing, and owning a software pipeline or technical project end-to-end A solid foundation in device physics, including solid-state physics, semiconductor devices, and photonics Experience with statistical analysis, model fitting, and parameter extraction Experience with data visualization and tracking trends across wafers, lots, or manufacturing processes The ability to work with laboratory or fab instrument interfaces Our work culture People Over Processes. At Black Semiconductor, flexibility is key—we ensure work adapts to life, not the other way around. We champion work-life harmony, where careers are meaningful and enriching. Our processes are human-centric, allowing you to focus on what matters Let’s grow together. Your potential is our priority. We provide the autonomy to make a lasting impact and nurture your growth through a culture of continuous learning. We invest in your journey for professional and personal development Your Health and Future Matter. Your well-bei",
+   "tags": [
+    "Design Enablement",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 32,
+   "reasons": [
+    "职位匹配: data analyst",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: Germany",
+    "+4 python"
+   ],
+   "first_seen": "2026-08-27T13:25:53.794169+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "f13a5912ce32b6dd",
+   "age_hours": 38.3
+  },
+  {
+   "title": "Computer Vision Engineer (VIO)",
+   "company": "Harmattan Ai",
+   "location": "Zurich",
+   "url": "https://www.arbeitnow.ch/jobs/companies/harmattan-ai/computer-vision-engineer-vio-zurich-33123",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T17:40:25+00:00",
+   "remote": false,
+   "description": "About Us Harmattan AI is a next-generation defense prime building autonomous and scalable defense systems. Following the close of a $200M Series B, valuing the company at $1.4 billion, we are expanding our teams and capabilities to deliver mission-critical systems to allied forces. Our work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges. We operate in a demanding environment where rigor, ownership, and execution are expected. About the Role We are looking for a Computer Vision Engineer to contribute to the development of the front-end of our visual inertial odometry (VIO) algorithmic stack. Responsibilities VIO Front-end Algorithm development: Matching between frames and stereo pairs Calibration of cameras intrinsic and extrinsic parameters Detection of obstruction Implementation and optimization of the algorithmic stack for our embedded platforms Testing, Validation & Monitoring: algorithms testing in simulation and real-world environments, development of inspection and monitoring tools.. Cross-Team Collaboration: Work closely with system engineers, optical engineers, software engineers. Communicate findings effectively to stakeholders. Candidate Requirements Educational Background : Master’s degree in Robotics, Physics, Computer Science or related field, PhD is a plus Technical Expertise : Strong mathematical foundations, coding skills in both Python and C++ Hands-on VIO project experience . Experience with VIO on industrial products is a huge plus. Passion for Computer Vision and Robotics Strong Communication & Teamwork : Ability to collaborate effectively with diverse teams Commitment : 100% dedication to Harmattan’s mission, vision, and ambitious growth plans, ready to go the extra mile to ensure operational excellence. We look forward to hearing how you can help shape the future of autonomous defense systems at Harmattan AI. Find Jobs in Switzerland on Arbeitnow",
+   "tags": [
+    "R&D",
+    "Full Time"
+   ],
+   "employment_type": "",
+   "score": 31,
+   "reasons": [
+    "职位匹配: computer vision engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Zurich",
+    "+4 python"
+   ],
+   "first_seen": "2026-10-14T19:54:20.264226+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "f1fbf84f6a00e5fe",
+   "age_hours": 74.3
+  },
+  {
+   "title": "AI Engineer (m/f/x)",
+   "company": "commercetools",
+   "location": "Berlin",
+   "url": "https://www.arbeitnow.com/jobs/companies/commercetools/ai-engineer-berlin-19322",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T08:55:25+00:00",
+   "remote": false,
+   "description": "&lt;div class=&quot;ng-tns-c879422873-771&quot;&gt; &lt;section id=&quot;processing-state-26&quot; class=&quot;processing-state_container ng-tns-c879422873-771 is-gpi-avatar is-done-processing ng-trigger ng-trigger-processingStateShowHide ng-star-inserted&quot;&gt; &lt;div id=&quot;processing-state-26-summary&quot; class=&quot;processing-state_details ng-trigger ng-trigger-menuExpansion ng-tns-c879422873-771 is-gpi-avatar ng-star-inserted&quot;&gt; &lt;div class=&quot;ng-tns-c879422873-771&quot;&gt; &lt;section id=&quot;processing-state-26&quot; class=&quot;processing-state_container ng-tns-c879422873-771 is-gpi-avatar is-done-processing ng-trigger ng-trigger-processingStateShowHide ng-star-inserted&quot;&gt; &lt;div id=&quot;processing-state-26-summary&quot; class=&quot;processing-state_details ng-trigger ng-trigger-menuExpansion ng-tns-c879422873-771 is-gpi-avatar ng-star-inserted&quot;&gt; &lt;h4&gt;&lt;strong&gt;About commercetools&lt;/strong&gt;&lt;/h4&gt; &lt;/div&gt; &lt;/section&gt; &lt;/div&gt; &lt;div class=&quot;response-content ng-tns-c263290053-769&quot;&gt; &lt;div class=&quot;container&quot;&gt; &lt;div id=&quot;model-response-message-contentr_bfb50fc8f1f4512c&quot; class=&quot;markdown markdown-main-panel stronger enable-updated-hr-color&quot;&gt; &lt;p&gt;Real innovation starts with a strong foundation, and at commercetools, that comes from the perfect balance of our product and our people.&lt;/p&gt; &lt;p&gt;Behind every leap forward is a collective of builders, explorers, doers, makers, and problem-solvers.The kind of people who not only pioneered a more flexible approach to commerce architecture but also shaped the culture of experimentation that approach unlocked. Together they are the engine of commerce innovation today.&lt;/p&gt; &lt;p&gt;At commercetools, we power the next era of autonomous commerce for our customers. Whether it’s AI-driven solutions that help enterprises make smarter business decisions, bridging digital and physical shopping experiences, or enabling entirely new ways for industries to connect with their customers, we help the world’s most ambitious companies experiment, scale, and grow without limits.&lt;/p&gt; &lt;p&gt;Here the best idea wins, not the loudest voice. You will have the tools, trust, and space to not only build the future of commerce, but to build your own.&lt;/p&gt; &lt;h4&gt;&lt;strong&gt;Your Impact&lt;/strong&gt;&lt;/h4&gt; &lt;p data-path-to-node=&quot;3&quot;&gt;&lt;span data-path-to-node=&quot;3,1&quot;&gt;&lt;span class=&quot;citation-2853&quot;&gt;You own AI capabilities end-to-end:&nbsp; from the data and context that feed a model, through agent orchestration, to the generative UI a user sees and trusts. You&#39;ve personally shipped and operated full-stack apps in production, so backend, frontend, data, and ML aren&#39;t four teams you coordinate with, they&#39;re four things you do. You&#39;re not a research scientist; you wield models and engineer ruthlessly around their uncertainty.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt; &lt;p data-path-to-node=&quot;4&quot;&gt;&lt;strong data-path-to-node=&quot;4&quot; data-index-in-node=&quot;0&quot;&gt;You will:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build agent loops and orchestration: tool use, structured outputs, business-rule enforcement, graceful failure&lt;/li&gt; &lt;li&gt;Build the integration layer (via MCP) that lets agents securely call backend systems and business APIs&lt;/li&gt; &lt;li&gt;Render model output into live, streamed, accessible UI via generative-UI protocols&lt;/li&gt; &lt;li&gt;Ground models in real data: retrieval, embeddings, and feedback loops that actually close&lt;/li&gt; &lt;li&gt;Treat evals as a first-class system - provable improvement, not vibes&nbsp;&lt;/li&gt; &lt;li&gt;Take a capability from prompt-in-a-notebook to a measured, guard-railed production feature&lt;/li&gt; &lt;/ul&gt; &lt;p data-path-to-node=&quot;6&quot;&gt;&lt;span data-path-to-node=&quot;6,1&quot;&gt;&lt;span cla",
+   "tags": [
+    "Engineering"
+   ],
+   "employment_type": "",
+   "score": 30,
+   "reasons": [
+    "职位匹配: ai engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Berlin"
+   ],
+   "first_seen": "2026-09-18T07:49:49.432581+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "8377594bf1d0ed55",
+   "age_hours": 35.0
+  },
+  {
+   "title": "AI Engineer (m/f/x)",
+   "company": "commercetools",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitnow.com/jobs/companies/commercetools/ai-engineer-munchen-bayern-112395",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-16T08:55:25+00:00",
+   "remote": false,
+   "description": "&lt;div class=&quot;ng-tns-c879422873-771&quot;&gt; &lt;section id=&quot;processing-state-26&quot; class=&quot;processing-state_container ng-tns-c879422873-771 is-gpi-avatar is-done-processing ng-trigger ng-trigger-processingStateShowHide ng-star-inserted&quot;&gt; &lt;div id=&quot;processing-state-26-summary&quot; class=&quot;processing-state_details ng-trigger ng-trigger-menuExpansion ng-tns-c879422873-771 is-gpi-avatar ng-star-inserted&quot;&gt; &lt;div class=&quot;ng-tns-c879422873-771&quot;&gt; &lt;section id=&quot;processing-state-26&quot; class=&quot;processing-state_container ng-tns-c879422873-771 is-gpi-avatar is-done-processing ng-trigger ng-trigger-processingStateShowHide ng-star-inserted&quot;&gt; &lt;div id=&quot;processing-state-26-summary&quot; class=&quot;processing-state_details ng-trigger ng-trigger-menuExpansion ng-tns-c879422873-771 is-gpi-avatar ng-star-inserted&quot;&gt; &lt;h4&gt;&lt;strong&gt;About commercetools&lt;/strong&gt;&lt;/h4&gt; &lt;/div&gt; &lt;/section&gt; &lt;/div&gt; &lt;div class=&quot;response-content ng-tns-c263290053-769&quot;&gt; &lt;div class=&quot;container&quot;&gt; &lt;div id=&quot;model-response-message-contentr_bfb50fc8f1f4512c&quot; class=&quot;markdown markdown-main-panel stronger enable-updated-hr-color&quot;&gt; &lt;p&gt;Real innovation starts with a strong foundation, and at commercetools, that comes from the perfect balance of our product and our people.&lt;/p&gt; &lt;p&gt;Behind every leap forward is a collective of builders, explorers, doers, makers, and problem-solvers.The kind of people who not only pioneered a more flexible approach to commerce architecture but also shaped the culture of experimentation that approach unlocked. Together they are the engine of commerce innovation today.&lt;/p&gt; &lt;p&gt;At commercetools, we power the next era of autonomous commerce for our customers. Whether it’s AI-driven solutions that help enterprises make smarter business decisions, bridging digital and physical shopping experiences, or enabling entirely new ways for industries to connect with their customers, we help the world’s most ambitious companies experiment, scale, and grow without limits.&lt;/p&gt; &lt;p&gt;Here the best idea wins, not the loudest voice. You will have the tools, trust, and space to not only build the future of commerce, but to build your own.&lt;/p&gt; &lt;h4&gt;&lt;strong&gt;Your Impact&lt;/strong&gt;&lt;/h4&gt; &lt;p data-path-to-node=&quot;3&quot;&gt;&lt;span data-path-to-node=&quot;3,1&quot;&gt;&lt;span class=&quot;citation-2853&quot;&gt;You own AI capabilities end-to-end:&nbsp; from the data and context that feed a model, through agent orchestration, to the generative UI a user sees and trusts. You&#39;ve personally shipped and operated full-stack apps in production, so backend, frontend, data, and ML aren&#39;t four teams you coordinate with, they&#39;re four things you do. You&#39;re not a research scientist; you wield models and engineer ruthlessly around their uncertainty.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt; &lt;p data-path-to-node=&quot;4&quot;&gt;&lt;strong data-path-to-node=&quot;4&quot; data-index-in-node=&quot;0&quot;&gt;You will:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build agent loops and orchestration: tool use, structured outputs, business-rule enforcement, graceful failure&lt;/li&gt; &lt;li&gt;Build the integration layer (via MCP) that lets agents securely call backend systems and business APIs&lt;/li&gt; &lt;li&gt;Render model output into live, streamed, accessible UI via generative-UI protocols&lt;/li&gt; &lt;li&gt;Ground models in real data: retrieval, embeddings, and feedback loops that actually close&lt;/li&gt; &lt;li&gt;Treat evals as a first-class system - provable improvement, not vibes&nbsp;&lt;/li&gt; &lt;li&gt;Take a capability from prompt-in-a-notebook to a measured, guard-railed production feature&lt;/li&gt; &lt;/ul&gt; &lt;p data-path-to-node=&quot;6&quot;&gt;&lt;span data-path-to-node=&quot;6,1&quot;&gt;&lt;span cla",
+   "tags": [
+    "Engineering"
+   ],
+   "employment_type": "",
+   "score": 30,
+   "reasons": [
+    "职位匹配: ai engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: München"
+   ],
+   "first_seen": "2026-09-18T07:49:49.432521+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "83e35536f8e96da7",
+   "age_hours": 35.0
+  },
+  {
+   "title": "Finance Data Engineer",
+   "company": "capco",
+   "location": "Germany",
+   "url": "https://www.arbeitnow.ch/jobs/companies/capco/finance-data-engineer-255524",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-15T23:55:15+00:00",
+   "remote": false,
+   "description": "&lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Joining Capco means joining an organization that is committed to an inclusive working environment where you’re encouraged to #BeYourselfAtWork. We celebrate individuality and recognize that diversity and inclusion, in all forms, is critical to success. It’s important to us that we recruit and develop as diverse a range of talent as we can and we believe that everyone brings something different to the table – so we’d love to know what makes you different. Such differences may mean we need to make changes to our process to allow you the best possible platform to succeed, and we are happy to cater to any reasonable adjustments you may require. You will find the section to let us know of these at the bottom of your application form or you can mention it directly to your recruiter at any stage and they will be happy to help.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;About Capco&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Capco is a global technology and management consultancy dedicated to the financial services industry. We combine innovative thinking with unrivalled industry knowledge, to offer our clients consulting expertise, complex technology and package integration, transformation delivery and managed services to move their organizations forward.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;We specialize primarily in banking &amp; payments, capital markets, wealth &amp; asset management, insurance and energy&lt;/li&gt; &lt;li&gt;We have a collaborative and efficient approach&lt;/li&gt; &lt;li&gt;We help our clients successfully innovate, increase revenue, manage risk and regulatory change, reduce costs and enhance controls&lt;/li&gt; &lt;li&gt;We serve our clients from 32 offices across the Americas, Europe, and Asia Pacific&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If creativity and innovation are your passion, then Capco is right for you. You can grow in an inclusive, diverse and collaborative environment. At Capco, we will train and support you to help accelerate your career.&lt;span class=&quot;EOP SCXW202573807 BCX0&quot; data-ccp-props=&quot;{&quot;335551550&quot;:6,&quot;335551620&quot;:6}&quot;&gt;&nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p class=&quot;isSelectedEnd&quot;&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;As a Finance Data Engineer at Capco, you will work at the intersection of IT, Data and Finance, supporting the evolution of a critical Finance Data Mart used for Business Finance information, MI and reporting in Private Banking as well as other Banking areas.&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;The platform is a key source of financial information, supporting measures including such as Assets under Management (AuM), Net New Money (NNM) and Return on Assets (RoA) and other KPIs.&nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;You will combine technical and data expertise with Finance understanding, enabling you to interpret and validate financial outputs, identify issues and help improve the quality and capabilities of the platform.&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;YOUR CAPCO DAY&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&quot;201341983&quot;:0,&quot;335559740&quot;:254}&quot;&gt;&nbsp;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&",
+   "tags": [
+    "Data & Analytics"
+   ],
+   "employment_type": "",
+   "score": 30,
+   "reasons": [
+    "职位匹配: data engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: Germany",
+    "+2 rag"
+   ],
+   "first_seen": "2026-10-16T02:30:20.074510+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "03eaeca6e41cd131",
+   "age_hours": 44.0
+  },
+  {
+   "title": "Analytics Engineer, Revenue, Purchase & Order",
+   "company": "Vinteden",
+   "location": "Amsterdam",
+   "url": "https://www.arbeitnow.nl/jobs/companies/vinteden/analytics-engineer-revenue-purchase-order-amsterdam-499404",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-15T20:55:14+00:00",
+   "remote": false,
+   "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;Brief info about Vinted&nbsp;&lt;/strong&gt;&lt;/h2&gt; &lt;p data-renderer-start-pos=&quot;1&quot;&gt;&lt;span data-sheets-root=&quot;1&quot;&gt;Our mission is to make second-hand the first choice, and we&#39;re looking for people who want to help us get there. Every day, we work together to help our members buy and sell pre-loved clothing and lifestyle items, giving each piece a second life – or even a third. &lt;br&gt;The Vinted Group is made up of three business units that support this mission:&lt;br&gt;&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;https://careers.vinted.com/marketplace&quot; target=&quot;_blank&quot;&gt;Vinted Marketplace&lt;/a&gt;&lt;/strong&gt; is Europe’s leading platform for second-hand fashion and a go-to destination for all kinds of pre-loved items, with a growing range of categories. Our platform connects millions of members across 20+ markets, helping great items find a new life.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://careers.vinted.com/vintedgo&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Vinted Go&lt;/strong&gt;&lt;/a&gt; enhances the shipping experience with a vast network of over 500,000 pick-up and drop-off points, partnering with more than 60 carriers across Europe, with added services like item verification for peace of mind on high-value pieces.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://careers.vinted.com/vintedpay&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Vinted Pay&lt;/strong&gt;&lt;/a&gt; is the newest part of the Vinted Group, dedicated to bringing secure, reliable payments to buyers and sellers across Europe. Seamlessly integrated into the Vinted app, it helps keep every transaction safe, efficient, and easy for our members.&lt;br&gt;&lt;br&gt;Founded in 2008 in Lithuania, Vinted began as a way for friends to find new homes for clothes they no longer needed. In 2019, we became Lithuania&#39;s first unicorn! Today, our headquarters remain in Vilnius, and we&#39;ve grown with offices across Europe, supported by a team of over 2,000 people.&nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;Information about the position&nbsp;&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We are looking for an Analytics Engineer to join our Revenue, Purchase &amp; Order Analytics Engineering team.&lt;/p&gt; &lt;p&gt;The area sits at the heart of some of the most critical customer journeys and commercial systems across Vinted’s Marketplace Business Unit, spanning Revenue (pricing and advertising), Purchase (inquiries and checkout), and Orders (transactions and fulfilment). Together, these domains create a rich, high-volume, and deeply interconnected data ecosystem.&lt;/p&gt; &lt;p&gt;As an Analytics Engineer, you’ll work at the intersection of data, engineering, and product, building trusted data products that power business and product decision-making across these domains.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;In this position, you’ll&nbsp;&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Build scalable data products:&lt;/strong&gt; Design, develop, and evolve reliable, cost-efficient data products and pipelines that power analytics and machine learning use cases across the domains.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Build quality in by design:&lt;/strong&gt; Embed automated testing, validation, and quality controls throughout the data lifecycle to ensure data remains accurate, consistent, and complete.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Strengthen observability:&lt;/strong&gt; Improve monitoring and alerting to detect and address issues before they impact downstream consumers.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Own production reliability:&lt;/strong&gt; Take end-to-end ownership of production data systems, from investigating incidents and diagnosing root causes to implementing durable fixes that prevent recurrence and improve long-term resilience.&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;Who you’ll work with:&lt;/h2&gt; &l",
+   "tags": [
+    "Data Science & Analytics"
+   ],
+   "employment_type": "",
+   "score": 30,
+   "reasons": [
+    "职位匹配: analytics engineer",
+    "未要求德语",
+    "未标明经验年限",
+    "目标城市: Amsterdam"
+   ],
+   "first_seen": "2026-10-15T23:29:31.022254+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "1acf6ce0ae71ae08",
+   "age_hours": 47.0
+  },
+  {
+   "title": "Data Scientist",
+   "company": "Univé",
+   "location": "Apeldoorn, Gelderland, Nederland",
+   "url": "https://www.arbeitnow.nl/jobs/companies/unive/data-scientist-apeldoorn-484754",
+   "source": "arbeitnow",
+   "posted_at": "2026-10-14T20:32:32+00:00",
+   "remote": false,
+   "description": "Krijg jij energie van het bouwen van robuuste modellen én experimenteren met de nieuwste AI-toepassingen? Bij Univé breng jij data tot leven en maak je direct impact voor onze medewerkers én leden. Wat ga je doen? Als Data Scientist bij Univé Stad en Land werk je aan uiteenlopende vraagstukken: van het ontwikkelen van voorspelmodellen en het uitvoeren van complexe analyses tot het inzetten van de nieuwste AI-technieken. Je focust daarbij op het ontwikkelen van oplossingen die écht impact maken. Denk aan toepassingen rondom klantbediening, procesoptimalisatie, risicosignalering, schade-inzichten of slimme ondersteuning van collega’s in hun dagelijkse werk. Daarbij ben je een belangrijke schakel tussen de business en het datateam en maakt resultaten begrijpelijk en toepasbaar voor collega’s en stakeholders. Daarnaast werk je intensief samen met de andere dataspecialisten uit het datateam en met collega’s binnen heel Univé, zoals business change. Binnen het team staan verbeteren en vernieuwen centraal. Jaarlijks doe je bovendien mee aan innovatiesprints waarin je samen met collega’s nieuwe innovatieve toepassingen verkent en bouwt. Concreet houd je je bezig met: AI- en ML oplossingen ontwikkelen, testen en verbeteren; Data vertalen naar praktische inzichten, adviezen, voorspellingen en AI-toepassingen; Trends, verbanden en uitzonderingen in bijv. klant-, polis- en schadedata omzetten naar slimme oplossingen; Collega’s en leidinggevenden helpen om data, modellen en AI-oplossingen goed te begrijpen en toe te passen; Meewerken aan innovatieve toepassingen en continu verbeteren binnen Univé. Je werkt voornamelijk vanuit onze locatie in Apeldoorn. Gemiddeld één keer per twee weken werk je vanuit onze locatie in Enschede. Wat bieden wij? Bij Univé Stad en Land krijg je de ruimte om je data expertise te combineren met zichtbare impact in de organisatie. Je werkt aan vraagstukken die ertoe doen, met collega's die willen verbeteren, vernieuwen en samen resultaat boeken. Salaris & arbeidsvoorwaarden : een salaris dat past bij jouw opleiding, ervaring en competenties, met een indicatie vanaf €4.180 bruto per maand (o.b.v. 38 uur per week); Extra voorwaarden : 13e maand, vakantiegeld en een flexibel arbeidsvoorwaardenkeuzesysteem waarmee je kunt kiezen voor geld of tijd voor tijd; Hybride werken: hybride werken, inclusief thuiswerkvergoeding; Uitdagende projecten: projecten op het snijvlak van data, business en continu verbeteren, met ruimte voor eigen ideeën en oplossingen; Innovatie & autonomie: vrijheid om je eigen ideeën en oplossingen te ontwikkelen, testen en optimaliseren; Ontwikkeling : persoonlijke en professionele groei, waaronder een training persoonlijk leiderschap in je eerste halfjaar en mogelijkheden voor verdere opleidingen; Warm welkom : een warm welkom met een uitgebreid onboardingprogramma en een betrokken team waar successen samen worden gevierd; Extra voordelen: korting op schade- en zorgverzekeringen bij Univé. Wie ben jij? Jij bent een ervaren Data Scientist die verder kijkt dan het bouwen van een goed model. Je overziet het grotere geheel, doorgrondt complexe vraagstukken snel en weet welke aanpak nodig is om van data tot een betrouwbare en bruikbare oplossing te komen. Je hebt voldoende vakinhoudelijke bagage om zelfstandig keuzes te maken, deze te onderbouwen en anderen daarin mee te nemen. Binnen het team neem je vanuit jouw ervaring een stevige inhoudelijke rol. Je bent een sparringpartner voor collega data scientisten, data analisten en de business en durft bestaande aanpakken kritisch te bekijken. Je deelt actief je kennis, helpt collega’s verder in hun vak en draagt daarmee bij aan het verhogen van het inhoudelijke niveau van het datateam. Je werkt zorgvuldig en integer en voelt je verantwoordelijk voor de kwaliteit en betrouwbaarheid van modellen en analyses. Tegelijkertijd ben je communicatief sterk: je kunt complexe data-inzichten helder en overtuigend vertalen naar collega’s en stakeholders met verschillend",
+   "tags": [
+    "IT & Data",
+    "Mid",
+    "fulltime fixed term"
+   ],
+   "employment_type": "",
+   "score": 28,
+   "reasons": [
+    "职位匹配: data scientist",
+    "未要求德语",
+    "未标明经验年限",
+    "目标国家: DE"
+   ],
+   "first_seen": "2026-10-14T22:54:36.092390+00:00",
+   "is_new": false,
+   "reject_reason": "",
+   "fingerprint": "e5360ac6bfcd9f9f",
+   "age_hours": 71.4
+  }
+ ]
+}
