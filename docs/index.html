@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Job Radar</title>
+<style>
+:root{--bg:#0e1116;--card:#171b22;--line:#262c36;--fg:#e6edf3;--dim:#8b949e;
+      --hot:#f85149;--new:#3fb950;--acc:#58a6ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+     font:15px/1.55 -apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--dim);font-size:13px;margin-bottom:18px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;
+      padding:10px 14px;min-width:96px}
+.stat b{display:block;font-size:20px}.stat span{color:var(--dim);font-size:12px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+input,select{background:var(--card);border:1px solid var(--line);color:var(--fg);
+             border-radius:8px;padding:8px 10px;font-size:14px}
+input[type=search]{flex:1;min-width:200px}
+.plat{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.plat a{background:var(--card);border:1px solid var(--line);color:var(--acc);
+        text-decoration:none;font-size:13px;padding:6px 11px;border-radius:999px}
+.plat a:hover{border-color:var(--acc)}
+.job{background:var(--card);border:1px solid var(--line);border-radius:12px;
+     padding:14px 16px;margin-bottom:10px}
+.job.isnew{border-color:#2ea04366;box-shadow:inset 3px 0 0 var(--new)}
+.jt{font-size:16px;font-weight:600;margin:0 0 4px}
+.jt a{color:var(--fg);text-decoration:none}.jt a:hover{color:var(--acc)}
+.meta{color:var(--dim);font-size:13px;display:flex;gap:10px;flex-wrap:wrap}
+.tags{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:11px;border:1px solid var(--line);border-radius:999px;
+     padding:2px 8px;color:var(--dim)}
+.badge{font-size:11px;border-radius:999px;padding:2px 8px;font-weight:600}
+.b-new{background:#2ea04326;color:var(--new)}
+.b-hot{background:#f8514926;color:var(--hot)}
+.b-score{background:#58a6ff22;color:var(--acc)}
+.apply{float:right;background:var(--acc);color:#04121f;text-decoration:none;
+       font-size:13px;font-weight:600;padding:6px 14px;border-radius:8px}
+.empty{color:var(--dim);text-align:center;padding:48px 0}
+</style></head><body><div class="wrap">
+<h1>Job Radar</h1>
+<div class="sub">最近更新：2026-10-31 14:08 UTC · 每小时自动抓取 · 数据源：公司官网 ATS + 免费公开岗位 API</div>
+<div class="stats">
+  <div class="stat"><b id="s-total">0</b><span>符合条件</span></div>
+  <div class="stat"><b id="s-24h" style="color:var(--hot)">0</b><span>24 小时内</span></div>
+  <div class="stat"><b id="s-new" style="color:var(--new)">0</b><span>本次新增</span></div>
+  <div class="stat"><b id="s-src">0</b><span>数据源</span></div>
+</div>
+<div class="plat"><a href="https://www.linkedin.com/jobs/search/?keywords=AI%20Engineer&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · AI Engineer · 24h</a><a href="https://www.stepstone.de/jobs/AI-Engineer?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · AI Engineer · 24h</a><a href="https://de.indeed.com/jobs?q=AI%20Engineer&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · AI Engineer · 24h</a><a href="https://www.xing.com/jobs/search?keywords=AI%20Engineer&sort=date" target="_blank" rel="noopener">Xing · AI Engineer · 24h</a><a href="https://www.linkedin.com/jobs/search/?keywords=Machine%20Learning%20Engineer&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · Machine Learning Engineer · 24h</a><a href="https://www.stepstone.de/jobs/Machine-Learning-Engineer?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · Machine Learning Engineer · 24h</a><a href="https://de.indeed.com/jobs?q=Machine%20Learning%20Engineer&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · Machine Learning Engineer · 24h</a><a href="https://www.xing.com/jobs/search?keywords=Machine%20Learning%20Engineer&sort=date" target="_blank" rel="noopener">Xing · Machine Learning Engineer · 24h</a><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · Data Scientist · 24h</a><a href="https://www.stepstone.de/jobs/Data-Scientist?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · Data Scientist · 24h</a><a href="https://de.indeed.com/jobs?q=Data%20Scientist&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · Data Scientist · 24h</a><a href="https://www.xing.com/jobs/search?keywords=Data%20Scientist&sort=date" target="_blank" rel="noopener">Xing · Data Scientist · 24h</a><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · Data Analyst · 24h</a><a href="https://www.stepstone.de/jobs/Data-Analyst?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · Data Analyst · 24h</a><a href="https://de.indeed.com/jobs?q=Data%20Analyst&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · Data Analyst · 24h</a><a href="https://www.xing.com/jobs/search?keywords=Data%20Analyst&sort=date" target="_blank" rel="noopener">Xing · Data Analyst · 24h</a><a href="https://www.linkedin.com/jobs/search/?keywords=Data%20Engineer&location=Germany&f_TPR=r86400&sortBy=DD" target="_blank" rel="noopener">LinkedIn · Data Engineer · 24h</a><a href="https://www.stepstone.de/jobs/Data-Engineer?sort=2&ag=age_1" target="_blank" rel="noopener">StepStone · Data Engineer · 24h</a><a href="https://de.indeed.com/jobs?q=Data%20Engineer&l=Germany&fromage=1&sort=date" target="_blank" rel="noopener">Indeed · Data Engineer · 24h</a><a href="https://www.xing.com/jobs/search?keywords=Data%20Engineer&sort=date" target="_blank" rel="noopener">Xing · Data Engineer · 24h</a></div>
+<div class="bar">
+  <input type="search" id="q" placeholder="搜索职位 / 公司 / 地点…">
+  <select id="fresh">
+    <option value="9999">全部时间</option>
+    <option value="24">24 小时内</option>
+    <option value="72">3 天内</option>
+    <option value="168" selected>7 天内</option>
+  </select>
+  <select id="src"><option value="">全部来源</option></select>
+  <select id="sort">
+    <option value="score">按匹配度排序</option>
+    <option value="date">按发布时间排序</option>
+  </select>
+</div>
+<div id="list"></div>
+</div>
+<script>
+const JOBS = [{"title": "AI-First Data Engineer (m/f/d)", "company": "Sport Alliance GmbH", "location": "Remote (Germany)", "url": "https://www.arbeitnow.com/jobs/companies/sport-alliance-gmbh/remote-ai-first-data-engineer-117386", "source": "arbeitnow", "posted_at": "2026-10-31T03:27:15+00:00", "remote": false, "tags": ["Data Operations", "Full-time"], "employment_type": "", "score": 65, "reasons": ["职位匹配: data engineer", "未要求德语", "未标明经验年限", "目标国家: Germany", "+6 english speaking", "+4 python", "+4 sql", "+3 llm", "+2 rag", "+2 spark", "+3 dbt", "+3 airflow", "+2 aws", "+2 gcp", "+2 azure", "24 小时内发布"], "first_seen": "2026-09-07T16:57:36.905008+00:00", "is_new": false, "reject_reason": "", "fingerprint": "ab76efd4fafdc957", "age_hours": 10.7}, {"title": "Quantitative Analyst Asset Management Portfolio Risk", "company": "coni+partner AG", "location": "Zürich", "url": "https://www.arbeitnow.ch/jobs/companies/conipartner-ag/quantitative-analyst-asset-management-portfolio-risk-zurich-337646", "source": "arbeitnow", "posted_at": "2026-10-31T06:30:45+00:00", "remote": false, "tags": ["Asset", "Fonds Management", "Indefinite contract (unbefristeter arbeitsvertrag)", "professional / experienced"], "employment_type": "", "score": 50, "reasons": ["职位匹配: quantitative analyst", "未要求德语", "未标明经验年限", "目标城市: Zürich", "+6 english speaking", "+4 python", "+4 sql", "+2 rag", "24 小时内发布"], "first_seen": "2026-10-31T07:50:03.050380+00:00", "is_new": false, "reject_reason": "", "fingerprint": "e3c115cab31e0ec9", "age_hours": 7.6}, {"title": "Data Engineer (m/f/d)", "company": "ANGEHEUERT GmbH", "location": "Frankfurt am Main", "url": "https://www.arbeitnow.com/jobs/companies/angeheuert-gmbh/data-engineer-frankfurt-am-main-160516", "source": "arbeitnow", "posted_at": "2026-10-30T10:20:11+00:00", "remote": false, "tags": ["Information technology", "bachelor's degree", "Full-time permanent", "experienced"], "employment_type": "", "score": 49, "reasons": ["职位匹配: data engineer", "未要求德语", "未标明经验年限", "目标城市: Frankfurt", "+6 english speaking", "+4 sql", "+2 databricks", "+3 power bi", "+2 aws", "+2 azure"], "first_seen": "2026-10-30T16:55:13.785675+00:00", "is_new": false, "reject_reason": "", "fingerprint": "800633178c0f6b3b", "age_hours": 27.8}, {"title": "Business Analyst (m/w/d)", "company": "Odoo DE GmbH", "location": "Munich", "url": "https://www.arbeitnow.com/jobs/companies/odoo-de-gmbh/business-analyst-munich-17017", "source": "arbeitnow", "posted_at": "2026-10-30T15:01:05+00:00", "remote": false, "tags": ["Business Analyst", "Unbefristeter arbeitsvertrag", "berufserfahren"], "employment_type": "", "score": 48, "reasons": ["职位匹配: business analyst", "未要求德语", "经验要求 2 年", "目标城市: Munich", "+6 english speaking", "+4 python", "+2 rag", "24 小时内发布"], "first_seen": "2026-10-30T16:55:13.785751+00:00", "is_new": false, "reject_reason": "", "fingerprint": "b7fafc3a9250b68c", "age_hours": 23.1}, {"title": "Data Engineer (m/f/d)", "company": "ANGEHEUERT GmbH", "location": "Homeoffice", "url": "https://www.arbeitnow.com/jobs/companies/angeheuert-gmbh/remote-data-engineer-frankfurt-am-main-159193", "source": "arbeitnow", "posted_at": "2026-10-30T15:31:17+00:00", "remote": true, "tags": ["Remote", "Experienced", "fulltime permanent"], "employment_type": "", "score": 44, "reasons": ["职位匹配: data engineer", "未要求德语", "未标明经验年限", "远程岗位", "+4 sql", "+2 databricks", "+3 power bi", "+2 aws", "+2 azure", "24 小时内发布"], "first_seen": "2026-10-30T16:55:13.785712+00:00", "is_new": false, "reject_reason": "", "fingerprint": "8467d1f2eb477666", "age_hours": 22.6}, {"title": "AI Engineer", "company": "12Build", "location": "Nijverdal, Overijssel, Nederland", "url": "https://www.arbeitnow.nl/jobs/companies/12build/ai-engineer-nijverdal-61682", "source": "arbeitnow", "posted_at": "2026-10-27T06:31:12+00:00", "remote": false, "tags": ["Data", "Experienced", "fulltime fixed term"], "employment_type": "", "score": 44, "reasons": ["职位匹配: ai engineer", "未要求德语", "未标明经验年限", "目标国家: DE", "+4 python", "+4 sql", "+3 llm", "+2 rag", "+2 spark", "+2 databricks", "+2 aws"], "first_seen": "2026-10-27T13:50:25.954649+00:00", "is_new": false, "reject_reason": "", "fingerprint": "bc882fd9111de692", "age_hours": 103.6}, {"title": "Data Engineer", "company": "anthropic", "location": "San Francisco, CA | New York City, NY; Seattle, WA", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5464234008", "source": "greenhouse", "posted_at": "2026-10-30T19:34:18-04:00", "remote": false, "tags": [], "employment_type": "", "score": 43, "reasons": ["职位匹配: data engineer", "未要求德语", "未标明经验年限", "目标国家: AT", "+4 python", "+4 sql", "24 小时内发布", "公司官网直发"], "first_seen": "2026-10-31T01:18:16.654928+00:00", "is_new": false, "reject_reason": "", "fingerprint": "666ee018776f826a", "age_hours": 14.6}, {"title": "Data Scientist, Enterprise Analytics", "company": "gitlab", "location": "Remote, United States", "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922013002", "source": "greenhouse", "posted_at": "2026-10-30T15:59:39-04:00", "remote": true, "tags": [], "employment_type": "", "score": 43, "reasons": ["职位匹配: data scientist", "未要求德语", "未标明经验年限", "目标国家: AT", "+4 python", "+4 sql", "24 小时内发布", "公司官网直发"], "first_seen": "2026-10-30T21:17:41.291214+00:00", "is_new": false, "reject_reason": "", "fingerprint": "5803bb22d8df433b", "age_hours": 18.1}, {"title": "Data Engineer- UK", "company": "Coreview", "location": "Germany", "url": "https://www.arbeitnow.co.uk/jobs/companies/coreview/data-engineer-uk-78386", "source": "arbeitnow", "posted_at": "2026-10-30T06:55:17+00:00", "remote": false, "tags": ["RevOps"], "employment_type": "", "score": 43, "reasons": ["职位匹配: data engineer", "未要求德语", "未标明经验年限", "目标国家: Germany", "+4 python", "+4 sql", "+2 spark", "+2 databricks", "+3 power bi"], "first_seen": "2026-09-10T19:23:58.400070+00:00", "is_new": false, "reject_reason": "", "fingerprint": "c9ddc13b06ddf281", "age_hours": 31.2}, {"title": "Research Engineer, Content Understanding", "company": "Exa", "location": "Zurich", "url": "https://www.arbeitnow.ch/jobs/companies/exa/research-engineer-content-understanding-zurich-338885", "source": "arbeitnow", "posted_at": "2026-10-30T03:40:17+00:00", "remote": false, "tags": ["Research", "Full Time"], "employment_type": "", "score": 39, "reasons": ["职位匹配: research engineer", "未要求德语", "经验要求 2 年", "目标城市: Zurich", "+4 graduate", "+3 pytorch"], "first_seen": "2026-10-30T10:39:31.018016+00:00", "is_new": false, "reject_reason": "", "fingerprint": "b518fa725aed2596", "age_hours": 34.5}, {"title": "Research Engineer, Index Intelligence", "company": "Exa", "location": "Zurich", "url": "https://www.arbeitnow.ch/jobs/companies/exa/research-engineer-index-intelligence-zurich-383448", "source": "arbeitnow", "posted_at": "2026-10-30T03:40:17+00:00", "remote": false, "tags": ["Research", "Full Time"], "employment_type": "", "score": 36, "reasons": ["职位匹配: research engineer", "未要求德语", "未标明经验年限", "目标城市: Zurich", "+6 english speaking"], "first_seen": "2026-10-30T10:39:31.018252+00:00", "is_new": false, "reject_reason": "", "fingerprint": "a9cb492756c9975c", "age_hours": 34.5}, {"title": "Power BI Developer", "company": "Verzuimdata B.V.", "location": "Ridderkerk", "url": "https://www.arbeitnow.nl/jobs/companies/verzuimdata-bv/power-bi-developer-ridderkerk-78272", "source": "arbeitnow", "posted_at": "2026-10-28T14:01:31+00:00", "remote": false, "tags": ["Business Intelligence", "Vast contract", "professional / ervaren"], "employment_type": "", "score": 36, "reasons": ["职位匹配: bi developer", "未要求德语", "未标明经验年限", "目标国家: DE", "+6 english speaking", "+2 rag", "+3 power bi"], "first_seen": "2026-10-28T16:56:21.846149+00:00", "is_new": false, "reject_reason": "", "fingerprint": "c591044620b2063d", "age_hours": 72.1}, {"title": "Data Scientist Marketing", "company": "bunq", "location": "Amsterdam, Noord-Holland, Netherlands", "url": "https://www.arbeitnow.nl/jobs/companies/bunq/data-scientist-marketing-amsterdam-378489", "source": "arbeitnow", "posted_at": "2026-10-30T06:31:15+00:00", "remote": false, "tags": ["Growth", "Experienced", "fulltime permanent"], "employment_type": "", "score": 34, "reasons": ["职位匹配: data scientist", "未要求德语", "未标明经验年限", "目标城市: Amsterdam", "+4 python"], "first_seen": "2026-10-30T10:39:31.018207+00:00", "is_new": false, "reject_reason": "", "fingerprint": "b000562a137b3fba", "age_hours": 31.6}, {"title": "Data Engineer", "company": "12Build", "location": "Nijverdal, Overijssel, Nederland", "url": "https://www.arbeitnow.nl/jobs/companies/12build/data-engineer-nijverdal-284068", "source": "arbeitnow", "posted_at": "2026-10-27T06:31:12+00:00", "remote": false, "tags": ["Data", "Experienced", "fulltime fixed term"], "employment_type": "", "score": 34, "reasons": ["职位匹配: data engineer", "未要求德语", "未标明经验年限", "目标国家: DE", "+5 junior", "+2 rag", "+2 databricks"], "first_seen": "2026-10-27T13:50:25.954907+00:00", "is_new": false, "reject_reason": "", "fingerprint": "e37b7a3bb6a7079b", "age_hours": 103.6}, {"title": "Research Engineer (m/f/d)", "company": "Sereact GmbH", "location": "Zurich", "url": "https://www.arbeitnow.ch/jobs/companies/sereact-gmbh/research-engineer-zurich-318019", "source": "arbeitnow", "posted_at": "2026-10-24T23:40:15+00:00", "remote": false, "tags": ["Software", "Full Time"], "employment_type": "", "score": 33, "reasons": ["职位匹配: research engineer", "未要求德语", "经验要求 1 年", "目标城市: Zurich", "+4 relocation"], "first_seen": "2026-10-07T06:45:41.440186+00:00", "is_new": false, "reject_reason": "", "fingerprint": "cba5a9ec83284a62", "age_hours": 158.5}, {"title": "Data Scientist", "company": "Anaplan", "location": "Manchester", "url": "https://www.arbeitnow.co.uk/jobs/companies/anaplan/data-scientist-manchester-199393", "source": "arbeitnow", "posted_at": "2026-10-31T03:55:19+00:00", "remote": false, "tags": ["Engineering"], "employment_type": "", "score": 32, "reasons": ["职位匹配: data scientist", "未要求德语", "未标明经验年限", "目标国家: CH", "24 小时内发布"], "first_seen": "2026-10-31T07:50:03.050691+00:00", "is_new": false, "reject_reason": "", "fingerprint": "eabe4740905484ab", "age_hours": 10.2}, {"title": "Data Scientist (Fraud)", "company": "Moniepoint", "location": "Remote", "url": "https://www.arbeitnow.co.uk/jobs/companies/moniepoint/remote-data-scientist-fraud-62682", "source": "arbeitnow", "posted_at": "2026-10-30T18:55:25+00:00", "remote": true, "tags": ["Data Science"], "employment_type": "", "score": 31, "reasons": ["职位匹配: data scientist", "未要求德语", "未标明经验年限", "远程岗位", "24 小时内发布"], "first_seen": "2026-10-30T21:17:41.291505+00:00", "is_new": false, "reject_reason": "", "fingerprint": "ae7ae1cb5894c5f5", "age_hours": 19.2}, {"title": "Security Data Engineer", "company": "anthropic", "location": "Remote-Friendly (Travel Required) | San Francisco, CA", "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462966008", "source": "greenhouse", "posted_at": "2026-10-26T18:47:43-04:00", "remote": true, "tags": [], "employment_type": "", "score": 30, "reasons": ["职位匹配: data engineer", "未要求德语", "未标明经验年限", "目标国家: IE", "+2 rag", "公司官网直发"], "first_seen": "2026-10-26T22:58:43.291663+00:00", "is_new": false, "reject_reason": "", "fingerprint": "6aaeee7eb5739fb3", "age_hours": 111.3}, {"title": "Generative AI Analyst | Dutch (Netherlands)", "company": "Welo Global", "location": "Netherlands", "url": "https://www.arbeitnow.nl/jobs/companies/welo-global/generative-ai-analyst-dutch-netherlands-199013", "source": "arbeitnow", "posted_at": "2026-10-28T03:27:17+00:00", "remote": false, "tags": ["Data Annotation", "Freelance-Remote"], "employment_type": "", "score": 25, "reasons": ["职位匹配: generative ai", "未要求德语", "未标明经验年限", "目标国家: Netherlands"], "first_seen": "2026-10-28T10:13:54.117714+00:00", "is_new": false, "reject_reason": "", "fingerprint": "64d5f2cbdc176ee5", "age_hours": 82.7}];
+const $ = s => document.querySelector(s);
+const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ago = h => h>=9999 ? "时间未知" : h<1 ? "刚刚" : h<24 ? Math.round(h)+" 小时前"
+                 : Math.round(h/24)+" 天前";
+
+const srcs = [...new Set(JOBS.map(j=>j.source))].sort();
+srcs.forEach(s => $("#src").insertAdjacentHTML("beforeend", `<option value="${s}">${s}</option>`));
+$("#s-src").textContent = srcs.length;
+$("#s-24h").textContent = JOBS.filter(j=>j.age_hours<=24).length;
+$("#s-new").textContent = JOBS.filter(j=>j.is_new).length;
+
+function render(){
+  const q = $("#q").value.toLowerCase().trim();
+  const maxAge = +$("#fresh").value, src = $("#src").value, sort = $("#sort").value;
+  let rows = JOBS.filter(j =>
+    j.age_hours <= maxAge &&
+    (!src || j.source === src) &&
+    (!q || (j.title+" "+j.company+" "+j.location).toLowerCase().includes(q)));
+  rows.sort((a,b) => sort==="score" ? b.score-a.score || a.age_hours-b.age_hours
+                                    : a.age_hours-b.age_hours || b.score-a.score);
+  $("#s-total").textContent = rows.length;
+  $("#list").innerHTML = rows.length ? rows.map(card).join("")
+    : '<div class="empty">没有符合条件的岗位。放宽筛选，或在 config.yaml 里调整关键词。</div>';
+}
+function card(j){
+  return `<div class="job ${j.is_new?'isnew':''}">
+    <a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener">去投递 →</a>
+    <div class="jt"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div>
+    <div class="meta">
+      <span>🏢 ${esc(j.company)}</span><span>📍 ${esc(j.location||"—")}</span>
+      <span>🕒 ${ago(j.age_hours)}</span><span>🔗 ${esc(j.source)}</span>
+    </div>
+    <div class="tags">
+      ${j.is_new?'<span class="badge b-new">新发现</span>':''}
+      ${j.age_hours<=24?'<span class="badge b-hot">24h 内</span>':''}
+      <span class="badge b-score">匹配 ${j.score}</span>
+      ${(j.reasons||[]).slice(0,5).map(r=>`<span class="tag">${esc(r)}</span>`).join("")}
+    </div></div>`;
+}
+["q","fresh","src","sort"].forEach(id => {
+  $("#"+id).addEventListener(id==="q"?"input":"change", render);
+});
+render();
+</script></body></html>
